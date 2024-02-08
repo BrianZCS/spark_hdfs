@@ -1,0 +1,97 @@
+24/02/05 16:23:34 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 29720@node0.group21.uwmadison744-s24-pg0.wisc.cloudlab.us
+24/02/05 16:23:34 INFO SignalUtils: Registering signal handler for TERM
+24/02/05 16:23:34 INFO SignalUtils: Registering signal handler for HUP
+24/02/05 16:23:34 INFO SignalUtils: Registering signal handler for INT
+24/02/05 16:23:34 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/02/05 16:23:35 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/05 16:23:35 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/05 16:23:35 INFO SecurityManager: Changing view acls groups to: 
+24/02/05 16:23:35 INFO SecurityManager: Changing modify acls groups to: 
+24/02/05 16:23:35 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/05 16:23:35 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:35899 after 152 ms (0 ms spent in bootstraps)
+24/02/05 16:23:35 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/05 16:23:35 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/05 16:23:35 INFO SecurityManager: Changing view acls groups to: 
+24/02/05 16:23:35 INFO SecurityManager: Changing modify acls groups to: 
+24/02/05 16:23:35 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/05 16:23:35 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:35899 after 9 ms (0 ms spent in bootstraps)
+24/02/05 16:23:36 INFO DiskBlockManager: Created local directory at /tmp/spark-ea176012-3e76-4400-afd8-21372388254a/executor-c928f2bb-18a4-4625-bb30-415cd5828c54/blockmgr-a962defc-329e-4ad5-b09e-a9266fc740e7
+24/02/05 16:23:36 INFO MemoryStore: MemoryStore started with capacity 15.8 GiB
+24/02/05 16:23:36 INFO WorkerWatcher: Connecting to worker spark://Worker@10.10.1.1:43269
+24/02/05 16:23:36 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@node0-link-1:35899
+24/02/05 16:23:36 INFO TransportClientFactory: Successfully created connection to /10.10.1.1:43269 after 15 ms (0 ms spent in bootstraps)
+24/02/05 16:23:36 INFO WorkerWatcher: Successfully connected to spark://Worker@10.10.1.1:43269
+24/02/05 16:23:36 INFO ResourceUtils: ==============================================================
+24/02/05 16:23:36 INFO ResourceUtils: No custom resources configured for spark.executor.
+24/02/05 16:23:36 INFO ResourceUtils: ==============================================================
+24/02/05 16:23:36 INFO CoarseGrainedExecutorBackend: Successfully registered with driver
+24/02/05 16:23:36 INFO Executor: Starting executor ID 2 on host 10.10.1.1
+24/02/05 16:23:37 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37773.
+24/02/05 16:23:37 INFO NettyBlockTransferService: Server created on 10.10.1.1:37773
+24/02/05 16:23:37 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/02/05 16:23:37 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(2, 10.10.1.1, 37773, None)
+24/02/05 16:23:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(2, 10.10.1.1, 37773, None)
+24/02/05 16:23:37 INFO BlockManager: Initialized BlockManager: BlockManagerId(2, 10.10.1.1, 37773, None)
+24/02/05 16:23:37 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+24/02/05 16:23:45 INFO CoarseGrainedExecutorBackend: Got assigned task 1
+24/02/05 16:23:45 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+24/02/05 16:23:45 INFO TorrentBroadcast: Started reading broadcast variable 3 with 1 pieces (estimated total size 4.0 MiB)
+24/02/05 16:23:45 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:44433 after 5 ms (0 ms spent in bootstraps)
+24/02/05 16:23:45 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 11.8 KiB, free 15.8 GiB)
+24/02/05 16:23:45 INFO TorrentBroadcast: Reading broadcast variable 3 took 162 ms
+24/02/05 16:23:46 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 25.1 KiB, free 15.8 GiB)
+24/02/05 16:23:49 INFO CodeGenerator: Code generated in 306.564774 ms
+24/02/05 16:23:49 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/export.csv, range: 0-109949, partition values: [empty row]
+24/02/05 16:23:49 INFO CodeGenerator: Code generated in 16.840196 ms
+24/02/05 16:23:49 INFO TorrentBroadcast: Started reading broadcast variable 2 with 1 pieces (estimated total size 4.0 MiB)
+24/02/05 16:23:49 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.2 KiB, free 15.8 GiB)
+24/02/05 16:23:49 INFO TorrentBroadcast: Reading broadcast variable 2 took 16 ms
+24/02/05 16:23:49 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 523.1 KiB, free 15.8 GiB)
+24/02/05 16:23:51 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1816 bytes result sent to driver
+24/02/05 16:23:55 INFO CoarseGrainedExecutorBackend: Got assigned task 3
+24/02/05 16:23:55 INFO Executor: Running task 0.0 in stage 3.0 (TID 3)
+24/02/05 16:23:56 INFO TorrentBroadcast: Started reading broadcast variable 7 with 1 pieces (estimated total size 4.0 MiB)
+24/02/05 16:23:56 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 7.8 KiB, free 15.8 GiB)
+24/02/05 16:23:56 INFO TorrentBroadcast: Reading broadcast variable 7 took 21 ms
+24/02/05 16:23:56 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 15.7 KiB, free 15.8 GiB)
+24/02/05 16:23:56 INFO CodeGenerator: Code generated in 20.352432 ms
+24/02/05 16:23:56 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/export.csv, range: 0-109949, partition values: [empty row]
+24/02/05 16:23:56 INFO CodeGenerator: Code generated in 44.160486 ms
+24/02/05 16:23:56 INFO TorrentBroadcast: Started reading broadcast variable 6 with 1 pieces (estimated total size 4.0 MiB)
+24/02/05 16:23:56 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 34.2 KiB, free 15.8 GiB)
+24/02/05 16:23:56 INFO TorrentBroadcast: Reading broadcast variable 6 took 13 ms
+24/02/05 16:23:56 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 523.1 KiB, free 15.8 GiB)
+24/02/05 16:23:56 INFO Executor: Finished task 0.0 in stage 3.0 (TID 3). 50865 bytes result sent to driver
+24/02/05 16:23:56 INFO CoarseGrainedExecutorBackend: Got assigned task 4
+24/02/05 16:23:56 INFO Executor: Running task 0.0 in stage 4.0 (TID 4)
+24/02/05 16:23:56 INFO TorrentBroadcast: Started reading broadcast variable 8 with 1 pieces (estimated total size 4.0 MiB)
+24/02/05 16:23:56 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 10.2 KiB, free 15.8 GiB)
+24/02/05 16:23:56 INFO TorrentBroadcast: Reading broadcast variable 8 took 16 ms
+24/02/05 16:23:56 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 27.4 KiB, free 15.8 GiB)
+24/02/05 16:23:56 INFO CodeGenerator: Code generated in 37.744752 ms
+24/02/05 16:23:56 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/export.csv, range: 0-109949, partition values: [empty row]
+24/02/05 16:23:57 INFO Executor: Finished task 0.0 in stage 4.0 (TID 4). 1948 bytes result sent to driver
+24/02/05 16:23:57 INFO CoarseGrainedExecutorBackend: Got assigned task 5
+24/02/05 16:23:57 INFO Executor: Running task 0.0 in stage 6.0 (TID 5)
+24/02/05 16:23:57 INFO MapOutputTrackerWorker: Updating epoch to 1 and clearing cache
+24/02/05 16:23:57 INFO TorrentBroadcast: Started reading broadcast variable 9 with 1 pieces (estimated total size 4.0 MiB)
+24/02/05 16:23:57 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 84.1 KiB, free 15.8 GiB)
+24/02/05 16:23:57 INFO TorrentBroadcast: Reading broadcast variable 9 took 27 ms
+24/02/05 16:23:57 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 229.5 KiB, free 15.8 GiB)
+24/02/05 16:23:57 INFO MapOutputTrackerWorker: Don't have map outputs for shuffle 0, fetching them
+24/02/05 16:23:57 INFO MapOutputTrackerWorker: Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@node0-link-1:35899)
+24/02/05 16:23:57 INFO MapOutputTrackerWorker: Got the map output locations
+24/02/05 16:23:57 INFO ShuffleBlockFetcherIterator: Getting 1 (127.9 KiB) non-empty blocks including 1 (127.9 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+24/02/05 16:23:57 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 29 ms
+24/02/05 16:23:57 INFO CodeGenerator: Code generated in 39.704023 ms
+24/02/05 16:23:57 INFO CodeGenerator: Code generated in 42.453119 ms
+24/02/05 16:23:57 INFO CodeGenerator: Code generated in 20.027504 ms
+24/02/05 16:23:57 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+24/02/05 16:23:57 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+24/02/05 16:23:57 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+24/02/05 16:23:58 INFO FileOutputCommitter: Saved output of task 'attempt_202402051623572523611613112751619_0006_m_000000_5' to hdfs://10.10.1.1:9000/data/output.csv/_temporary/0/task_202402051623572523611613112751619_0006_m_000000
+24/02/05 16:23:58 INFO SparkHadoopMapRedUtil: attempt_202402051623572523611613112751619_0006_m_000000_5: Committed. Elapsed time: 22 ms.
+24/02/05 16:23:58 INFO Executor: Finished task 0.0 in stage 6.0 (TID 5). 4247 bytes result sent to driver
+24/02/05 16:23:58 INFO CoarseGrainedExecutorBackend: Driver commanded a shutdown
+24/02/05 16:23:58 ERROR CoarseGrainedExecutorBackend: RECEIVED SIGNAL TERM
+tdown

@@ -1,0 +1,6 @@
+Use the run.sh to run the part2. 
+This is a simple pyspark program to read and write from the HDFS.
+It has two two command line arguments. The first argument is the HDFS location for the input files excluding hdfs://10.10.1.1:9000.
+
+How to Run:
+spark-3.3.4-bin-hadoop3/bin/spark-submit part2.py /data/export.csv /data/output.csv

@@ -1,0 +1,7 @@
+Use the run.sh to run the task3. The program reads bunch of wiki data from HDFS and runs a pageRank program and output the final ranking to HDFS.
+
+We used the persist to change the storage level of the dataframe. 
+Example: ranks = ranks.persist(StorageLevel.MEMORY_ONLY)
+
+How to Run:
+spark-3.3.4-bin-hadoop3/bin/spark-submit pageRank_wiki_memory.py

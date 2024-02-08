@@ -1,0 +1,248 @@
+24/02/06 15:44:16 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 20607@node0.group21.uwmadison744-s24-pg0.wisc.cloudlab.us
+24/02/06 15:44:16 INFO SignalUtils: Registering signal handler for TERM
+24/02/06 15:44:16 INFO SignalUtils: Registering signal handler for HUP
+24/02/06 15:44:16 INFO SignalUtils: Registering signal handler for INT
+24/02/06 15:44:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/02/06 15:44:17 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/06 15:44:17 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/06 15:44:17 INFO SecurityManager: Changing view acls groups to: 
+24/02/06 15:44:17 INFO SecurityManager: Changing modify acls groups to: 
+24/02/06 15:44:17 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/06 15:44:17 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:43299 after 142 ms (0 ms spent in bootstraps)
+24/02/06 15:44:18 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/06 15:44:18 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/06 15:44:18 INFO SecurityManager: Changing view acls groups to: 
+24/02/06 15:44:18 INFO SecurityManager: Changing modify acls groups to: 
+24/02/06 15:44:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/06 15:44:18 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:43299 after 11 ms (0 ms spent in bootstraps)
+24/02/06 15:44:18 INFO DiskBlockManager: Created local directory at /mnt/data/spark-eef96ae2-8c2a-4e70-b82a-88dd5007cc4d/executor-5ed46f9c-de78-415e-9ac6-f070a9a37deb/blockmgr-595a1f78-fb6b-4f08-bb01-9793f16c7344
+24/02/06 15:44:18 INFO MemoryStore: MemoryStore started with capacity 15.8 GiB
+24/02/06 15:44:19 INFO WorkerWatcher: Connecting to worker spark://Worker@10.10.1.1:40877
+24/02/06 15:44:19 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@node0-link-1:43299
+24/02/06 15:44:19 INFO ResourceUtils: ==============================================================
+24/02/06 15:44:19 INFO ResourceUtils: No custom resources configured for spark.executor.
+24/02/06 15:44:19 INFO ResourceUtils: ==============================================================
+24/02/06 15:44:19 INFO TransportClientFactory: Successfully created connection to /10.10.1.1:40877 after 35 ms (1 ms spent in bootstraps)
+24/02/06 15:44:19 INFO WorkerWatcher: Successfully connected to spark://Worker@10.10.1.1:40877
+24/02/06 15:44:19 INFO CoarseGrainedExecutorBackend: Successfully registered with driver
+24/02/06 15:44:19 INFO Executor: Starting executor ID 1 on host 10.10.1.1
+24/02/06 15:44:19 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36971.
+24/02/06 15:44:19 INFO NettyBlockTransferService: Server created on 10.10.1.1:36971
+24/02/06 15:44:19 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/02/06 15:44:19 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(1, 10.10.1.1, 36971, None)
+24/02/06 15:44:19 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(1, 10.10.1.1, 36971, None)
+24/02/06 15:44:19 INFO BlockManager: Initialized BlockManager: BlockManagerId(1, 10.10.1.1, 36971, None)
+24/02/06 15:44:19 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+24/02/06 15:44:23 INFO CoarseGrainedExecutorBackend: Got assigned task 0
+24/02/06 15:44:23 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+24/02/06 15:44:23 INFO TorrentBroadcast: Started reading broadcast variable 1 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:23 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:38915 after 7 ms (0 ms spent in bootstraps)
+24/02/06 15:44:23 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:24 INFO TorrentBroadcast: Reading broadcast variable 1 took 276 ms
+24/02/06 15:44:24 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:25 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles1.xml-p10p30302, range: 0-6157109, partition values: [empty row]
+24/02/06 15:44:26 INFO CodeGenerator: Code generated in 357.181971 ms
+24/02/06 15:44:26 INFO TorrentBroadcast: Started reading broadcast variable 0 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:26 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:26 INFO TorrentBroadcast: Reading broadcast variable 0 took 18 ms
+24/02/06 15:44:26 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:28 INFO PythonRunner: Times: total = 2884, boot = 587, init = 2295, finish = 2
+24/02/06 15:44:28 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1733 bytes result sent to driver
+24/02/06 15:44:38 INFO CoarseGrainedExecutorBackend: Got assigned task 3
+24/02/06 15:44:38 INFO Executor: Running task 0.0 in stage 3.0 (TID 3)
+24/02/06 15:44:38 INFO TorrentBroadcast: Started reading broadcast variable 7 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:38 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:38 INFO TorrentBroadcast: Reading broadcast variable 7 took 20 ms
+24/02/06 15:44:38 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:38 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles12.xml-p3926864p5040435, range: 0-18063403, partition values: [empty row]
+24/02/06 15:44:38 INFO TorrentBroadcast: Started reading broadcast variable 6 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:38 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:38 INFO TorrentBroadcast: Reading broadcast variable 6 took 18 ms
+24/02/06 15:44:38 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:38 INFO PythonRunner: Times: total = 110, boot = 33, init = 76, finish = 1
+24/02/06 15:44:38 INFO Executor: Finished task 0.0 in stage 3.0 (TID 3). 1691 bytes result sent to driver
+24/02/06 15:44:38 INFO CoarseGrainedExecutorBackend: Got assigned task 5
+24/02/06 15:44:38 INFO Executor: Running task 0.0 in stage 5.0 (TID 5)
+24/02/06 15:44:38 INFO TorrentBroadcast: Started reading broadcast variable 11 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:38 INFO MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:38 INFO TorrentBroadcast: Reading broadcast variable 11 took 13 ms
+24/02/06 15:44:38 INFO MemoryStore: Block broadcast_11 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:38 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles14.xml-p6197599p7697599, range: 0-18675798, partition values: [empty row]
+24/02/06 15:44:38 INFO TorrentBroadcast: Started reading broadcast variable 10 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:38 INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:38 INFO TorrentBroadcast: Reading broadcast variable 10 took 13 ms
+24/02/06 15:44:38 INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:38 INFO PythonRunner: Times: total = 92, boot = 21, init = 69, finish = 2
+24/02/06 15:44:38 INFO Executor: Finished task 0.0 in stage 5.0 (TID 5). 1678 bytes result sent to driver
+24/02/06 15:44:39 INFO CoarseGrainedExecutorBackend: Got assigned task 7
+24/02/06 15:44:39 INFO Executor: Running task 0.0 in stage 7.0 (TID 7)
+24/02/06 15:44:39 INFO TorrentBroadcast: Started reading broadcast variable 15 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:39 INFO MemoryStore: Block broadcast_15_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:39 INFO TorrentBroadcast: Reading broadcast variable 15 took 16 ms
+24/02/06 15:44:39 INFO MemoryStore: Block broadcast_15 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:39 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles15.xml-p7744803p9244803, range: 0-17424859, partition values: [empty row]
+24/02/06 15:44:39 INFO TorrentBroadcast: Started reading broadcast variable 14 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:39 INFO MemoryStore: Block broadcast_14_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:39 INFO TorrentBroadcast: Reading broadcast variable 14 took 33 ms
+24/02/06 15:44:39 INFO MemoryStore: Block broadcast_14 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:39 INFO PythonRunner: Times: total = 94, boot = 21, init = 71, finish = 2
+24/02/06 15:44:39 INFO Executor: Finished task 0.0 in stage 7.0 (TID 7). 1689 bytes result sent to driver
+24/02/06 15:44:41 INFO CoarseGrainedExecutorBackend: Got assigned task 11
+24/02/06 15:44:41 INFO Executor: Running task 0.0 in stage 11.0 (TID 11)
+24/02/06 15:44:41 INFO TorrentBroadcast: Started reading broadcast variable 23 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:41 INFO MemoryStore: Block broadcast_23_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:41 INFO TorrentBroadcast: Reading broadcast variable 23 took 10 ms
+24/02/06 15:44:41 INFO MemoryStore: Block broadcast_23 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:41 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles17.xml-p11539268p13039268, range: 0-20334675, partition values: [empty row]
+24/02/06 15:44:41 INFO TorrentBroadcast: Started reading broadcast variable 22 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:41 INFO MemoryStore: Block broadcast_22_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:41 INFO TorrentBroadcast: Reading broadcast variable 22 took 12 ms
+24/02/06 15:44:41 INFO MemoryStore: Block broadcast_22 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:41 INFO PythonRunner: Times: total = 104, boot = 24, init = 76, finish = 4
+24/02/06 15:44:41 INFO Executor: Finished task 0.0 in stage 11.0 (TID 11). 1695 bytes result sent to driver
+24/02/06 15:44:41 INFO CoarseGrainedExecutorBackend: Got assigned task 12
+24/02/06 15:44:41 INFO Executor: Running task 0.0 in stage 12.0 (TID 12)
+24/02/06 15:44:41 INFO TorrentBroadcast: Started reading broadcast variable 25 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:41 INFO MemoryStore: Block broadcast_25_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:41 INFO TorrentBroadcast: Reading broadcast variable 25 took 14 ms
+24/02/06 15:44:41 INFO MemoryStore: Block broadcast_25 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:41 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles17.xml-p13039268p13693066, range: 0-9457608, partition values: [empty row]
+24/02/06 15:44:41 INFO TorrentBroadcast: Started reading broadcast variable 24 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:41 INFO MemoryStore: Block broadcast_24_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:41 INFO TorrentBroadcast: Reading broadcast variable 24 took 10 ms
+24/02/06 15:44:41 INFO MemoryStore: Block broadcast_24 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:41 INFO PythonRunner: Times: total = 78, boot = 25, init = 50, finish = 3
+24/02/06 15:44:41 INFO Executor: Finished task 0.0 in stage 12.0 (TID 12). 1694 bytes result sent to driver
+24/02/06 15:44:43 INFO CoarseGrainedExecutorBackend: Got assigned task 16
+24/02/06 15:44:43 INFO Executor: Running task 0.0 in stage 16.0 (TID 16)
+24/02/06 15:44:43 INFO TorrentBroadcast: Started reading broadcast variable 33 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:43 INFO MemoryStore: Block broadcast_33_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:43 INFO TorrentBroadcast: Reading broadcast variable 33 took 13 ms
+24/02/06 15:44:43 INFO MemoryStore: Block broadcast_33 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:43 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles2.xml-p30304p88444, range: 0-8060474, partition values: [empty row]
+24/02/06 15:44:43 INFO TorrentBroadcast: Started reading broadcast variable 32 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:43 INFO MemoryStore: Block broadcast_32_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:43 INFO TorrentBroadcast: Reading broadcast variable 32 took 15 ms
+24/02/06 15:44:43 INFO MemoryStore: Block broadcast_32 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:43 INFO PythonRunner: Times: total = 98, boot = 35, init = 61, finish = 2
+24/02/06 15:44:43 INFO Executor: Finished task 0.0 in stage 16.0 (TID 16). 1685 bytes result sent to driver
+24/02/06 15:44:44 INFO CoarseGrainedExecutorBackend: Got assigned task 19
+24/02/06 15:44:44 INFO Executor: Running task 0.0 in stage 19.0 (TID 19)
+24/02/06 15:44:44 INFO TorrentBroadcast: Started reading broadcast variable 39 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:44 INFO MemoryStore: Block broadcast_39_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:44 INFO TorrentBroadcast: Reading broadcast variable 39 took 12 ms
+24/02/06 15:44:44 INFO MemoryStore: Block broadcast_39 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:44 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles21.xml-p21222161p22722161, range: 0-18045032, partition values: [empty row]
+24/02/06 15:44:44 INFO TorrentBroadcast: Started reading broadcast variable 38 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:44 INFO MemoryStore: Block broadcast_38_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:44 INFO TorrentBroadcast: Reading broadcast variable 38 took 8 ms
+24/02/06 15:44:44 INFO MemoryStore: Block broadcast_38 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:44 INFO PythonRunner: Times: total = 88, boot = 22, init = 57, finish = 9
+24/02/06 15:44:44 INFO Executor: Finished task 0.0 in stage 19.0 (TID 19). 1676 bytes result sent to driver
+24/02/06 15:44:45 INFO CoarseGrainedExecutorBackend: Got assigned task 23
+24/02/06 15:44:45 INFO Executor: Running task 0.0 in stage 23.0 (TID 23)
+24/02/06 15:44:45 INFO TorrentBroadcast: Started reading broadcast variable 47 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:45 INFO MemoryStore: Block broadcast_47_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:45 INFO TorrentBroadcast: Reading broadcast variable 47 took 11 ms
+24/02/06 15:44:45 INFO MemoryStore: Block broadcast_47 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:45 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p26823661p28323661, range: 0-17822279, partition values: [empty row]
+24/02/06 15:44:45 INFO TorrentBroadcast: Started reading broadcast variable 46 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:45 INFO MemoryStore: Block broadcast_46_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:45 INFO TorrentBroadcast: Reading broadcast variable 46 took 12 ms
+24/02/06 15:44:45 INFO MemoryStore: Block broadcast_46 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:45 INFO PythonRunner: Times: total = 91, boot = 29, init = 60, finish = 2
+24/02/06 15:44:45 INFO Executor: Finished task 0.0 in stage 23.0 (TID 23). 1696 bytes result sent to driver
+24/02/06 15:44:46 INFO CoarseGrainedExecutorBackend: Got assigned task 25
+24/02/06 15:44:46 INFO Executor: Running task 0.0 in stage 25.0 (TID 25)
+24/02/06 15:44:46 INFO TorrentBroadcast: Started reading broadcast variable 51 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:46 INFO MemoryStore: Block broadcast_51_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:46 INFO TorrentBroadcast: Reading broadcast variable 51 took 13 ms
+24/02/06 15:44:46 INFO MemoryStore: Block broadcast_51 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:46 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p29823661p30503448, range: 0-8135073, partition values: [empty row]
+24/02/06 15:44:46 INFO TorrentBroadcast: Started reading broadcast variable 50 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:46 INFO MemoryStore: Block broadcast_50_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:46 INFO TorrentBroadcast: Reading broadcast variable 50 took 11 ms
+24/02/06 15:44:46 INFO MemoryStore: Block broadcast_50 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:46 INFO PythonRunner: Times: total = 97, boot = 24, init = 69, finish = 4
+24/02/06 15:44:46 INFO Executor: Finished task 0.0 in stage 25.0 (TID 25). 1676 bytes result sent to driver
+24/02/06 15:44:47 INFO CoarseGrainedExecutorBackend: Got assigned task 29
+24/02/06 15:44:47 INFO Executor: Running task 0.0 in stage 29.0 (TID 29)
+24/02/06 15:44:47 INFO TorrentBroadcast: Started reading broadcast variable 59 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:47 INFO MemoryStore: Block broadcast_59_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:47 INFO TorrentBroadcast: Reading broadcast variable 59 took 7 ms
+24/02/06 15:44:47 INFO MemoryStore: Block broadcast_59 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:47 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p33952817p35452817, range: 0-15173486, partition values: [empty row]
+24/02/06 15:44:47 INFO TorrentBroadcast: Started reading broadcast variable 58 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:47 INFO MemoryStore: Block broadcast_58_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:47 INFO TorrentBroadcast: Reading broadcast variable 58 took 15 ms
+24/02/06 15:44:47 INFO MemoryStore: Block broadcast_58 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:47 INFO PythonRunner: Times: total = 130, boot = 33, init = 92, finish = 5
+24/02/06 15:44:47 INFO Executor: Finished task 0.0 in stage 29.0 (TID 29). 1676 bytes result sent to driver
+24/02/06 15:44:49 INFO CoarseGrainedExecutorBackend: Got assigned task 33
+24/02/06 15:44:49 INFO Executor: Running task 0.0 in stage 33.0 (TID 33)
+24/02/06 15:44:49 INFO TorrentBroadcast: Started reading broadcast variable 67 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:49 INFO MemoryStore: Block broadcast_67_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:49 INFO TorrentBroadcast: Reading broadcast variable 67 took 11 ms
+24/02/06 15:44:49 INFO MemoryStore: Block broadcast_67 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:49 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p39567204p41067204, range: 0-16746476, partition values: [empty row]
+24/02/06 15:44:49 INFO TorrentBroadcast: Started reading broadcast variable 66 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:49 INFO MemoryStore: Block broadcast_66_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:49 INFO TorrentBroadcast: Reading broadcast variable 66 took 13 ms
+24/02/06 15:44:49 INFO MemoryStore: Block broadcast_66 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:49 INFO PythonRunner: Times: total = 92, boot = 23, init = 68, finish = 1
+24/02/06 15:44:49 INFO Executor: Finished task 0.0 in stage 33.0 (TID 33). 1671 bytes result sent to driver
+24/02/06 15:44:49 INFO CoarseGrainedExecutorBackend: Got assigned task 35
+24/02/06 15:44:49 INFO Executor: Running task 0.0 in stage 35.0 (TID 35)
+24/02/06 15:44:49 INFO TorrentBroadcast: Started reading broadcast variable 71 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:49 INFO MemoryStore: Block broadcast_71_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:49 INFO TorrentBroadcast: Reading broadcast variable 71 took 8 ms
+24/02/06 15:44:49 INFO MemoryStore: Block broadcast_71 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:49 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p42567204p42663461, range: 0-4194304, partition values: [empty row]
+24/02/06 15:44:50 INFO TorrentBroadcast: Started reading broadcast variable 70 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:50 INFO MemoryStore: Block broadcast_70_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:50 INFO TorrentBroadcast: Reading broadcast variable 70 took 28 ms
+24/02/06 15:44:50 INFO MemoryStore: Block broadcast_70 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:50 INFO PythonRunner: Times: total = 122, boot = 23, init = 95, finish = 4
+24/02/06 15:44:50 INFO Executor: Finished task 0.0 in stage 35.0 (TID 35). 1679 bytes result sent to driver
+24/02/06 15:44:53 INFO CoarseGrainedExecutorBackend: Got assigned task 42
+24/02/06 15:44:53 INFO Executor: Running task 0.0 in stage 42.0 (TID 42)
+24/02/06 15:44:53 INFO TorrentBroadcast: Started reading broadcast variable 85 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:53 INFO MemoryStore: Block broadcast_85_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:53 INFO TorrentBroadcast: Reading broadcast variable 85 took 10 ms
+24/02/06 15:44:53 INFO MemoryStore: Block broadcast_85 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:53 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p51663464p53163464, range: 0-15104329, partition values: [empty row]
+24/02/06 15:44:53 INFO TorrentBroadcast: Started reading broadcast variable 84 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:53 INFO MemoryStore: Block broadcast_84_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:53 INFO TorrentBroadcast: Reading broadcast variable 84 took 15 ms
+24/02/06 15:44:53 INFO MemoryStore: Block broadcast_84 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:53 INFO PythonRunner: Times: total = 118, boot = 48, init = 69, finish = 1
+24/02/06 15:44:53 INFO Executor: Finished task 0.0 in stage 42.0 (TID 42). 1688 bytes result sent to driver
+24/02/06 15:44:55 INFO CoarseGrainedExecutorBackend: Got assigned task 47
+24/02/06 15:44:55 INFO Executor: Running task 0.0 in stage 47.0 (TID 47)
+24/02/06 15:44:55 INFO TorrentBroadcast: Started reading broadcast variable 95 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:55 INFO MemoryStore: Block broadcast_95_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:55 INFO TorrentBroadcast: Reading broadcast variable 95 took 18 ms
+24/02/06 15:44:55 INFO MemoryStore: Block broadcast_95 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:55 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles4.xml-p200511p352689, range: 0-10997861, partition values: [empty row]
+24/02/06 15:44:55 INFO TorrentBroadcast: Started reading broadcast variable 94 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:55 INFO MemoryStore: Block broadcast_94_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:55 INFO TorrentBroadcast: Reading broadcast variable 94 took 9 ms
+24/02/06 15:44:55 INFO MemoryStore: Block broadcast_94 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:55 INFO PythonRunner: Times: total = 78, boot = 21, init = 56, finish = 1
+24/02/06 15:44:55 INFO Executor: Finished task 0.0 in stage 47.0 (TID 47). 1687 bytes result sent to driver
+24/02/06 15:44:55 INFO CoarseGrainedExecutorBackend: Got assigned task 48
+24/02/06 15:44:55 INFO Executor: Running task 0.0 in stage 48.0 (TID 48)
+24/02/06 15:44:55 INFO TorrentBroadcast: Started reading broadcast variable 97 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:55 INFO MemoryStore: Block broadcast_97_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:44:55 INFO TorrentBroadcast: Reading broadcast variable 97 took 11 ms
+24/02/06 15:44:55 INFO MemoryStore: Block broadcast_97 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:44:55 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles5.xml-p352690p565312, range: 0-12471248, partition values: [empty row]
+24/02/06 15:44:55 INFO TorrentBroadcast: Started reading broadcast variable 96 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:44:55 INFO MemoryStore: Block broadcast_96_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:44:55 INFO TorrentBroadcast: Reading broadcast variable 96 took 12 ms
+24/02/06 15:44:55 INFO MemoryStore: Block broadcast_96 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:44:55 INFO PythonRunner: Times: total = 89, boot = 21, init = 67, finish = 1
+24/02/06 15:44:55 INFO Executor: Finished task 0.0 in stage 48.0 (TID 48). 1686 bytes result sent to driver
+24/02/06 15:44:57 INFO CoarseGrainedExecutorBackend: Driver commanded a shutdown
+24/02/06 15:44:57 ERROR CoarseGrainedExecutorBackend: RECEIVED SIGNAL TERM
+tdown

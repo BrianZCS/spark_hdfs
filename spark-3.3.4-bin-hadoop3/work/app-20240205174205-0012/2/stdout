@@ -1,0 +1,38 @@
+24/02/05 17:42:08 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 17734@node0.group21.uwmadison744-s24-pg0.wisc.cloudlab.us
+24/02/05 17:42:08 INFO SignalUtils: Registering signal handler for TERM
+24/02/05 17:42:08 INFO SignalUtils: Registering signal handler for HUP
+24/02/05 17:42:08 INFO SignalUtils: Registering signal handler for INT
+24/02/05 17:42:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/02/05 17:42:09 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/05 17:42:09 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/05 17:42:09 INFO SecurityManager: Changing view acls groups to: 
+24/02/05 17:42:09 INFO SecurityManager: Changing modify acls groups to: 
+24/02/05 17:42:09 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/05 17:42:09 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:46819 after 134 ms (0 ms spent in bootstraps)
+24/02/05 17:42:10 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/05 17:42:10 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/05 17:42:10 INFO SecurityManager: Changing view acls groups to: 
+24/02/05 17:42:10 INFO SecurityManager: Changing modify acls groups to: 
+24/02/05 17:42:10 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/05 17:42:10 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:46819 after 9 ms (0 ms spent in bootstraps)
+24/02/05 17:42:10 INFO DiskBlockManager: Created local directory at /tmp/spark-ea176012-3e76-4400-afd8-21372388254a/executor-7bd651a5-695b-41f1-9a33-63237e339f67/blockmgr-7c9569e1-383a-4a78-8a4f-86e1d45144a1
+24/02/05 17:42:10 INFO MemoryStore: MemoryStore started with capacity 15.8 GiB
+24/02/05 17:42:10 INFO WorkerWatcher: Connecting to worker spark://Worker@10.10.1.1:43269
+24/02/05 17:42:11 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@node0-link-1:46819
+24/02/05 17:42:11 INFO TransportClientFactory: Successfully created connection to /10.10.1.1:43269 after 16 ms (0 ms spent in bootstraps)
+24/02/05 17:42:11 INFO WorkerWatcher: Successfully connected to spark://Worker@10.10.1.1:43269
+24/02/05 17:42:11 INFO ResourceUtils: ==============================================================
+24/02/05 17:42:11 INFO ResourceUtils: No custom resources configured for spark.executor.
+24/02/05 17:42:11 INFO ResourceUtils: ==============================================================
+24/02/05 17:42:11 INFO CoarseGrainedExecutorBackend: Successfully registered with driver
+24/02/05 17:42:11 INFO Executor: Starting executor ID 2 on host 10.10.1.1
+24/02/05 17:42:11 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44707.
+24/02/05 17:42:11 INFO NettyBlockTransferService: Server created on 10.10.1.1:44707
+24/02/05 17:42:11 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/02/05 17:42:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(2, 10.10.1.1, 44707, None)
+24/02/05 17:42:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(2, 10.10.1.1, 44707, None)
+24/02/05 17:42:11 INFO BlockManager: Initialized BlockManager: BlockManagerId(2, 10.10.1.1, 44707, None)
+24/02/05 17:42:11 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+24/02/05 17:42:13 INFO CoarseGrainedExecutorBackend: Driver commanded a shutdown
+24/02/05 17:42:13 ERROR CoarseGrainedExecutorBackend: RECEIVED SIGNAL TERM
+tdown

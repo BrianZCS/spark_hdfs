@@ -1,0 +1,8 @@
+Use the run.sh to run the task4. The program reads bunch of wiki data from HDFS and runs a pageRank program and output the final ranking to HDFS.
+
+We cleaned the cached data and killed the worker by running the script below. 
+sudo sh -c "sync; echo 3 > /proc/sys/vm/drop_caches"
+for pid in $(jps | grep Worker | awk '{print $1}'); do kill -9 $pid; done
+
+How to Run:
+spark-3.3.4-bin-hadoop3/bin/spark-submit pageRank_wiki_worker_kill.py

@@ -1,0 +1,8 @@
+Use the run.sh to run the task2. The program reads bunch of wiki data from HDFS and runs a pageRank program and output the final ranking to HDFS.
+
+We partitioned both pages and ranks by a number of 50, 100, 200, 300, and 500 respectively by changing two lines below.
+    pages = pages.repartition(300)
+    ranks = ranks.repartition(300)
+
+How to Run:
+spark-3.3.4-bin-hadoop3/bin/spark-submit pageRank_wiki_partition.py

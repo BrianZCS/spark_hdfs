@@ -1,0 +1,7 @@
+24/02/07 10:18:24 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 14424@node0.group21.uwmadison744-s24-pg0.wisc.cloudlab.us
+24/02/07 10:18:24 INFO SignalUtils: Registering signal handler for TERM
+24/02/07 10:18:24 INFO SignalUtils: Registering signal handler for HUP
+24/02/07 10:18:24 INFO SignalUtils: Registering signal handler for INT
+24/02/07 10:18:25 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/02/07 10:18:25 INFO SecurityManager: Changing view acls to: zzheng94
+brary for your platform... using builtin-java classes where applicable

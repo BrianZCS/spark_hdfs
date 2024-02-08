@@ -1,0 +1,12 @@
+24/02/06 14:19:01 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 17948@node0.group21.uwmadison744-s24-pg0.wisc.cloudlab.us
+24/02/06 14:19:01 INFO SignalUtils: Registering signal handler for TERM
+24/02/06 14:19:01 INFO SignalUtils: Registering signal handler for HUP
+24/02/06 14:19:01 INFO SignalUtils: Registering signal handler for INT
+24/02/06 14:19:02 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/02/06 14:19:02 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/06 14:19:02 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/06 14:19:02 INFO SecurityManager: Changing view acls groups to: 
+24/02/06 14:19:02 INFO SecurityManager: Changing modify acls groups to: 
+24/02/06 14:19:02 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/06 14:19:02 ERROR CoarseGrainedExecutorBackend: RECEIVED SIGNAL TERM
+abled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()

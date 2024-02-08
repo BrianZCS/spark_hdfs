@@ -1,0 +1,550 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /users/zzheng94/spark-3.3.4-bin-hadoop3/conf/:/users/zzheng94/spark-3.3.4-bin-hadoop3/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host 10.10.1.1 --port 7077 --webui-port 8080
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+24/02/06 15:12:19 INFO Master: Started daemon with process name: 5375@node0.group21.uwmadison744-s24-pg0.wisc.cloudlab.us
+24/02/06 15:12:19 INFO SignalUtils: Registering signal handler for TERM
+24/02/06 15:12:19 INFO SignalUtils: Registering signal handler for HUP
+24/02/06 15:12:19 INFO SignalUtils: Registering signal handler for INT
+24/02/06 15:12:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/02/06 15:12:24 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/06 15:12:24 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/06 15:12:24 INFO SecurityManager: Changing view acls groups to: 
+24/02/06 15:12:24 INFO SecurityManager: Changing modify acls groups to: 
+24/02/06 15:12:24 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/06 15:12:26 INFO Utils: Successfully started service 'sparkMaster' on port 7077.
+24/02/06 15:12:26 INFO Master: Starting Spark master at spark://10.10.1.1:7077
+24/02/06 15:12:27 INFO Master: Running Spark version 3.3.4
+24/02/06 15:12:27 INFO Utils: Successfully started service 'MasterUI' on port 8080.
+24/02/06 15:12:27 INFO MasterWebUI: Bound MasterWebUI to 10.10.1.1, and started at http://node0-link-1:8080
+24/02/06 15:12:28 INFO Master: I have been elected leader! New state: ALIVE
+24/02/06 15:12:29 INFO Master: Registering worker 10.10.1.1:40877 with 5 cores, 30.4 GiB RAM
+24/02/06 15:12:47 INFO Master: Registering worker 10.10.1.2:36155 with 5 cores, 30.4 GiB RAM
+24/02/06 15:12:48 INFO Master: Registering worker 10.10.1.3:38499 with 5 cores, 30.4 GiB RAM
+24/02/06 15:14:38 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:14:38 INFO Master: Registered app Page Rank Wiki with ID app-20240206151438-0000
+24/02/06 15:14:38 INFO Master: Launching executor app-20240206151438-0000/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:14:38 INFO Master: Launching executor app-20240206151438-0000/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:14:38 INFO Master: Launching executor app-20240206151438-0000/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 15:14:39 INFO Master: Received unregister request from application app-20240206151438-0000
+24/02/06 15:14:39 INFO Master: Removing app app-20240206151438-0000
+24/02/06 15:14:39 WARN Master: Got status update for unknown executor app-20240206151438-0000/1
+24/02/06 15:14:39 INFO Master: 10.10.1.1:56504 got disassociated, removing it.
+24/02/06 15:14:39 INFO Master: node0-link-1:44715 got disassociated, removing it.
+24/02/06 15:14:39 WARN Master: Got status update for unknown executor app-20240206151438-0000/2
+24/02/06 15:14:39 WARN Master: Got status update for unknown executor app-20240206151438-0000/0
+24/02/06 15:17:36 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:17:36 INFO Master: Registered app Page Rank Wiki with ID app-20240206151736-0001
+24/02/06 15:17:36 INFO Master: Launching executor app-20240206151736-0001/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:17:36 INFO Master: Launching executor app-20240206151736-0001/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:17:36 INFO Master: Launching executor app-20240206151736-0001/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 15:17:37 INFO Master: Received unregister request from application app-20240206151736-0001
+24/02/06 15:17:37 INFO Master: Removing app app-20240206151736-0001
+24/02/06 15:17:37 WARN Master: Got status update for unknown executor app-20240206151736-0001/0
+24/02/06 15:17:37 WARN Master: Got status update for unknown executor app-20240206151736-0001/1
+24/02/06 15:17:37 WARN Master: Got status update for unknown executor app-20240206151736-0001/2
+24/02/06 15:17:37 INFO Master: 10.10.1.1:59996 got disassociated, removing it.
+24/02/06 15:17:37 INFO Master: node0-link-1:34837 got disassociated, removing it.
+24/02/06 15:19:07 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:19:07 INFO Master: Registered app Page Rank Wiki with ID app-20240206151907-0002
+24/02/06 15:19:07 INFO Master: Launching executor app-20240206151907-0002/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:19:07 INFO Master: Launching executor app-20240206151907-0002/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:19:07 INFO Master: Launching executor app-20240206151907-0002/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 15:33:46 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:33:46 INFO Master: Registered app Page Rank Wiki with ID app-20240206153346-0003
+24/02/06 15:34:09 INFO Master: Removing app app-20240206151907-0002
+24/02/06 15:34:09 INFO Master: Launching executor app-20240206153346-0003/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:34:09 INFO Master: Launching executor app-20240206153346-0003/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:34:09 INFO Master: Launching executor app-20240206153346-0003/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 15:34:10 INFO Master: 10.10.1.1:43568 got disassociated, removing it.
+24/02/06 15:34:10 INFO Master: node0-link-1:32889 got disassociated, removing it.
+24/02/06 15:34:11 WARN Master: Got status update for unknown executor app-20240206151907-0002/0
+24/02/06 15:34:11 WARN Master: Got status update for unknown executor app-20240206151907-0002/2
+24/02/06 15:34:12 WARN Master: Got status update for unknown executor app-20240206151907-0002/1
+24/02/06 15:34:48 INFO Master: Received unregister request from application app-20240206153346-0003
+24/02/06 15:34:48 INFO Master: Removing app app-20240206153346-0003
+24/02/06 15:34:48 INFO Master: 10.10.1.1:40260 got disassociated, removing it.
+24/02/06 15:34:48 INFO Master: node0-link-1:44509 got disassociated, removing it.
+24/02/06 15:34:48 WARN Master: Got status update for unknown executor app-20240206153346-0003/0
+24/02/06 15:34:49 WARN Master: Got status update for unknown executor app-20240206153346-0003/2
+24/02/06 15:34:49 WARN Master: Got status update for unknown executor app-20240206153346-0003/1
+24/02/06 15:35:28 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:35:28 INFO Master: Registered app Page Rank Wiki with ID app-20240206153528-0004
+24/02/06 15:35:28 INFO Master: Launching executor app-20240206153528-0004/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:35:28 INFO Master: Launching executor app-20240206153528-0004/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:35:28 INFO Master: Launching executor app-20240206153528-0004/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 15:36:12 INFO Master: Received unregister request from application app-20240206153528-0004
+24/02/06 15:36:12 INFO Master: Removing app app-20240206153528-0004
+24/02/06 15:36:12 WARN Master: Got status update for unknown executor app-20240206153528-0004/2
+24/02/06 15:36:12 WARN Master: Got status update for unknown executor app-20240206153528-0004/0
+24/02/06 15:36:12 INFO Master: 10.10.1.1:32926 got disassociated, removing it.
+24/02/06 15:36:12 INFO Master: node0-link-1:36589 got disassociated, removing it.
+24/02/06 15:36:12 WARN Master: Got status update for unknown executor app-20240206153528-0004/1
+24/02/06 15:38:13 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:38:13 INFO Master: Registered app Page Rank Wiki with ID app-20240206153813-0005
+24/02/06 15:38:13 INFO Master: Launching executor app-20240206153813-0005/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:38:13 INFO Master: Launching executor app-20240206153813-0005/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:38:13 INFO Master: Launching executor app-20240206153813-0005/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 15:38:58 INFO Master: Received unregister request from application app-20240206153813-0005
+24/02/06 15:38:58 INFO Master: Removing app app-20240206153813-0005
+24/02/06 15:38:58 WARN Master: Got status update for unknown executor app-20240206153813-0005/0
+24/02/06 15:38:58 INFO Master: 10.10.1.1:51584 got disassociated, removing it.
+24/02/06 15:38:58 INFO Master: node0-link-1:41787 got disassociated, removing it.
+24/02/06 15:38:58 WARN Master: Got status update for unknown executor app-20240206153813-0005/1
+24/02/06 15:38:58 WARN Master: Got status update for unknown executor app-20240206153813-0005/2
+24/02/06 15:41:02 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:41:02 INFO Master: Registered app Page Rank Wiki with ID app-20240206154102-0006
+24/02/06 15:41:02 INFO Master: Launching executor app-20240206154102-0006/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:41:02 INFO Master: Launching executor app-20240206154102-0006/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:41:02 INFO Master: Launching executor app-20240206154102-0006/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 15:41:48 INFO Master: Received unregister request from application app-20240206154102-0006
+24/02/06 15:41:48 INFO Master: Removing app app-20240206154102-0006
+24/02/06 15:41:48 WARN Master: Got status update for unknown executor app-20240206154102-0006/2
+24/02/06 15:41:48 INFO Master: 10.10.1.1:42312 got disassociated, removing it.
+24/02/06 15:41:48 INFO Master: node0-link-1:41037 got disassociated, removing it.
+24/02/06 15:41:48 WARN Master: Got status update for unknown executor app-20240206154102-0006/0
+24/02/06 15:41:48 WARN Master: Got status update for unknown executor app-20240206154102-0006/1
+24/02/06 15:42:13 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:42:13 INFO Master: Registered app Page Rank Wiki with ID app-20240206154213-0007
+24/02/06 15:42:13 INFO Master: Launching executor app-20240206154213-0007/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:42:13 INFO Master: Launching executor app-20240206154213-0007/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:42:13 INFO Master: Launching executor app-20240206154213-0007/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 15:42:55 INFO Master: Received unregister request from application app-20240206154213-0007
+24/02/06 15:42:55 INFO Master: Removing app app-20240206154213-0007
+24/02/06 15:42:55 INFO Master: 10.10.1.1:41318 got disassociated, removing it.
+24/02/06 15:42:55 INFO Master: node0-link-1:41673 got disassociated, removing it.
+24/02/06 15:42:55 WARN Master: Got status update for unknown executor app-20240206154213-0007/2
+24/02/06 15:42:55 WARN Master: Got status update for unknown executor app-20240206154213-0007/1
+24/02/06 15:42:55 WARN Master: Got status update for unknown executor app-20240206154213-0007/0
+24/02/06 15:44:13 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:44:13 INFO Master: Registered app Page Rank Wiki with ID app-20240206154413-0008
+24/02/06 15:44:13 INFO Master: Launching executor app-20240206154413-0008/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:44:13 INFO Master: Launching executor app-20240206154413-0008/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:44:13 INFO Master: Launching executor app-20240206154413-0008/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 15:44:57 INFO Master: Received unregister request from application app-20240206154413-0008
+24/02/06 15:44:57 INFO Master: Removing app app-20240206154413-0008
+24/02/06 15:44:57 WARN Master: Got status update for unknown executor app-20240206154413-0008/0
+24/02/06 15:44:57 INFO Master: 10.10.1.1:35924 got disassociated, removing it.
+24/02/06 15:44:57 INFO Master: node0-link-1:43299 got disassociated, removing it.
+24/02/06 15:44:57 WARN Master: Got status update for unknown executor app-20240206154413-0008/2
+24/02/06 15:44:57 WARN Master: Got status update for unknown executor app-20240206154413-0008/1
+24/02/06 15:46:09 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:46:09 INFO Master: Registered app Page Rank Wiki with ID app-20240206154609-0009
+24/02/06 15:46:09 INFO Master: Launching executor app-20240206154609-0009/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:46:09 INFO Master: Launching executor app-20240206154609-0009/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:46:09 INFO Master: Launching executor app-20240206154609-0009/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 15:50:24 INFO Master: Received unregister request from application app-20240206154609-0009
+24/02/06 15:50:24 INFO Master: Removing app app-20240206154609-0009
+24/02/06 15:50:24 INFO Master: 10.10.1.1:51164 got disassociated, removing it.
+24/02/06 15:50:24 INFO Master: node0-link-1:35915 got disassociated, removing it.
+24/02/06 15:50:25 WARN Master: Got status update for unknown executor app-20240206154609-0009/0
+24/02/06 15:50:25 WARN Master: Got status update for unknown executor app-20240206154609-0009/2
+24/02/06 15:50:25 WARN Master: Got status update for unknown executor app-20240206154609-0009/1
+24/02/06 15:50:53 INFO Master: Registering app Page Rank Wiki
+24/02/06 15:50:53 INFO Master: Registered app Page Rank Wiki with ID app-20240206155053-0010
+24/02/06 15:50:53 INFO Master: Launching executor app-20240206155053-0010/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 15:50:53 INFO Master: Launching executor app-20240206155053-0010/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 15:50:53 INFO Master: Launching executor app-20240206155053-0010/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 16:02:52 INFO Master: Registering app Page Rank Wiki
+24/02/06 16:02:52 INFO Master: Registered app Page Rank Wiki with ID app-20240206160252-0011
+24/02/06 16:02:53 INFO Master: Received unregister request from application app-20240206160252-0011
+24/02/06 16:02:53 INFO Master: Removing app app-20240206160252-0011
+24/02/06 16:02:53 INFO Master: 10.10.1.1:35134 got disassociated, removing it.
+24/02/06 16:02:53 INFO Master: node0-link-1:40531 got disassociated, removing it.
+24/02/06 16:09:13 INFO Master: Registering app Page Rank Wiki
+24/02/06 16:09:13 INFO Master: Registered app Page Rank Wiki with ID app-20240206160913-0012
+24/02/06 16:09:14 INFO Master: Received unregister request from application app-20240206160913-0012
+24/02/06 16:09:14 INFO Master: Removing app app-20240206160913-0012
+24/02/06 16:09:14 INFO Master: 10.10.1.1:37248 got disassociated, removing it.
+24/02/06 16:09:14 INFO Master: node0-link-1:46875 got disassociated, removing it.
+24/02/06 16:13:07 INFO Master: Received unregister request from application app-20240206155053-0010
+24/02/06 16:13:07 INFO Master: Removing app app-20240206155053-0010
+24/02/06 16:13:07 INFO Master: 10.10.1.1:47128 got disassociated, removing it.
+24/02/06 16:13:07 INFO Master: node0-link-1:40369 got disassociated, removing it.
+24/02/06 16:13:08 WARN Master: Got status update for unknown executor app-20240206155053-0010/0
+24/02/06 16:13:08 WARN Master: Got status update for unknown executor app-20240206155053-0010/2
+24/02/06 16:13:09 WARN Master: Got status update for unknown executor app-20240206155053-0010/1
+24/02/06 16:15:56 INFO Master: Registering app Page Rank Wiki
+24/02/06 16:15:56 INFO Master: Registered app Page Rank Wiki with ID app-20240206161556-0013
+24/02/06 16:15:56 INFO Master: Launching executor app-20240206161556-0013/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 16:15:56 INFO Master: Launching executor app-20240206161556-0013/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 16:15:56 INFO Master: Launching executor app-20240206161556-0013/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 16:15:56 INFO Master: Received unregister request from application app-20240206161556-0013
+24/02/06 16:15:56 INFO Master: Removing app app-20240206161556-0013
+24/02/06 16:15:56 WARN Master: Got status update for unknown executor app-20240206161556-0013/0
+24/02/06 16:15:56 WARN Master: Got status update for unknown executor app-20240206161556-0013/1
+24/02/06 16:15:56 WARN Master: Got status update for unknown executor app-20240206161556-0013/2
+24/02/06 16:15:56 INFO Master: 10.10.1.1:43288 got disassociated, removing it.
+24/02/06 16:15:56 INFO Master: node0-link-1:35453 got disassociated, removing it.
+24/02/06 17:28:23 INFO Master: Registering app Page Rank Wiki
+24/02/06 17:28:23 INFO Master: Registered app Page Rank Wiki with ID app-20240206172823-0014
+24/02/06 17:28:23 INFO Master: Launching executor app-20240206172823-0014/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 17:28:23 INFO Master: Launching executor app-20240206172823-0014/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 17:28:23 INFO Master: Launching executor app-20240206172823-0014/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 17:29:33 INFO Master: Registering app Page Rank Wiki Partition
+24/02/06 17:29:33 INFO Master: Registered app Page Rank Wiki Partition with ID app-20240206172933-0015
+24/02/06 17:30:31 INFO Master: Registering app Page Rank Wiki Memory
+24/02/06 17:30:31 INFO Master: Registered app Page Rank Wiki Memory with ID app-20240206173031-0016
+24/02/06 18:10:38 INFO Master: Removing executor app-20240206172823-0014/0 because it is EXITED
+24/02/06 18:10:38 INFO Master: Launching executor app-20240206172823-0014/3 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:10:41 INFO Master: Removing executor app-20240206172823-0014/1 because it is EXITED
+24/02/06 18:10:41 INFO Master: Launching executor app-20240206172823-0014/4 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:10:41 INFO Master: Removing executor app-20240206172823-0014/2 because it is EXITED
+24/02/06 18:10:41 INFO Master: Launching executor app-20240206172823-0014/5 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:12:46 INFO Master: Removing executor app-20240206172823-0014/4 because it is EXITED
+24/02/06 18:12:46 INFO Master: Launching executor app-20240206172823-0014/6 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:12:46 INFO Master: Removing executor app-20240206172823-0014/5 because it is EXITED
+24/02/06 18:12:46 INFO Master: Launching executor app-20240206172823-0014/7 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:16:42 INFO Master: Removing executor app-20240206172823-0014/3 because it is EXITED
+24/02/06 18:16:42 INFO Master: Launching executor app-20240206172823-0014/8 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:18:50 INFO Master: Removing executor app-20240206172823-0014/6 because it is EXITED
+24/02/06 18:18:50 INFO Master: Launching executor app-20240206172823-0014/9 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:18:50 INFO Master: Removing executor app-20240206172823-0014/7 because it is EXITED
+24/02/06 18:18:50 INFO Master: Launching executor app-20240206172823-0014/10 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:20:54 INFO Master: Removing executor app-20240206172823-0014/9 because it is EXITED
+24/02/06 18:20:54 INFO Master: Launching executor app-20240206172823-0014/11 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:20:55 INFO Master: Removing executor app-20240206172823-0014/10 because it is EXITED
+24/02/06 18:20:55 INFO Master: Launching executor app-20240206172823-0014/12 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:22:46 INFO Master: Removing executor app-20240206172823-0014/8 because it is EXITED
+24/02/06 18:22:46 INFO Master: Launching executor app-20240206172823-0014/13 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:26:59 INFO Master: Removing executor app-20240206172823-0014/11 because it is EXITED
+24/02/06 18:26:59 INFO Master: Launching executor app-20240206172823-0014/14 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:26:59 INFO Master: Removing executor app-20240206172823-0014/12 because it is EXITED
+24/02/06 18:26:59 INFO Master: Launching executor app-20240206172823-0014/15 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:28:50 INFO Master: Removing executor app-20240206172823-0014/13 because it is EXITED
+24/02/06 18:28:50 INFO Master: Launching executor app-20240206172823-0014/16 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:29:03 INFO Master: Removing executor app-20240206172823-0014/15 because it is EXITED
+24/02/06 18:29:03 INFO Master: Launching executor app-20240206172823-0014/17 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:29:03 INFO Master: Removing executor app-20240206172823-0014/14 because it is EXITED
+24/02/06 18:29:03 INFO Master: Launching executor app-20240206172823-0014/18 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:34:54 INFO Master: Removing executor app-20240206172823-0014/16 because it is EXITED
+24/02/06 18:34:54 INFO Master: Launching executor app-20240206172823-0014/19 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:35:07 INFO Master: Removing executor app-20240206172823-0014/17 because it is EXITED
+24/02/06 18:35:07 INFO Master: Launching executor app-20240206172823-0014/20 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:35:08 INFO Master: Removing executor app-20240206172823-0014/18 because it is EXITED
+24/02/06 18:35:08 INFO Master: Launching executor app-20240206172823-0014/21 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:36:58 INFO Master: Removing executor app-20240206172823-0014/19 because it is EXITED
+24/02/06 18:36:58 INFO Master: Launching executor app-20240206172823-0014/22 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:37:12 INFO Master: Removing executor app-20240206172823-0014/20 because it is EXITED
+24/02/06 18:37:12 INFO Master: Launching executor app-20240206172823-0014/23 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:41:12 INFO Master: Removing executor app-20240206172823-0014/21 because it is EXITED
+24/02/06 18:41:12 INFO Master: Launching executor app-20240206172823-0014/24 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:43:02 INFO Master: Removing executor app-20240206172823-0014/22 because it is EXITED
+24/02/06 18:43:02 INFO Master: Launching executor app-20240206172823-0014/25 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:43:16 INFO Master: Removing executor app-20240206172823-0014/24 because it is EXITED
+24/02/06 18:43:16 INFO Master: Launching executor app-20240206172823-0014/26 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:43:16 INFO Master: Removing executor app-20240206172823-0014/23 because it is EXITED
+24/02/06 18:43:16 INFO Master: Launching executor app-20240206172823-0014/27 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:45:06 INFO Master: Removing executor app-20240206172823-0014/25 because it is EXITED
+24/02/06 18:45:06 INFO Master: Launching executor app-20240206172823-0014/28 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:49:20 INFO Master: Removing executor app-20240206172823-0014/26 because it is EXITED
+24/02/06 18:49:20 INFO Master: Launching executor app-20240206172823-0014/29 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:49:20 INFO Master: Removing executor app-20240206172823-0014/27 because it is EXITED
+24/02/06 18:49:20 INFO Master: Launching executor app-20240206172823-0014/30 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:51:10 INFO Master: Removing executor app-20240206172823-0014/28 because it is EXITED
+24/02/06 18:51:10 INFO Master: Launching executor app-20240206172823-0014/31 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:51:25 INFO Master: Removing executor app-20240206172823-0014/29 because it is EXITED
+24/02/06 18:51:25 INFO Master: Launching executor app-20240206172823-0014/32 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:51:25 INFO Master: Removing executor app-20240206172823-0014/30 because it is EXITED
+24/02/06 18:51:25 INFO Master: Launching executor app-20240206172823-0014/33 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:57:13 INFO Master: Removing executor app-20240206172823-0014/31 because it is EXITED
+24/02/06 18:57:13 INFO Master: Launching executor app-20240206172823-0014/34 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:57:29 INFO Master: Removing executor app-20240206172823-0014/32 because it is EXITED
+24/02/06 18:57:29 INFO Master: Launching executor app-20240206172823-0014/35 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 18:57:29 INFO Master: Removing executor app-20240206172823-0014/33 because it is EXITED
+24/02/06 18:57:29 INFO Master: Launching executor app-20240206172823-0014/36 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 18:59:18 INFO Master: Removing executor app-20240206172823-0014/34 because it is EXITED
+24/02/06 18:59:18 INFO Master: Launching executor app-20240206172823-0014/37 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 18:59:33 INFO Master: Removing executor app-20240206172823-0014/36 because it is EXITED
+24/02/06 18:59:33 INFO Master: Launching executor app-20240206172823-0014/38 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:03:33 INFO Master: Removing executor app-20240206172823-0014/35 because it is EXITED
+24/02/06 19:03:33 INFO Master: Launching executor app-20240206172823-0014/39 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:05:21 INFO Master: Removing executor app-20240206172823-0014/37 because it is EXITED
+24/02/06 19:05:21 INFO Master: Launching executor app-20240206172823-0014/40 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:05:37 INFO Master: Removing executor app-20240206172823-0014/39 because it is EXITED
+24/02/06 19:05:37 INFO Master: Launching executor app-20240206172823-0014/41 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:05:37 INFO Master: Removing executor app-20240206172823-0014/38 because it is EXITED
+24/02/06 19:05:37 INFO Master: Launching executor app-20240206172823-0014/42 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:07:25 INFO Master: Removing executor app-20240206172823-0014/40 because it is EXITED
+24/02/06 19:07:25 INFO Master: Launching executor app-20240206172823-0014/43 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:11:41 INFO Master: Removing executor app-20240206172823-0014/42 because it is EXITED
+24/02/06 19:11:41 INFO Master: Launching executor app-20240206172823-0014/44 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:11:42 INFO Master: Removing executor app-20240206172823-0014/41 because it is EXITED
+24/02/06 19:11:42 INFO Master: Launching executor app-20240206172823-0014/45 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:13:29 INFO Master: Removing executor app-20240206172823-0014/43 because it is EXITED
+24/02/06 19:13:29 INFO Master: Launching executor app-20240206172823-0014/46 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:13:46 INFO Master: Removing executor app-20240206172823-0014/44 because it is EXITED
+24/02/06 19:13:46 INFO Master: Launching executor app-20240206172823-0014/47 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:13:46 INFO Master: Removing executor app-20240206172823-0014/45 because it is EXITED
+24/02/06 19:13:46 INFO Master: Launching executor app-20240206172823-0014/48 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:19:33 INFO Master: Removing executor app-20240206172823-0014/46 because it is EXITED
+24/02/06 19:19:33 INFO Master: Launching executor app-20240206172823-0014/49 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:19:50 INFO Master: Removing executor app-20240206172823-0014/47 because it is EXITED
+24/02/06 19:19:50 INFO Master: Launching executor app-20240206172823-0014/50 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:19:51 INFO Master: Removing executor app-20240206172823-0014/48 because it is EXITED
+24/02/06 19:19:51 INFO Master: Launching executor app-20240206172823-0014/51 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:21:37 INFO Master: Removing executor app-20240206172823-0014/49 because it is EXITED
+24/02/06 19:21:37 INFO Master: Launching executor app-20240206172823-0014/52 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:21:55 INFO Master: Removing executor app-20240206172823-0014/50 because it is EXITED
+24/02/06 19:21:55 INFO Master: Launching executor app-20240206172823-0014/53 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:25:55 INFO Master: Removing executor app-20240206172823-0014/51 because it is EXITED
+24/02/06 19:25:55 INFO Master: Launching executor app-20240206172823-0014/54 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:27:41 INFO Master: Removing executor app-20240206172823-0014/52 because it is EXITED
+24/02/06 19:27:41 INFO Master: Launching executor app-20240206172823-0014/55 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:27:58 INFO Master: Removing executor app-20240206172823-0014/53 because it is EXITED
+24/02/06 19:27:58 INFO Master: Launching executor app-20240206172823-0014/56 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:27:59 INFO Master: Removing executor app-20240206172823-0014/54 because it is EXITED
+24/02/06 19:27:59 INFO Master: Launching executor app-20240206172823-0014/57 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:29:45 INFO Master: Removing executor app-20240206172823-0014/55 because it is EXITED
+24/02/06 19:29:45 INFO Master: Launching executor app-20240206172823-0014/58 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:34:03 INFO Master: Removing executor app-20240206172823-0014/56 because it is EXITED
+24/02/06 19:34:03 INFO Master: Launching executor app-20240206172823-0014/59 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:34:03 INFO Master: Removing executor app-20240206172823-0014/57 because it is EXITED
+24/02/06 19:34:03 INFO Master: Launching executor app-20240206172823-0014/60 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:35:49 INFO Master: Removing executor app-20240206172823-0014/58 because it is EXITED
+24/02/06 19:35:49 INFO Master: Launching executor app-20240206172823-0014/61 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:36:07 INFO Master: Removing executor app-20240206172823-0014/59 because it is EXITED
+24/02/06 19:36:07 INFO Master: Launching executor app-20240206172823-0014/62 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:36:08 INFO Master: Removing executor app-20240206172823-0014/60 because it is EXITED
+24/02/06 19:36:08 INFO Master: Launching executor app-20240206172823-0014/63 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:41:53 INFO Master: Removing executor app-20240206172823-0014/61 because it is EXITED
+24/02/06 19:41:53 INFO Master: Launching executor app-20240206172823-0014/64 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:42:11 INFO Master: Removing executor app-20240206172823-0014/62 because it is EXITED
+24/02/06 19:42:11 INFO Master: Launching executor app-20240206172823-0014/65 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:42:12 INFO Master: Removing executor app-20240206172823-0014/63 because it is EXITED
+24/02/06 19:42:12 INFO Master: Launching executor app-20240206172823-0014/66 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:43:57 INFO Master: Removing executor app-20240206172823-0014/64 because it is EXITED
+24/02/06 19:43:57 INFO Master: Launching executor app-20240206172823-0014/67 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:44:15 INFO Master: Removing executor app-20240206172823-0014/65 because it is EXITED
+24/02/06 19:44:15 INFO Master: Launching executor app-20240206172823-0014/68 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:48:16 INFO Master: Removing executor app-20240206172823-0014/66 because it is EXITED
+24/02/06 19:48:16 INFO Master: Launching executor app-20240206172823-0014/69 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:50:01 INFO Master: Removing executor app-20240206172823-0014/67 because it is EXITED
+24/02/06 19:50:01 INFO Master: Launching executor app-20240206172823-0014/70 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:50:19 INFO Master: Removing executor app-20240206172823-0014/68 because it is EXITED
+24/02/06 19:50:19 INFO Master: Launching executor app-20240206172823-0014/71 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:50:21 INFO Master: Removing executor app-20240206172823-0014/69 because it is EXITED
+24/02/06 19:50:21 INFO Master: Launching executor app-20240206172823-0014/72 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:52:05 INFO Master: Removing executor app-20240206172823-0014/70 because it is EXITED
+24/02/06 19:52:05 INFO Master: Launching executor app-20240206172823-0014/73 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:56:23 INFO Master: Removing executor app-20240206172823-0014/71 because it is EXITED
+24/02/06 19:56:23 INFO Master: Launching executor app-20240206172823-0014/74 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:56:25 INFO Master: Removing executor app-20240206172823-0014/72 because it is EXITED
+24/02/06 19:56:25 INFO Master: Launching executor app-20240206172823-0014/75 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 19:58:09 INFO Master: Removing executor app-20240206172823-0014/73 because it is EXITED
+24/02/06 19:58:09 INFO Master: Launching executor app-20240206172823-0014/76 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 19:58:28 INFO Master: Removing executor app-20240206172823-0014/74 because it is EXITED
+24/02/06 19:58:28 INFO Master: Launching executor app-20240206172823-0014/77 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 19:58:29 INFO Master: Removing executor app-20240206172823-0014/75 because it is EXITED
+24/02/06 19:58:29 INFO Master: Launching executor app-20240206172823-0014/78 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:04:13 INFO Master: Removing executor app-20240206172823-0014/76 because it is EXITED
+24/02/06 20:04:13 INFO Master: Launching executor app-20240206172823-0014/79 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:04:32 INFO Master: Removing executor app-20240206172823-0014/77 because it is EXITED
+24/02/06 20:04:32 INFO Master: Launching executor app-20240206172823-0014/80 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:04:33 INFO Master: Removing executor app-20240206172823-0014/78 because it is EXITED
+24/02/06 20:04:33 INFO Master: Launching executor app-20240206172823-0014/81 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:06:17 INFO Master: Removing executor app-20240206172823-0014/79 because it is EXITED
+24/02/06 20:06:17 INFO Master: Launching executor app-20240206172823-0014/82 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:06:36 INFO Master: Removing executor app-20240206172823-0014/80 because it is EXITED
+24/02/06 20:06:36 INFO Master: Launching executor app-20240206172823-0014/83 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:10:37 INFO Master: Removing executor app-20240206172823-0014/81 because it is EXITED
+24/02/06 20:10:37 INFO Master: Launching executor app-20240206172823-0014/84 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:12:21 INFO Master: Removing executor app-20240206172823-0014/82 because it is EXITED
+24/02/06 20:12:21 INFO Master: Launching executor app-20240206172823-0014/85 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:12:40 INFO Master: Removing executor app-20240206172823-0014/83 because it is EXITED
+24/02/06 20:12:40 INFO Master: Launching executor app-20240206172823-0014/86 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:12:42 INFO Master: Removing executor app-20240206172823-0014/84 because it is EXITED
+24/02/06 20:12:42 INFO Master: Launching executor app-20240206172823-0014/87 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:14:25 INFO Master: Removing executor app-20240206172823-0014/85 because it is EXITED
+24/02/06 20:14:25 INFO Master: Launching executor app-20240206172823-0014/88 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:18:45 INFO Master: Removing executor app-20240206172823-0014/86 because it is EXITED
+24/02/06 20:18:45 INFO Master: Launching executor app-20240206172823-0014/89 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:18:46 INFO Master: Removing executor app-20240206172823-0014/87 because it is EXITED
+24/02/06 20:18:46 INFO Master: Launching executor app-20240206172823-0014/90 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:20:28 INFO Master: Removing executor app-20240206172823-0014/88 because it is EXITED
+24/02/06 20:20:28 INFO Master: Launching executor app-20240206172823-0014/91 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:20:49 INFO Master: Removing executor app-20240206172823-0014/89 because it is EXITED
+24/02/06 20:20:49 INFO Master: Launching executor app-20240206172823-0014/92 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:20:51 INFO Master: Removing executor app-20240206172823-0014/90 because it is EXITED
+24/02/06 20:20:51 INFO Master: Launching executor app-20240206172823-0014/93 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:26:32 INFO Master: Removing executor app-20240206172823-0014/91 because it is EXITED
+24/02/06 20:26:32 INFO Master: Launching executor app-20240206172823-0014/94 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:26:53 INFO Master: Removing executor app-20240206172823-0014/92 because it is EXITED
+24/02/06 20:26:53 INFO Master: Launching executor app-20240206172823-0014/95 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:26:55 INFO Master: Removing executor app-20240206172823-0014/93 because it is EXITED
+24/02/06 20:26:55 INFO Master: Launching executor app-20240206172823-0014/96 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:28:36 INFO Master: Removing executor app-20240206172823-0014/94 because it is EXITED
+24/02/06 20:28:36 INFO Master: Launching executor app-20240206172823-0014/97 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:28:58 INFO Master: Removing executor app-20240206172823-0014/95 because it is EXITED
+24/02/06 20:28:58 INFO Master: Launching executor app-20240206172823-0014/98 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:32:59 INFO Master: Removing executor app-20240206172823-0014/96 because it is EXITED
+24/02/06 20:32:59 INFO Master: Launching executor app-20240206172823-0014/99 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:34:40 INFO Master: Removing executor app-20240206172823-0014/97 because it is EXITED
+24/02/06 20:34:40 INFO Master: Launching executor app-20240206172823-0014/100 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:35:01 INFO Master: Removing executor app-20240206172823-0014/98 because it is EXITED
+24/02/06 20:35:01 INFO Master: Launching executor app-20240206172823-0014/101 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:35:03 INFO Master: Removing executor app-20240206172823-0014/99 because it is EXITED
+24/02/06 20:35:03 INFO Master: Launching executor app-20240206172823-0014/102 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:36:44 INFO Master: Removing executor app-20240206172823-0014/100 because it is EXITED
+24/02/06 20:36:44 INFO Master: Launching executor app-20240206172823-0014/103 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:41:05 INFO Master: Removing executor app-20240206172823-0014/101 because it is EXITED
+24/02/06 20:41:05 INFO Master: Launching executor app-20240206172823-0014/104 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:41:07 INFO Master: Removing executor app-20240206172823-0014/102 because it is EXITED
+24/02/06 20:41:07 INFO Master: Launching executor app-20240206172823-0014/105 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:42:48 INFO Master: Removing executor app-20240206172823-0014/103 because it is EXITED
+24/02/06 20:42:48 INFO Master: Launching executor app-20240206172823-0014/106 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:43:10 INFO Master: Removing executor app-20240206172823-0014/104 because it is EXITED
+24/02/06 20:43:10 INFO Master: Launching executor app-20240206172823-0014/107 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:43:12 INFO Master: Removing executor app-20240206172823-0014/105 because it is EXITED
+24/02/06 20:43:12 INFO Master: Launching executor app-20240206172823-0014/108 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:48:52 INFO Master: Removing executor app-20240206172823-0014/106 because it is EXITED
+24/02/06 20:48:52 INFO Master: Launching executor app-20240206172823-0014/109 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:49:14 INFO Master: Removing executor app-20240206172823-0014/107 because it is EXITED
+24/02/06 20:49:14 INFO Master: Launching executor app-20240206172823-0014/110 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:49:16 INFO Master: Removing executor app-20240206172823-0014/108 because it is EXITED
+24/02/06 20:49:16 INFO Master: Launching executor app-20240206172823-0014/111 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:50:56 INFO Master: Removing executor app-20240206172823-0014/109 because it is EXITED
+24/02/06 20:50:56 INFO Master: Launching executor app-20240206172823-0014/112 on worker worker-20240206151244-10.10.1.2-36155
+24/02/06 20:51:18 INFO Master: Removing executor app-20240206172823-0014/110 because it is EXITED
+24/02/06 20:51:18 INFO Master: Launching executor app-20240206172823-0014/113 on worker worker-20240206151245-10.10.1.3-38499
+24/02/06 20:55:20 INFO Master: Removing executor app-20240206172823-0014/111 because it is EXITED
+24/02/06 20:55:20 INFO Master: Launching executor app-20240206172823-0014/114 on worker worker-20240206151227-10.10.1.1-40877
+24/02/06 20:56:10 INFO Master: Received unregister request from application app-20240206173031-0016
+24/02/06 20:56:10 INFO Master: Removing app app-20240206173031-0016
+24/02/06 20:56:10 INFO Master: 10.10.1.1:53474 got disassociated, removing it.
+24/02/06 20:56:10 INFO Master: node0-link-1:37293 got disassociated, removing it.
+24/02/06 20:56:11 INFO Master: Received unregister request from application app-20240206172933-0015
+24/02/06 20:56:11 INFO Master: Removing app app-20240206172933-0015
+24/02/06 20:56:11 INFO Master: 10.10.1.1:55586 got disassociated, removing it.
+24/02/06 20:56:11 INFO Master: node0-link-1:35807 got disassociated, removing it.
+24/02/06 20:56:11 INFO Master: Application app-20240206172823-0014 requests to kill executors: 2
+24/02/06 20:56:11 WARN Master: Application app-20240206172823-0014 attempted to kill non-existent executors: 2
+24/02/06 20:56:11 INFO Master: Application app-20240206172823-0014 requests to kill executors: 1
+24/02/06 20:56:11 WARN Master: Application app-20240206172823-0014 attempted to kill non-existent executors: 1
+24/02/06 20:56:11 INFO Master: Application app-20240206172823-0014 requests to kill executors: 0
+24/02/06 20:56:11 WARN Master: Application app-20240206172823-0014 attempted to kill non-existent executors: 0
+24/02/06 20:56:12 INFO Master: Received unregister request from application app-20240206172823-0014
+24/02/06 20:56:12 INFO Master: Removing app app-20240206172823-0014
+24/02/06 20:56:12 WARN Master: Got status update for unknown executor app-20240206172823-0014/112
+24/02/06 20:56:12 WARN Master: Got status update for unknown executor app-20240206172823-0014/114
+24/02/06 20:56:12 WARN Master: Got status update for unknown executor app-20240206172823-0014/113
+24/02/06 20:56:12 INFO Master: 10.10.1.1:43476 got disassociated, removing it.
+24/02/06 20:56:12 INFO Master: node0-link-1:43201 got disassociated, removing it.
+24/02/07 10:10:17 INFO Master: Registering app Page Rank Wiki Partition
+24/02/07 10:10:17 INFO Master: Registered app Page Rank Wiki Partition with ID app-20240207101017-0017
+24/02/07 10:10:17 INFO Master: Launching executor app-20240207101017-0017/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/07 10:10:17 INFO Master: Launching executor app-20240207101017-0017/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 10:10:17 INFO Master: Launching executor app-20240207101017-0017/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/07 10:13:25 INFO Master: Received unregister request from application app-20240207101017-0017
+24/02/07 10:13:25 INFO Master: Removing app app-20240207101017-0017
+24/02/07 10:13:26 INFO Master: 10.10.1.1:50988 got disassociated, removing it.
+24/02/07 10:13:26 INFO Master: node0-link-1:43291 got disassociated, removing it.
+24/02/07 10:13:26 WARN Master: Got status update for unknown executor app-20240207101017-0017/0
+24/02/07 10:13:27 WARN Master: Got status update for unknown executor app-20240207101017-0017/1
+24/02/07 10:13:27 WARN Master: Got status update for unknown executor app-20240207101017-0017/2
+24/02/07 10:15:00 INFO Master: Registering app Page Rank Wiki Partition
+24/02/07 10:15:00 INFO Master: Registered app Page Rank Wiki Partition with ID app-20240207101500-0018
+24/02/07 10:15:00 INFO Master: Launching executor app-20240207101500-0018/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/07 10:15:00 INFO Master: Launching executor app-20240207101500-0018/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 10:15:00 INFO Master: Launching executor app-20240207101500-0018/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/07 10:16:44 INFO Master: Received unregister request from application app-20240207101500-0018
+24/02/07 10:16:44 INFO Master: Removing app app-20240207101500-0018
+24/02/07 10:16:44 INFO Master: 10.10.1.1:46430 got disassociated, removing it.
+24/02/07 10:16:44 INFO Master: node0-link-1:46249 got disassociated, removing it.
+24/02/07 10:16:44 WARN Master: Got status update for unknown executor app-20240207101500-0018/1
+24/02/07 10:16:45 WARN Master: Got status update for unknown executor app-20240207101500-0018/0
+24/02/07 10:16:45 WARN Master: Got status update for unknown executor app-20240207101500-0018/2
+24/02/07 10:18:22 INFO Master: Registering app Page Rank Wiki Partition
+24/02/07 10:18:22 INFO Master: Registered app Page Rank Wiki Partition with ID app-20240207101822-0019
+24/02/07 10:18:22 INFO Master: Launching executor app-20240207101822-0019/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/07 10:18:22 INFO Master: Launching executor app-20240207101822-0019/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 10:18:22 INFO Master: Launching executor app-20240207101822-0019/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/07 10:18:25 INFO Master: Received unregister request from application app-20240207101822-0019
+24/02/07 10:18:25 INFO Master: Removing app app-20240207101822-0019
+24/02/07 10:18:25 WARN Master: Got status update for unknown executor app-20240207101822-0019/1
+24/02/07 10:18:25 WARN Master: Got status update for unknown executor app-20240207101822-0019/0
+24/02/07 10:18:25 WARN Master: Got status update for unknown executor app-20240207101822-0019/2
+24/02/07 10:18:25 INFO Master: 10.10.1.1:59386 got disassociated, removing it.
+24/02/07 10:18:25 INFO Master: node0-link-1:41989 got disassociated, removing it.
+24/02/07 10:23:06 INFO Master: Registering app Page Rank Wiki Partition
+24/02/07 10:23:06 INFO Master: Registered app Page Rank Wiki Partition with ID app-20240207102306-0020
+24/02/07 10:23:06 INFO Master: Launching executor app-20240207102306-0020/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/07 10:23:06 INFO Master: Launching executor app-20240207102306-0020/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 10:23:06 INFO Master: Launching executor app-20240207102306-0020/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/07 10:23:45 INFO Master: Received unregister request from application app-20240207102306-0020
+24/02/07 10:23:45 INFO Master: Removing app app-20240207102306-0020
+24/02/07 10:23:45 INFO Master: 10.10.1.1:45378 got disassociated, removing it.
+24/02/07 10:23:45 INFO Master: node0-link-1:37535 got disassociated, removing it.
+24/02/07 10:23:45 WARN Master: Got status update for unknown executor app-20240207102306-0020/1
+24/02/07 10:23:45 WARN Master: Got status update for unknown executor app-20240207102306-0020/0
+24/02/07 10:23:46 WARN Master: Got status update for unknown executor app-20240207102306-0020/2
+24/02/07 10:32:35 INFO Master: Registering app Page Rank Wiki
+24/02/07 10:32:35 INFO Master: Registered app Page Rank Wiki with ID app-20240207103235-0021
+24/02/07 10:32:35 INFO Master: Launching executor app-20240207103235-0021/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/07 10:32:35 INFO Master: Launching executor app-20240207103235-0021/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 10:32:35 INFO Master: Launching executor app-20240207103235-0021/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/07 10:35:49 INFO Master: Registering app Page Rank Wiki Partition
+24/02/07 10:35:49 INFO Master: Registered app Page Rank Wiki Partition with ID app-20240207103549-0022
+24/02/07 10:36:25 INFO Master: Registering app Page Rank Wiki Memory
+24/02/07 10:36:25 INFO Master: Registered app Page Rank Wiki Memory with ID app-20240207103625-0023
+24/02/07 10:42:35 INFO Master: Removing app app-20240207103235-0021
+24/02/07 10:42:35 INFO Master: Launching executor app-20240207103549-0022/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/07 10:42:35 INFO Master: Launching executor app-20240207103549-0022/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 10:42:35 INFO Master: Launching executor app-20240207103549-0022/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/07 10:42:35 INFO Master: 10.10.1.1:49672 got disassociated, removing it.
+24/02/07 10:42:35 INFO Master: node0-link-1:33535 got disassociated, removing it.
+24/02/07 10:42:36 WARN Master: Got status update for unknown executor app-20240207103235-0021/0
+24/02/07 10:42:36 WARN Master: Got status update for unknown executor app-20240207103235-0021/2
+24/02/07 10:42:37 WARN Master: Got status update for unknown executor app-20240207103235-0021/1
+24/02/07 10:43:46 INFO Master: Registering app Page Rank Wiki
+24/02/07 10:43:46 INFO Master: Registered app Page Rank Wiki with ID app-20240207104346-0024
+24/02/07 22:00:55 INFO Master: Removing executor app-20240207103549-0022/1 because it is EXITED
+24/02/07 22:00:55 INFO Master: Launching executor app-20240207103549-0022/3 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 22:06:15 INFO Master: Removing app app-20240207103549-0022
+24/02/07 22:06:15 INFO Master: Launching executor app-20240207103625-0023/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/07 22:06:15 INFO Master: Launching executor app-20240207103625-0023/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 22:06:15 INFO Master: Launching executor app-20240207103625-0023/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/07 22:06:17 WARN Master: Got status update for unknown executor app-20240207103549-0022/3
+24/02/07 22:06:18 INFO Master: 10.10.1.1:49466 got disassociated, removing it.
+24/02/07 22:06:18 INFO Master: node0-link-1:46197 got disassociated, removing it.
+24/02/07 22:06:18 INFO Master: Removing app app-20240207103625-0023
+24/02/07 22:06:18 INFO Master: Launching executor app-20240207104346-0024/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/07 22:06:18 INFO Master: Launching executor app-20240207104346-0024/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 22:06:18 INFO Master: Launching executor app-20240207104346-0024/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/07 22:06:18 WARN Master: Got status update for unknown executor app-20240207103625-0023/1
+24/02/07 22:06:18 WARN Master: Got status update for unknown executor app-20240207103625-0023/0
+24/02/07 22:06:19 INFO Master: 10.10.1.1:51390 got disassociated, removing it.
+24/02/07 22:06:19 INFO Master: node0-link-1:43777 got disassociated, removing it.
+24/02/07 22:06:21 WARN Master: Got status update for unknown executor app-20240207103549-0022/0
+24/02/07 22:06:22 INFO Master: Removing app app-20240207104346-0024
+24/02/07 22:06:22 WARN Master: Got status update for unknown executor app-20240207104346-0024/0
+24/02/07 22:06:22 WARN Master: Got status update for unknown executor app-20240207104346-0024/1
+24/02/07 22:06:22 INFO Master: 10.10.1.1:47838 got disassociated, removing it.
+24/02/07 22:06:22 INFO Master: node0-link-1:38191 got disassociated, removing it.
+24/02/07 22:06:23 WARN Master: Got status update for unknown executor app-20240207103549-0022/2
+24/02/07 22:06:23 WARN Master: Got status update for unknown executor app-20240207104346-0024/2
+24/02/07 22:06:23 WARN Master: Got status update for unknown executor app-20240207103625-0023/2
+24/02/07 22:06:23 WARN Master: Got status update for unknown executor app-20240207104346-0024/2
+24/02/07 22:06:23 WARN Master: Got status update for unknown executor app-20240207103625-0023/2
+24/02/07 22:07:31 INFO Master: Registering app Page Rank
+24/02/07 22:07:31 INFO Master: Registered app Page Rank with ID app-20240207220731-0025
+24/02/07 22:07:31 INFO Master: Launching executor app-20240207220731-0025/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/07 22:07:31 INFO Master: Launching executor app-20240207220731-0025/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 22:07:31 INFO Master: Launching executor app-20240207220731-0025/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/07 22:07:32 INFO Master: Received unregister request from application app-20240207220731-0025
+24/02/07 22:07:32 INFO Master: Removing app app-20240207220731-0025
+24/02/07 22:07:32 WARN Master: Got status update for unknown executor app-20240207220731-0025/1
+24/02/07 22:07:32 WARN Master: Got status update for unknown executor app-20240207220731-0025/2
+24/02/07 22:07:32 INFO Master: 10.10.1.1:51600 got disassociated, removing it.
+24/02/07 22:07:32 INFO Master: node0-link-1:32827 got disassociated, removing it.
+24/02/07 22:07:42 WARN Master: Got status update for unknown executor app-20240207220731-0025/0
+24/02/07 22:17:36 INFO Master: Registering app Page Rank Wiki
+24/02/07 22:17:36 INFO Master: Registered app Page Rank Wiki with ID app-20240207221736-0026
+24/02/07 22:17:36 INFO Master: Launching executor app-20240207221736-0026/0 on worker worker-20240206151244-10.10.1.2-36155
+24/02/07 22:17:36 INFO Master: Launching executor app-20240207221736-0026/1 on worker worker-20240206151227-10.10.1.1-40877
+24/02/07 22:17:36 INFO Master: Launching executor app-20240207221736-0026/2 on worker worker-20240206151245-10.10.1.3-38499
+24/02/07 22:18:07 INFO Master: Removing app app-20240207221736-0026
+24/02/07 22:18:07 WARN Master: Got status update for unknown executor app-20240207221736-0026/1
+24/02/07 22:18:07 INFO Master: 10.10.1.1:42836 got disassociated, removing it.
+24/02/07 22:18:07 INFO Master: node0-link-1:36311 got disassociated, removing it.
+24/02/07 22:18:07 WARN Master: Got status update for unknown executor app-20240207221736-0026/0
+24/02/07 22:18:07 WARN Master: Got status update for unknown executor app-20240207221736-0026/2

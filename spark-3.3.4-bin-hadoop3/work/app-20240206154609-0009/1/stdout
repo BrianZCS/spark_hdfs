@@ -1,0 +1,1199 @@
+24/02/06 15:46:12 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 21389@node0.group21.uwmadison744-s24-pg0.wisc.cloudlab.us
+24/02/06 15:46:12 INFO SignalUtils: Registering signal handler for TERM
+24/02/06 15:46:12 INFO SignalUtils: Registering signal handler for HUP
+24/02/06 15:46:12 INFO SignalUtils: Registering signal handler for INT
+24/02/06 15:46:12 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/02/06 15:46:13 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/06 15:46:13 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/06 15:46:13 INFO SecurityManager: Changing view acls groups to: 
+24/02/06 15:46:13 INFO SecurityManager: Changing modify acls groups to: 
+24/02/06 15:46:13 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/06 15:46:13 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:35915 after 150 ms (0 ms spent in bootstraps)
+24/02/06 15:46:13 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/06 15:46:13 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/06 15:46:13 INFO SecurityManager: Changing view acls groups to: 
+24/02/06 15:46:13 INFO SecurityManager: Changing modify acls groups to: 
+24/02/06 15:46:13 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/06 15:46:13 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:35915 after 12 ms (0 ms spent in bootstraps)
+24/02/06 15:46:14 INFO DiskBlockManager: Created local directory at /mnt/data/spark-eef96ae2-8c2a-4e70-b82a-88dd5007cc4d/executor-bc8e8adc-e80a-4624-a3e9-bfbda016cbdf/blockmgr-bd4003b2-d083-4d8b-99dc-1cbcc67ff5d3
+24/02/06 15:46:14 INFO MemoryStore: MemoryStore started with capacity 15.8 GiB
+24/02/06 15:46:14 INFO WorkerWatcher: Connecting to worker spark://Worker@10.10.1.1:40877
+24/02/06 15:46:14 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@node0-link-1:35915
+24/02/06 15:46:14 INFO TransportClientFactory: Successfully created connection to /10.10.1.1:40877 after 25 ms (0 ms spent in bootstraps)
+24/02/06 15:46:14 INFO WorkerWatcher: Successfully connected to spark://Worker@10.10.1.1:40877
+24/02/06 15:46:14 INFO ResourceUtils: ==============================================================
+24/02/06 15:46:14 INFO ResourceUtils: No custom resources configured for spark.executor.
+24/02/06 15:46:14 INFO ResourceUtils: ==============================================================
+24/02/06 15:46:14 INFO CoarseGrainedExecutorBackend: Successfully registered with driver
+24/02/06 15:46:14 INFO Executor: Starting executor ID 1 on host 10.10.1.1
+24/02/06 15:46:15 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45185.
+24/02/06 15:46:15 INFO NettyBlockTransferService: Server created on 10.10.1.1:45185
+24/02/06 15:46:15 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/02/06 15:46:15 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(1, 10.10.1.1, 45185, None)
+24/02/06 15:46:15 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(1, 10.10.1.1, 45185, None)
+24/02/06 15:46:15 INFO BlockManager: Initialized BlockManager: BlockManagerId(1, 10.10.1.1, 45185, None)
+24/02/06 15:46:15 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+24/02/06 15:46:23 INFO CoarseGrainedExecutorBackend: Got assigned task 1
+24/02/06 15:46:23 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+24/02/06 15:46:24 INFO TorrentBroadcast: Started reading broadcast variable 3 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:24 INFO TransportClientFactory: Successfully created connection to node0-link-1/10.10.1.1:42917 after 8 ms (0 ms spent in bootstraps)
+24/02/06 15:46:24 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:24 INFO TorrentBroadcast: Reading broadcast variable 3 took 191 ms
+24/02/06 15:46:24 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:26 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles10.xml-p2336425p3046511, range: 0-16014295, partition values: [empty row]
+24/02/06 15:46:26 INFO CodeGenerator: Code generated in 372.411416 ms
+24/02/06 15:46:26 INFO TorrentBroadcast: Started reading broadcast variable 2 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:26 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:26 INFO TorrentBroadcast: Reading broadcast variable 2 took 28 ms
+24/02/06 15:46:27 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:28 INFO PythonRunner: Times: total = 2836, boot = 593, init = 2242, finish = 1
+24/02/06 15:46:28 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1715 bytes result sent to driver
+24/02/06 15:46:33 INFO CoarseGrainedExecutorBackend: Got assigned task 4
+24/02/06 15:46:33 INFO Executor: Running task 0.0 in stage 4.0 (TID 4)
+24/02/06 15:46:33 INFO TorrentBroadcast: Started reading broadcast variable 9 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:34 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:34 INFO TorrentBroadcast: Reading broadcast variable 9 took 19 ms
+24/02/06 15:46:34 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:34 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles13.xml-p5040438p6197593, range: 0-17851138, partition values: [empty row]
+24/02/06 15:46:34 INFO TorrentBroadcast: Started reading broadcast variable 8 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:34 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:34 INFO TorrentBroadcast: Reading broadcast variable 8 took 24 ms
+24/02/06 15:46:34 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:34 INFO PythonRunner: Times: total = 113, boot = 26, init = 85, finish = 2
+24/02/06 15:46:34 INFO Executor: Finished task 0.0 in stage 4.0 (TID 4). 1686 bytes result sent to driver
+24/02/06 15:46:34 INFO CoarseGrainedExecutorBackend: Got assigned task 6
+24/02/06 15:46:34 INFO Executor: Running task 0.0 in stage 6.0 (TID 6)
+24/02/06 15:46:34 INFO TorrentBroadcast: Started reading broadcast variable 13 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:34 INFO MemoryStore: Block broadcast_13_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:34 INFO TorrentBroadcast: Reading broadcast variable 13 took 11 ms
+24/02/06 15:46:34 INFO MemoryStore: Block broadcast_13 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:34 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles14.xml-p7697599p7744799, range: 0-4194304, partition values: [empty row]
+24/02/06 15:46:34 INFO TorrentBroadcast: Started reading broadcast variable 12 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:34 INFO MemoryStore: Block broadcast_12_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:34 INFO TorrentBroadcast: Reading broadcast variable 12 took 18 ms
+24/02/06 15:46:34 INFO MemoryStore: Block broadcast_12 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:34 INFO PythonRunner: Times: total = 112, boot = 22, init = 89, finish = 1
+24/02/06 15:46:34 INFO Executor: Finished task 0.0 in stage 6.0 (TID 6). 1685 bytes result sent to driver
+24/02/06 15:46:35 INFO CoarseGrainedExecutorBackend: Got assigned task 8
+24/02/06 15:46:35 INFO Executor: Running task 0.0 in stage 8.0 (TID 8)
+24/02/06 15:46:35 INFO TorrentBroadcast: Started reading broadcast variable 17 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:35 INFO MemoryStore: Block broadcast_17_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:35 INFO TorrentBroadcast: Reading broadcast variable 17 took 11 ms
+24/02/06 15:46:35 INFO MemoryStore: Block broadcast_17 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:35 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles15.xml-p9244803p9518046, range: 0-4194304, partition values: [empty row]
+24/02/06 15:46:35 INFO TorrentBroadcast: Started reading broadcast variable 16 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:35 INFO MemoryStore: Block broadcast_16_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:35 INFO TorrentBroadcast: Reading broadcast variable 16 took 18 ms
+24/02/06 15:46:35 INFO MemoryStore: Block broadcast_16 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:35 INFO PythonRunner: Times: total = 82, boot = 24, init = 57, finish = 1
+24/02/06 15:46:35 INFO Executor: Finished task 0.0 in stage 8.0 (TID 8). 1675 bytes result sent to driver
+24/02/06 15:46:35 INFO CoarseGrainedExecutorBackend: Got assigned task 9
+24/02/06 15:46:35 INFO Executor: Running task 0.0 in stage 9.0 (TID 9)
+24/02/06 15:46:35 INFO TorrentBroadcast: Started reading broadcast variable 19 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:35 INFO MemoryStore: Block broadcast_19_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:35 INFO TorrentBroadcast: Reading broadcast variable 19 took 20 ms
+24/02/06 15:46:35 INFO MemoryStore: Block broadcast_19 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:35 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles16.xml-p11018059p11539266, range: 0-6260447, partition values: [empty row]
+24/02/06 15:46:35 INFO TorrentBroadcast: Started reading broadcast variable 18 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:35 INFO MemoryStore: Block broadcast_18_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:35 INFO TorrentBroadcast: Reading broadcast variable 18 took 16 ms
+24/02/06 15:46:35 INFO MemoryStore: Block broadcast_18 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:35 INFO PythonRunner: Times: total = 77, boot = 21, init = 55, finish = 1
+24/02/06 15:46:35 INFO Executor: Finished task 0.0 in stage 9.0 (TID 9). 1677 bytes result sent to driver
+24/02/06 15:46:37 INFO CoarseGrainedExecutorBackend: Got assigned task 12
+24/02/06 15:46:37 INFO Executor: Running task 0.0 in stage 12.0 (TID 12)
+24/02/06 15:46:37 INFO TorrentBroadcast: Started reading broadcast variable 25 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:37 INFO MemoryStore: Block broadcast_25_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:37 INFO TorrentBroadcast: Reading broadcast variable 25 took 15 ms
+24/02/06 15:46:37 INFO MemoryStore: Block broadcast_25 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:37 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles17.xml-p13039268p13693066, range: 0-9457608, partition values: [empty row]
+24/02/06 15:46:37 INFO TorrentBroadcast: Started reading broadcast variable 24 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:37 INFO MemoryStore: Block broadcast_24_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:37 INFO TorrentBroadcast: Reading broadcast variable 24 took 15 ms
+24/02/06 15:46:37 INFO MemoryStore: Block broadcast_24 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:37 INFO PythonRunner: Times: total = 89, boot = 23, init = 65, finish = 1
+24/02/06 15:46:37 INFO Executor: Finished task 0.0 in stage 12.0 (TID 12). 1694 bytes result sent to driver
+24/02/06 15:46:37 INFO CoarseGrainedExecutorBackend: Got assigned task 13
+24/02/06 15:46:37 INFO Executor: Running task 0.0 in stage 13.0 (TID 13)
+24/02/06 15:46:37 INFO TorrentBroadcast: Started reading broadcast variable 27 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:37 INFO MemoryStore: Block broadcast_27_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:37 INFO TorrentBroadcast: Reading broadcast variable 27 took 13 ms
+24/02/06 15:46:37 INFO MemoryStore: Block broadcast_27 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:37 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles18.xml-p15193075p16120541, range: 0-10608244, partition values: [empty row]
+24/02/06 15:46:37 INFO TorrentBroadcast: Started reading broadcast variable 26 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:37 INFO MemoryStore: Block broadcast_26_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:37 INFO TorrentBroadcast: Reading broadcast variable 26 took 15 ms
+24/02/06 15:46:37 INFO MemoryStore: Block broadcast_26 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:37 INFO PythonRunner: Times: total = 100, boot = 37, init = 62, finish = 1
+24/02/06 15:46:37 INFO Executor: Finished task 0.0 in stage 13.0 (TID 13). 1691 bytes result sent to driver
+24/02/06 15:46:38 INFO CoarseGrainedExecutorBackend: Got assigned task 16
+24/02/06 15:46:38 INFO Executor: Running task 0.0 in stage 16.0 (TID 16)
+24/02/06 15:46:38 INFO TorrentBroadcast: Started reading broadcast variable 33 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:38 INFO MemoryStore: Block broadcast_33_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:38 INFO TorrentBroadcast: Reading broadcast variable 33 took 11 ms
+24/02/06 15:46:38 INFO MemoryStore: Block broadcast_33 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:38 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles2.xml-p30304p88444, range: 0-8060474, partition values: [empty row]
+24/02/06 15:46:38 INFO TorrentBroadcast: Started reading broadcast variable 32 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:38 INFO MemoryStore: Block broadcast_32_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:38 INFO TorrentBroadcast: Reading broadcast variable 32 took 15 ms
+24/02/06 15:46:38 INFO MemoryStore: Block broadcast_32 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:38 INFO PythonRunner: Times: total = 109, boot = 41, init = 67, finish = 1
+24/02/06 15:46:38 INFO Executor: Finished task 0.0 in stage 16.0 (TID 16). 1685 bytes result sent to driver
+24/02/06 15:46:39 INFO CoarseGrainedExecutorBackend: Got assigned task 17
+24/02/06 15:46:39 INFO Executor: Running task 0.0 in stage 17.0 (TID 17)
+24/02/06 15:46:39 INFO TorrentBroadcast: Started reading broadcast variable 35 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:39 INFO MemoryStore: Block broadcast_35_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:39 INFO TorrentBroadcast: Reading broadcast variable 35 took 12 ms
+24/02/06 15:46:39 INFO MemoryStore: Block broadcast_35 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:39 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles20.xml-p18754736p20254736, range: 0-16881156, partition values: [empty row]
+24/02/06 15:46:39 INFO TorrentBroadcast: Started reading broadcast variable 34 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:39 INFO MemoryStore: Block broadcast_34_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:39 INFO TorrentBroadcast: Reading broadcast variable 34 took 17 ms
+24/02/06 15:46:39 INFO MemoryStore: Block broadcast_34 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:39 INFO PythonRunner: Times: total = 74, boot = 21, init = 51, finish = 2
+24/02/06 15:46:39 INFO Executor: Finished task 0.0 in stage 17.0 (TID 17). 1679 bytes result sent to driver
+24/02/06 15:46:40 INFO CoarseGrainedExecutorBackend: Got assigned task 21
+24/02/06 15:46:40 INFO Executor: Running task 0.0 in stage 21.0 (TID 21)
+24/02/06 15:46:40 INFO TorrentBroadcast: Started reading broadcast variable 43 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:40 INFO MemoryStore: Block broadcast_43_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:40 INFO TorrentBroadcast: Reading broadcast variable 43 took 18 ms
+24/02/06 15:46:40 INFO MemoryStore: Block broadcast_43 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:40 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles22.xml-p23927984p25427984, range: 0-19064025, partition values: [empty row]
+24/02/06 15:46:40 INFO TorrentBroadcast: Started reading broadcast variable 42 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:40 INFO MemoryStore: Block broadcast_42_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:40 INFO TorrentBroadcast: Reading broadcast variable 42 took 23 ms
+24/02/06 15:46:40 INFO MemoryStore: Block broadcast_42 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:40 INFO PythonRunner: Times: total = 116, boot = 25, init = 90, finish = 1
+24/02/06 15:46:40 INFO Executor: Finished task 0.0 in stage 21.0 (TID 21). 1675 bytes result sent to driver
+24/02/06 15:46:41 INFO CoarseGrainedExecutorBackend: Got assigned task 22
+24/02/06 15:46:41 INFO Executor: Running task 0.0 in stage 22.0 (TID 22)
+24/02/06 15:46:41 INFO TorrentBroadcast: Started reading broadcast variable 45 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:41 INFO MemoryStore: Block broadcast_45_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:41 INFO TorrentBroadcast: Reading broadcast variable 45 took 7 ms
+24/02/06 15:46:41 INFO MemoryStore: Block broadcast_45 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:41 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles22.xml-p25427984p26823658, range: 0-16474407, partition values: [empty row]
+24/02/06 15:46:41 INFO TorrentBroadcast: Started reading broadcast variable 44 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:41 INFO MemoryStore: Block broadcast_44_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:41 INFO TorrentBroadcast: Reading broadcast variable 44 took 13 ms
+24/02/06 15:46:41 INFO MemoryStore: Block broadcast_44 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:41 INFO PythonRunner: Times: total = 108, boot = 26, init = 81, finish = 1
+24/02/06 15:46:41 INFO Executor: Finished task 0.0 in stage 22.0 (TID 22). 1701 bytes result sent to driver
+24/02/06 15:46:42 INFO CoarseGrainedExecutorBackend: Got assigned task 26
+24/02/06 15:46:42 INFO Executor: Running task 0.0 in stage 26.0 (TID 26)
+24/02/06 15:46:42 INFO TorrentBroadcast: Started reading broadcast variable 53 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:42 INFO MemoryStore: Block broadcast_53_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:42 INFO TorrentBroadcast: Reading broadcast variable 53 took 15 ms
+24/02/06 15:46:42 INFO MemoryStore: Block broadcast_53 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:42 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles24.xml-p30503454p32003454, range: 0-4194304, partition values: [empty row]
+24/02/06 15:46:42 INFO TorrentBroadcast: Started reading broadcast variable 52 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:42 INFO MemoryStore: Block broadcast_52_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:42 INFO TorrentBroadcast: Reading broadcast variable 52 took 14 ms
+24/02/06 15:46:42 INFO MemoryStore: Block broadcast_52 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:42 INFO PythonRunner: Times: total = 103, boot = 22, init = 80, finish = 1
+24/02/06 15:46:42 INFO Executor: Finished task 0.0 in stage 26.0 (TID 26). 1675 bytes result sent to driver
+24/02/06 15:46:42 INFO CoarseGrainedExecutorBackend: Got assigned task 27
+24/02/06 15:46:42 INFO Executor: Running task 0.0 in stage 27.0 (TID 27)
+24/02/06 15:46:42 INFO TorrentBroadcast: Started reading broadcast variable 55 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:42 INFO MemoryStore: Block broadcast_55_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:42 INFO TorrentBroadcast: Reading broadcast variable 55 took 11 ms
+24/02/06 15:46:42 INFO MemoryStore: Block broadcast_55 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:42 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles24.xml-p32003454p33503454, range: 0-17462445, partition values: [empty row]
+24/02/06 15:46:42 INFO TorrentBroadcast: Started reading broadcast variable 54 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:42 INFO MemoryStore: Block broadcast_54_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:42 INFO TorrentBroadcast: Reading broadcast variable 54 took 13 ms
+24/02/06 15:46:42 INFO MemoryStore: Block broadcast_54 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:42 INFO PythonRunner: Times: total = 107, boot = 21, init = 84, finish = 2
+24/02/06 15:46:42 INFO Executor: Finished task 0.0 in stage 27.0 (TID 27). 1690 bytes result sent to driver
+24/02/06 15:46:42 INFO CoarseGrainedExecutorBackend: Got assigned task 28
+24/02/06 15:46:42 INFO Executor: Running task 0.0 in stage 28.0 (TID 28)
+24/02/06 15:46:42 INFO TorrentBroadcast: Started reading broadcast variable 57 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:42 INFO MemoryStore: Block broadcast_57_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:42 INFO TorrentBroadcast: Reading broadcast variable 57 took 8 ms
+24/02/06 15:46:42 INFO MemoryStore: Block broadcast_57 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:42 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles24.xml-p33503454p33952815, range: 0-5058909, partition values: [empty row]
+24/02/06 15:46:43 INFO TorrentBroadcast: Started reading broadcast variable 56 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:43 INFO MemoryStore: Block broadcast_56_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:43 INFO TorrentBroadcast: Reading broadcast variable 56 took 16 ms
+24/02/06 15:46:43 INFO MemoryStore: Block broadcast_56 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:43 INFO PythonRunner: Times: total = 132, boot = 33, init = 96, finish = 3
+24/02/06 15:46:43 INFO Executor: Finished task 0.0 in stage 28.0 (TID 28). 1691 bytes result sent to driver
+24/02/06 15:46:46 INFO CoarseGrainedExecutorBackend: Got assigned task 37
+24/02/06 15:46:46 INFO Executor: Running task 0.0 in stage 37.0 (TID 37)
+24/02/06 15:46:46 INFO TorrentBroadcast: Started reading broadcast variable 75 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:46 INFO MemoryStore: Block broadcast_75_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:46 INFO TorrentBroadcast: Reading broadcast variable 75 took 12 ms
+24/02/06 15:46:46 INFO MemoryStore: Block broadcast_75 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:46 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p44163464p45663464, range: 0-15266200, partition values: [empty row]
+24/02/06 15:46:46 INFO TorrentBroadcast: Started reading broadcast variable 74 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:46 INFO MemoryStore: Block broadcast_74_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:46 INFO TorrentBroadcast: Reading broadcast variable 74 took 13 ms
+24/02/06 15:46:46 INFO MemoryStore: Block broadcast_74 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:46 INFO PythonRunner: Times: total = 87, boot = 26, init = 59, finish = 2
+24/02/06 15:46:46 INFO Executor: Finished task 0.0 in stage 37.0 (TID 37). 1686 bytes result sent to driver
+24/02/06 15:46:46 INFO CoarseGrainedExecutorBackend: Got assigned task 38
+24/02/06 15:46:46 INFO Executor: Running task 0.0 in stage 38.0 (TID 38)
+24/02/06 15:46:46 INFO TorrentBroadcast: Started reading broadcast variable 77 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:46 INFO MemoryStore: Block broadcast_77_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:46 INFO TorrentBroadcast: Reading broadcast variable 77 took 6 ms
+24/02/06 15:46:46 INFO MemoryStore: Block broadcast_77 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:46 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p45663464p47163464, range: 0-13097344, partition values: [empty row]
+24/02/06 15:46:46 INFO TorrentBroadcast: Started reading broadcast variable 76 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:46 INFO MemoryStore: Block broadcast_76_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:46 INFO TorrentBroadcast: Reading broadcast variable 76 took 12 ms
+24/02/06 15:46:46 INFO MemoryStore: Block broadcast_76 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:46 INFO PythonRunner: Times: total = 98, boot = 21, init = 75, finish = 2
+24/02/06 15:46:46 INFO Executor: Finished task 0.0 in stage 38.0 (TID 38). 1697 bytes result sent to driver
+24/02/06 15:46:47 INFO CoarseGrainedExecutorBackend: Got assigned task 40
+24/02/06 15:46:47 INFO Executor: Running task 0.0 in stage 40.0 (TID 40)
+24/02/06 15:46:47 INFO TorrentBroadcast: Started reading broadcast variable 81 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:47 INFO MemoryStore: Block broadcast_81_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:47 INFO TorrentBroadcast: Reading broadcast variable 81 took 10 ms
+24/02/06 15:46:47 INFO MemoryStore: Block broadcast_81 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:47 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p48663464p50163464, range: 0-14539288, partition values: [empty row]
+24/02/06 15:46:47 INFO TorrentBroadcast: Started reading broadcast variable 80 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:47 INFO MemoryStore: Block broadcast_80_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:47 INFO TorrentBroadcast: Reading broadcast variable 80 took 12 ms
+24/02/06 15:46:47 INFO MemoryStore: Block broadcast_80 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:47 INFO PythonRunner: Times: total = 99, boot = 35, init = 62, finish = 2
+24/02/06 15:46:47 INFO Executor: Finished task 0.0 in stage 40.0 (TID 40). 1673 bytes result sent to driver
+24/02/06 15:46:47 INFO CoarseGrainedExecutorBackend: Got assigned task 41
+24/02/06 15:46:47 INFO Executor: Running task 0.0 in stage 41.0 (TID 41)
+24/02/06 15:46:47 INFO TorrentBroadcast: Started reading broadcast variable 83 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:47 INFO MemoryStore: Block broadcast_83_piece0 stored as bytes in memory (estimated size 8.4 KiB, free 15.8 GiB)
+24/02/06 15:46:47 INFO TorrentBroadcast: Reading broadcast variable 83 took 16 ms
+24/02/06 15:46:47 INFO MemoryStore: Block broadcast_83 stored as values in memory (estimated size 16.4 KiB, free 15.8 GiB)
+24/02/06 15:46:47 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p50163464p51663464, range: 0-15998064, partition values: [empty row]
+24/02/06 15:46:47 INFO TorrentBroadcast: Started reading broadcast variable 82 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:47 INFO MemoryStore: Block broadcast_82_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:47 INFO TorrentBroadcast: Reading broadcast variable 82 took 12 ms
+24/02/06 15:46:47 INFO MemoryStore: Block broadcast_82 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:47 INFO PythonRunner: Times: total = 93, boot = 25, init = 66, finish = 2
+24/02/06 15:46:47 INFO Executor: Finished task 0.0 in stage 41.0 (TID 41). 1684 bytes result sent to driver
+24/02/06 15:46:55 INFO CoarseGrainedExecutorBackend: Got assigned task 55
+24/02/06 15:46:55 INFO Executor: Running task 2.0 in stage 53.0 (TID 55)
+24/02/06 15:46:55 INFO CoarseGrainedExecutorBackend: Got assigned task 58
+24/02/06 15:46:55 INFO CoarseGrainedExecutorBackend: Got assigned task 61
+24/02/06 15:46:55 INFO CoarseGrainedExecutorBackend: Got assigned task 64
+24/02/06 15:46:55 INFO CoarseGrainedExecutorBackend: Got assigned task 67
+24/02/06 15:46:55 INFO TorrentBroadcast: Started reading broadcast variable 106 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:55 INFO Executor: Running task 5.0 in stage 53.0 (TID 58)
+24/02/06 15:46:55 INFO Executor: Running task 14.0 in stage 53.0 (TID 67)
+24/02/06 15:46:55 INFO Executor: Running task 11.0 in stage 53.0 (TID 64)
+24/02/06 15:46:55 INFO Executor: Running task 8.0 in stage 53.0 (TID 61)
+24/02/06 15:46:55 INFO MemoryStore: Block broadcast_106_piece0 stored as bytes in memory (estimated size 92.1 KiB, free 15.8 GiB)
+24/02/06 15:46:55 INFO TorrentBroadcast: Reading broadcast variable 106 took 31 ms
+24/02/06 15:46:55 INFO MemoryStore: Block broadcast_106 stored as values in memory (estimated size 467.4 KiB, free 15.8 GiB)
+24/02/06 15:46:55 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles1.xml-p10p30302, range: 12314218-18471327, partition values: [empty row]
+24/02/06 15:46:55 INFO TorrentBroadcast: Started reading broadcast variable 0 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:46:55 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles1.xml-p10p30302, range: 86199526-88162339, partition values: [empty row]
+24/02/06 15:46:55 INFO TransportClientFactory: Successfully created connection to /10.10.1.3:40411 after 37 ms (0 ms spent in bootstraps)
+24/02/06 15:46:55 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles1.xml-p10p30302, range: 49256872-55413981, partition values: [empty row]
+24/02/06 15:46:55 INFO CodeGenerator: Code generated in 49.079734 ms
+24/02/06 15:46:55 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles1.xml-p10p30302, range: 30785545-36942654, partition values: [empty row]
+24/02/06 15:46:55 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles1.xml-p10p30302, range: 67728199-73885308, partition values: [empty row]
+24/02/06 15:46:55 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.8 GiB)
+24/02/06 15:46:55 INFO TorrentBroadcast: Reading broadcast variable 0 took 163 ms
+24/02/06 15:46:55 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 527.6 KiB, free 15.8 GiB)
+24/02/06 15:46:58 INFO PythonRunner: Times: total = 2870, boot = 65, init = 194, finish = 2611
+24/02/06 15:46:59 INFO Executor: Finished task 14.0 in stage 53.0 (TID 67). 11089 bytes result sent to driver
+24/02/06 15:46:59 INFO CoarseGrainedExecutorBackend: Got assigned task 72
+24/02/06 15:46:59 INFO Executor: Running task 19.0 in stage 53.0 (TID 72)
+24/02/06 15:46:59 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles10.xml-p2336425p3046511, range: 64057180-80071475, partition values: [empty row]
+24/02/06 15:46:59 INFO CodeGenerator: Code generated in 88.747903 ms
+24/02/06 15:47:00 INFO PythonRunner: Times: total = 5083, boot = 90, init = 276, finish = 4717
+24/02/06 15:47:00 INFO PythonRunner: Times: total = 5155, boot = 144, init = 170, finish = 4841
+24/02/06 15:47:00 INFO PythonRunner: Times: total = 5283, boot = 32, init = 251, finish = 5000
+24/02/06 15:47:01 INFO PythonRunner: Times: total = 5633, boot = 118, init = 145, finish = 5370
+24/02/06 15:47:01 INFO Executor: Finished task 8.0 in stage 53.0 (TID 61). 11046 bytes result sent to driver
+24/02/06 15:47:01 INFO CoarseGrainedExecutorBackend: Got assigned task 79
+24/02/06 15:47:01 INFO Executor: Running task 26.0 in stage 53.0 (TID 79)
+24/02/06 15:47:01 INFO Executor: Finished task 11.0 in stage 53.0 (TID 64). 11046 bytes result sent to driver
+24/02/06 15:47:01 INFO CoarseGrainedExecutorBackend: Got assigned task 80
+24/02/06 15:47:01 INFO Executor: Running task 27.0 in stage 53.0 (TID 80)
+24/02/06 15:47:01 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles10.xml-p2336425p3046511, range: 192171540-208185835, partition values: [empty row]
+24/02/06 15:47:01 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles10.xml-p2336425p3046511, range: 176157245-192171540, partition values: [empty row]
+24/02/06 15:47:01 INFO Executor: Finished task 2.0 in stage 53.0 (TID 55). 11046 bytes result sent to driver
+24/02/06 15:47:01 INFO CoarseGrainedExecutorBackend: Got assigned task 81
+24/02/06 15:47:01 INFO Executor: Running task 28.0 in stage 53.0 (TID 81)
+24/02/06 15:47:01 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles10.xml-p2336425p3046511, range: 208185835-224200130, partition values: [empty row]
+24/02/06 15:47:02 INFO Executor: Finished task 5.0 in stage 53.0 (TID 58). 11046 bytes result sent to driver
+24/02/06 15:47:02 INFO CoarseGrainedExecutorBackend: Got assigned task 82
+24/02/06 15:47:02 INFO Executor: Running task 29.0 in stage 53.0 (TID 82)
+24/02/06 15:47:02 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles10.xml-p2336425p3046511, range: 224200130-236020129, partition values: [empty row]
+24/02/06 15:47:07 INFO PythonRunner: Times: total = 7496, boot = -1118, init = 1296, finish = 7318
+24/02/06 15:47:07 INFO PythonRunner: Times: total = 5023, boot = -937, init = 1280, finish = 4680
+24/02/06 15:47:08 INFO Executor: Finished task 29.0 in stage 53.0 (TID 82). 11046 bytes result sent to driver
+24/02/06 15:47:08 INFO CoarseGrainedExecutorBackend: Got assigned task 93
+24/02/06 15:47:08 INFO Executor: Running task 40.0 in stage 53.0 (TID 93)
+24/02/06 15:47:08 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles11.xml-p3046517p3926861, range: 171433270-188576597, partition values: [empty row]
+24/02/06 15:47:08 INFO TorrentBroadcast: Started reading broadcast variable 4 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:47:08 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:47:08 INFO TorrentBroadcast: Reading broadcast variable 4 took 46 ms
+24/02/06 15:47:08 INFO CodeGenerator: Code generated in 30.294855 ms
+24/02/06 15:47:08 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:47:08 INFO PythonRunner: Times: total = 6860, boot = -679, init = 759, finish = 6780
+24/02/06 15:47:08 INFO Executor: Finished task 19.0 in stage 53.0 (TID 72). 11046 bytes result sent to driver
+24/02/06 15:47:08 INFO CoarseGrainedExecutorBackend: Got assigned task 94
+24/02/06 15:47:08 INFO Executor: Running task 41.0 in stage 53.0 (TID 94)
+24/02/06 15:47:08 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles11.xml-p3046517p3926861, range: 188576597-205719924, partition values: [empty row]
+24/02/06 15:47:08 INFO PythonRunner: Times: total = 6953, boot = -1002, init = 1077, finish = 6878
+24/02/06 15:47:08 INFO PythonRunner: Times: total = 7429, boot = -745, init = 813, finish = 7361
+24/02/06 15:47:09 INFO Executor: Finished task 26.0 in stage 53.0 (TID 79). 11046 bytes result sent to driver
+24/02/06 15:47:09 INFO CoarseGrainedExecutorBackend: Got assigned task 95
+24/02/06 15:47:09 INFO Executor: Running task 42.0 in stage 53.0 (TID 95)
+24/02/06 15:47:10 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles11.xml-p3046517p3926861, range: 205719924-222863251, partition values: [empty row]
+24/02/06 15:47:10 INFO Executor: Finished task 27.0 in stage 53.0 (TID 80). 11046 bytes result sent to driver
+24/02/06 15:47:10 INFO CoarseGrainedExecutorBackend: Got assigned task 96
+24/02/06 15:47:10 INFO Executor: Running task 43.0 in stage 53.0 (TID 96)
+24/02/06 15:47:10 INFO Executor: Finished task 28.0 in stage 53.0 (TID 81). 11046 bytes result sent to driver
+24/02/06 15:47:10 INFO CoarseGrainedExecutorBackend: Got assigned task 97
+24/02/06 15:47:10 INFO Executor: Running task 44.0 in stage 53.0 (TID 97)
+24/02/06 15:47:10 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles11.xml-p3046517p3926861, range: 222863251-240006578, partition values: [empty row]
+24/02/06 15:47:10 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles11.xml-p3046517p3926861, range: 240006578-252955612, partition values: [empty row]
+24/02/06 15:47:14 INFO PythonRunner: Times: total = 6463, boot = -845, init = 960, finish = 6348
+24/02/06 15:47:15 INFO Executor: Finished task 40.0 in stage 53.0 (TID 93). 11046 bytes result sent to driver
+24/02/06 15:47:15 INFO CoarseGrainedExecutorBackend: Got assigned task 108
+24/02/06 15:47:15 INFO Executor: Running task 55.0 in stage 53.0 (TID 108)
+24/02/06 15:47:15 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles12.xml-p3926864p5040435, range: 180634030-198697433, partition values: [empty row]
+24/02/06 15:47:15 INFO TorrentBroadcast: Started reading broadcast variable 6 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:47:15 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:47:15 INFO TorrentBroadcast: Reading broadcast variable 6 took 28 ms
+24/02/06 15:47:15 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:47:15 INFO CodeGenerator: Code generated in 35.424886 ms
+24/02/06 15:47:16 INFO PythonRunner: Times: total = 7246, boot = -1467, init = 1530, finish = 7183
+24/02/06 15:47:16 INFO PythonRunner: Times: total = 6154, boot = -1813, init = 1899, finish = 6068
+24/02/06 15:47:17 INFO Executor: Finished task 41.0 in stage 53.0 (TID 94). 11046 bytes result sent to driver
+24/02/06 15:47:17 INFO CoarseGrainedExecutorBackend: Got assigned task 109
+24/02/06 15:47:17 INFO Executor: Running task 56.0 in stage 53.0 (TID 109)
+24/02/06 15:47:17 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles12.xml-p3926864p5040435, range: 198697433-216760836, partition values: [empty row]
+24/02/06 15:47:17 INFO PythonRunner: Times: total = 7232, boot = -1620, init = 1735, finish = 7117
+24/02/06 15:47:17 INFO PythonRunner: Times: total = 6786, boot = -1798, init = 1902, finish = 6682
+24/02/06 15:47:18 INFO Executor: Finished task 44.0 in stage 53.0 (TID 97). 11046 bytes result sent to driver
+24/02/06 15:47:18 INFO CoarseGrainedExecutorBackend: Got assigned task 113
+24/02/06 15:47:18 INFO Executor: Running task 60.0 in stage 53.0 (TID 113)
+24/02/06 15:47:18 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles13.xml-p5040438p6197593, range: 0-17851138, partition values: [empty row]
+24/02/06 15:47:18 INFO CodeGenerator: Code generated in 68.278091 ms
+24/02/06 15:47:18 INFO Executor: Finished task 42.0 in stage 53.0 (TID 95). 11046 bytes result sent to driver
+24/02/06 15:47:18 INFO CoarseGrainedExecutorBackend: Got assigned task 114
+24/02/06 15:47:18 INFO Executor: Running task 61.0 in stage 53.0 (TID 114)
+24/02/06 15:47:19 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles13.xml-p5040438p6197593, range: 17851138-35702276, partition values: [empty row]
+24/02/06 15:47:19 INFO Executor: Finished task 43.0 in stage 53.0 (TID 96). 11046 bytes result sent to driver
+24/02/06 15:47:19 INFO CoarseGrainedExecutorBackend: Got assigned task 116
+24/02/06 15:47:19 INFO Executor: Running task 63.0 in stage 53.0 (TID 116)
+24/02/06 15:47:19 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles13.xml-p5040438p6197593, range: 53553414-71404552, partition values: [empty row]
+24/02/06 15:47:22 INFO PythonRunner: Times: total = 7138, boot = -1163, init = 1250, finish = 7051
+24/02/06 15:47:23 INFO Executor: Finished task 55.0 in stage 53.0 (TID 108). 11046 bytes result sent to driver
+24/02/06 15:47:23 INFO CoarseGrainedExecutorBackend: Got assigned task 124
+24/02/06 15:47:23 INFO Executor: Running task 71.0 in stage 53.0 (TID 124)
+24/02/06 15:47:23 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles13.xml-p5040438p6197593, range: 196362518-214213656, partition values: [empty row]
+24/02/06 15:47:24 INFO PythonRunner: Times: total = 7269, boot = -1065, init = 1116, finish = 7218
+24/02/06 15:47:26 INFO Executor: Finished task 56.0 in stage 53.0 (TID 109). 11046 bytes result sent to driver
+24/02/06 15:47:26 INFO CoarseGrainedExecutorBackend: Got assigned task 130
+24/02/06 15:47:26 INFO Executor: Running task 77.0 in stage 53.0 (TID 130)
+24/02/06 15:47:26 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles14.xml-p6197599p7697599, range: 37351596-56027394, partition values: [empty row]
+24/02/06 15:47:26 INFO TorrentBroadcast: Started reading broadcast variable 10 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:47:26 INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:47:26 INFO TorrentBroadcast: Reading broadcast variable 10 took 27 ms
+24/02/06 15:47:26 INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:47:26 INFO CodeGenerator: Code generated in 14.139107 ms
+24/02/06 15:47:26 INFO PythonRunner: Times: total = 7458, boot = -1753, init = 1853, finish = 7358
+24/02/06 15:47:26 INFO PythonRunner: Times: total = 8788, boot = -1218, init = 1353, finish = 8653
+24/02/06 15:47:27 INFO PythonRunner: Times: total = 8004, boot = -1698, init = 1809, finish = 7893
+24/02/06 15:47:27 INFO Executor: Finished task 61.0 in stage 53.0 (TID 114). 11046 bytes result sent to driver
+24/02/06 15:47:27 INFO CoarseGrainedExecutorBackend: Got assigned task 133
+24/02/06 15:47:27 INFO Executor: Running task 80.0 in stage 53.0 (TID 133)
+24/02/06 15:47:27 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles14.xml-p6197599p7697599, range: 93378990-112054788, partition values: [empty row]
+24/02/06 15:47:28 INFO Executor: Finished task 60.0 in stage 53.0 (TID 113). 11046 bytes result sent to driver
+24/02/06 15:47:28 INFO CoarseGrainedExecutorBackend: Got assigned task 135
+24/02/06 15:47:28 INFO Executor: Running task 82.0 in stage 53.0 (TID 135)
+24/02/06 15:47:28 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles14.xml-p6197599p7697599, range: 130730586-149406384, partition values: [empty row]
+24/02/06 15:47:28 INFO Executor: Finished task 63.0 in stage 53.0 (TID 116). 11046 bytes result sent to driver
+24/02/06 15:47:28 INFO CoarseGrainedExecutorBackend: Got assigned task 136
+24/02/06 15:47:28 INFO Executor: Running task 83.0 in stage 53.0 (TID 136)
+24/02/06 15:47:28 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles14.xml-p6197599p7697599, range: 149406384-168082182, partition values: [empty row]
+24/02/06 15:47:30 INFO PythonRunner: Times: total = 6802, boot = -1060, init = 1110, finish = 6752
+24/02/06 15:47:32 INFO Executor: Finished task 71.0 in stage 53.0 (TID 124). 11046 bytes result sent to driver
+24/02/06 15:47:32 INFO CoarseGrainedExecutorBackend: Got assigned task 144
+24/02/06 15:47:32 INFO Executor: Running task 91.0 in stage 53.0 (TID 144)
+24/02/06 15:47:32 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles14.xml-p7697599p7744799, range: 4194304-7744827, partition values: [empty row]
+24/02/06 15:47:33 INFO CodeGenerator: Code generated in 18.989122 ms
+24/02/06 15:47:34 INFO PythonRunner: Times: total = 8438, boot = -1661, init = 1727, finish = 8372
+24/02/06 15:47:34 INFO PythonRunner: Times: total = 1618, boot = -2164, init = 2206, finish = 1576
+24/02/06 15:47:34 INFO Executor: Finished task 91.0 in stage 53.0 (TID 144). 11003 bytes result sent to driver
+24/02/06 15:47:34 INFO CoarseGrainedExecutorBackend: Got assigned task 148
+24/02/06 15:47:34 INFO Executor: Running task 95.0 in stage 53.0 (TID 148)
+24/02/06 15:47:34 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles15.xml-p7744803p9244803, range: 52274577-69699436, partition values: [empty row]
+24/02/06 15:47:34 INFO TorrentBroadcast: Started reading broadcast variable 14 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:47:34 INFO MemoryStore: Block broadcast_14_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:47:34 INFO TorrentBroadcast: Reading broadcast variable 14 took 39 ms
+24/02/06 15:47:34 INFO MemoryStore: Block broadcast_14 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:47:34 INFO CodeGenerator: Code generated in 30.344074 ms
+24/02/06 15:47:35 INFO Executor: Finished task 77.0 in stage 53.0 (TID 130). 11046 bytes result sent to driver
+24/02/06 15:47:35 INFO CoarseGrainedExecutorBackend: Got assigned task 153
+24/02/06 15:47:35 INFO Executor: Running task 100.0 in stage 53.0 (TID 153)
+24/02/06 15:47:35 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles15.xml-p7744803p9244803, range: 139398872-156823731, partition values: [empty row]
+24/02/06 15:47:36 INFO PythonRunner: Times: total = 7822, boot = -1251, init = 1318, finish = 7755
+24/02/06 15:47:36 INFO PythonRunner: Times: total = 8111, boot = -1099, init = 1163, finish = 8047
+24/02/06 15:47:36 INFO PythonRunner: Times: total = 8707, boot = -1329, init = 1384, finish = 8652
+24/02/06 15:47:37 INFO Executor: Finished task 82.0 in stage 53.0 (TID 135). 11046 bytes result sent to driver
+24/02/06 15:47:37 INFO CoarseGrainedExecutorBackend: Got assigned task 157
+24/02/06 15:47:37 INFO Executor: Running task 104.0 in stage 53.0 (TID 157)
+24/02/06 15:47:37 INFO Executor: Finished task 83.0 in stage 53.0 (TID 136). 11046 bytes result sent to driver
+24/02/06 15:47:37 INFO CoarseGrainedExecutorBackend: Got assigned task 158
+24/02/06 15:47:37 INFO Executor: Running task 105.0 in stage 53.0 (TID 158)
+24/02/06 15:47:37 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles15.xml-p7744803p9244803, range: 209098308-226523167, partition values: [empty row]
+24/02/06 15:47:37 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles15.xml-p7744803p9244803, range: 226523167-243948026, partition values: [empty row]
+24/02/06 15:47:37 INFO Executor: Finished task 80.0 in stage 53.0 (TID 133). 11046 bytes result sent to driver
+24/02/06 15:47:37 INFO CoarseGrainedExecutorBackend: Got assigned task 159
+24/02/06 15:47:37 INFO Executor: Running task 106.0 in stage 53.0 (TID 159)
+24/02/06 15:47:37 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles15.xml-p7744803p9244803, range: 243948026-257178594, partition values: [empty row]
+24/02/06 15:47:41 INFO PythonRunner: Times: total = 7060, boot = -319, init = 408, finish = 6971
+24/02/06 15:47:42 INFO PythonRunner: Times: total = 6250, boot = -1338, init = 1408, finish = 6180
+24/02/06 15:47:42 INFO PythonRunner: Times: total = 4979, boot = -1135, init = 1287, finish = 4827
+24/02/06 15:47:43 INFO Executor: Finished task 100.0 in stage 53.0 (TID 153). 11046 bytes result sent to driver
+24/02/06 15:47:43 INFO CoarseGrainedExecutorBackend: Got assigned task 179
+24/02/06 15:47:43 INFO Executor: Running task 126.0 in stage 53.0 (TID 179)
+24/02/06 15:47:43 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles16.xml-p11018059p11539266, range: 50083576-56344023, partition values: [empty row]
+24/02/06 15:47:43 INFO CodeGenerator: Code generated in 24.107529 ms
+24/02/06 15:47:43 INFO Executor: Finished task 95.0 in stage 53.0 (TID 148). 11046 bytes result sent to driver
+24/02/06 15:47:43 INFO CoarseGrainedExecutorBackend: Got assigned task 180
+24/02/06 15:47:43 INFO Executor: Running task 127.0 in stage 53.0 (TID 180)
+24/02/06 15:47:43 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles16.xml-p11018059p11539266, range: 56344023-62604470, partition values: [empty row]
+24/02/06 15:47:43 INFO Executor: Finished task 106.0 in stage 53.0 (TID 159). 11046 bytes result sent to driver
+24/02/06 15:47:43 INFO CoarseGrainedExecutorBackend: Got assigned task 183
+24/02/06 15:47:43 INFO Executor: Running task 130.0 in stage 53.0 (TID 183)
+24/02/06 15:47:43 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles16.xml-p11018059p11539266, range: 75125364-81385811, partition values: [empty row]
+24/02/06 15:47:44 INFO PythonRunner: Times: total = 6678, boot = -1477, init = 1583, finish = 6572
+24/02/06 15:47:44 INFO PythonRunner: Times: total = 6918, boot = -1152, init = 1220, finish = 6850
+24/02/06 15:47:45 INFO Executor: Finished task 105.0 in stage 53.0 (TID 158). 11046 bytes result sent to driver
+24/02/06 15:47:45 INFO CoarseGrainedExecutorBackend: Got assigned task 194
+24/02/06 15:47:45 INFO Executor: Running task 141.0 in stage 53.0 (TID 194)
+24/02/06 15:47:45 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles16.xml-p9518059p11018059, range: 123908552-139397121, partition values: [empty row]
+24/02/06 15:47:45 INFO TorrentBroadcast: Started reading broadcast variable 20 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:47:45 INFO CodeGenerator: Code generated in 17.071203 ms
+24/02/06 15:47:45 INFO TransportClientFactory: Successfully created connection to /10.10.1.2:46071 after 45 ms (0 ms spent in bootstraps)
+24/02/06 15:47:45 INFO Executor: Finished task 104.0 in stage 53.0 (TID 157). 11046 bytes result sent to driver
+24/02/06 15:47:45 INFO CoarseGrainedExecutorBackend: Got assigned task 195
+24/02/06 15:47:45 INFO Executor: Running task 142.0 in stage 53.0 (TID 195)
+24/02/06 15:47:45 INFO MemoryStore: Block broadcast_20_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.6 GiB)
+24/02/06 15:47:45 INFO TorrentBroadcast: Reading broadcast variable 20 took 85 ms
+24/02/06 15:47:45 INFO MemoryStore: Block broadcast_20 stored as values in memory (estimated size 527.6 KiB, free 15.6 GiB)
+24/02/06 15:47:45 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles16.xml-p9518059p11018059, range: 139397121-154885690, partition values: [empty row]
+24/02/06 15:47:45 INFO PythonRunner: Times: total = 2296, boot = -1130, init = 1191, finish = 2235
+24/02/06 15:47:45 INFO PythonRunner: Times: total = 2490, boot = -1253, init = 1294, finish = 2449
+24/02/06 15:47:45 INFO PythonRunner: Times: total = 2140, boot = -1085, init = 1129, finish = 2096
+24/02/06 15:47:46 INFO Executor: Finished task 126.0 in stage 53.0 (TID 179). 11003 bytes result sent to driver
+24/02/06 15:47:46 INFO CoarseGrainedExecutorBackend: Got assigned task 197
+24/02/06 15:47:46 INFO Executor: Running task 144.0 in stage 53.0 (TID 197)
+24/02/06 15:47:46 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles16.xml-p9518059p11018059, range: 170374259-185862828, partition values: [empty row]
+24/02/06 15:47:46 INFO Executor: Finished task 127.0 in stage 53.0 (TID 180). 11003 bytes result sent to driver
+24/02/06 15:47:46 INFO CoarseGrainedExecutorBackend: Got assigned task 198
+24/02/06 15:47:46 INFO Executor: Running task 145.0 in stage 53.0 (TID 198)
+24/02/06 15:47:46 INFO Executor: Finished task 130.0 in stage 53.0 (TID 183). 11003 bytes result sent to driver
+24/02/06 15:47:46 INFO CoarseGrainedExecutorBackend: Got assigned task 199
+24/02/06 15:47:46 INFO Executor: Running task 146.0 in stage 53.0 (TID 199)
+24/02/06 15:47:46 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles16.xml-p9518059p11018059, range: 185862828-201351397, partition values: [empty row]
+24/02/06 15:47:46 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles16.xml-p9518059p11018059, range: 201351397-216839966, partition values: [empty row]
+24/02/06 15:47:52 INFO PythonRunner: Times: total = 6817, boot = -1093, init = 1148, finish = 6762
+24/02/06 15:47:52 INFO PythonRunner: Times: total = 6966, boot = -1248, init = 1373, finish = 6841
+24/02/06 15:47:52 INFO PythonRunner: Times: total = 6341, boot = -425, init = 502, finish = 6264
+24/02/06 15:47:52 INFO PythonRunner: Times: total = 6555, boot = -614, init = 659, finish = 6510
+24/02/06 15:47:53 INFO Executor: Finished task 142.0 in stage 53.0 (TID 195). 11046 bytes result sent to driver
+24/02/06 15:47:53 INFO CoarseGrainedExecutorBackend: Got assigned task 211
+24/02/06 15:47:53 INFO Executor: Running task 158.0 in stage 53.0 (TID 211)
+24/02/06 15:47:53 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles17.xml-p11539268p13039268, range: 203346750-223681425, partition values: [empty row]
+24/02/06 15:47:53 INFO TorrentBroadcast: Started reading broadcast variable 22 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:47:53 INFO MemoryStore: Block broadcast_22_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:47:53 INFO TorrentBroadcast: Reading broadcast variable 22 took 26 ms
+24/02/06 15:47:53 INFO CodeGenerator: Code generated in 33.811601 ms
+24/02/06 15:47:53 INFO MemoryStore: Block broadcast_22 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:47:53 INFO PythonRunner: Times: total = 7084, boot = -584, init = 648, finish = 7020
+24/02/06 15:47:53 INFO Executor: Finished task 141.0 in stage 53.0 (TID 194). 11046 bytes result sent to driver
+24/02/06 15:47:53 INFO CoarseGrainedExecutorBackend: Got assigned task 212
+24/02/06 15:47:53 INFO Executor: Running task 159.0 in stage 53.0 (TID 212)
+24/02/06 15:47:53 INFO Executor: Finished task 146.0 in stage 53.0 (TID 199). 11046 bytes result sent to driver
+24/02/06 15:47:53 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles17.xml-p11539268p13039268, range: 223681425-244016100, partition values: [empty row]
+24/02/06 15:47:53 INFO CoarseGrainedExecutorBackend: Got assigned task 213
+24/02/06 15:47:53 INFO Executor: Running task 160.0 in stage 53.0 (TID 213)
+24/02/06 15:47:53 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles17.xml-p11539268p13039268, range: 244016100-264350775, partition values: [empty row]
+24/02/06 15:47:54 INFO Executor: Finished task 145.0 in stage 53.0 (TID 198). 11046 bytes result sent to driver
+24/02/06 15:47:54 INFO CoarseGrainedExecutorBackend: Got assigned task 214
+24/02/06 15:47:54 INFO Executor: Running task 161.0 in stage 53.0 (TID 214)
+24/02/06 15:47:54 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles17.xml-p11539268p13039268, range: 264350775-284685450, partition values: [empty row]
+24/02/06 15:47:55 INFO Executor: Finished task 144.0 in stage 53.0 (TID 197). 11046 bytes result sent to driver
+24/02/06 15:47:55 INFO CoarseGrainedExecutorBackend: Got assigned task 215
+24/02/06 15:47:55 INFO Executor: Running task 162.0 in stage 53.0 (TID 215)
+24/02/06 15:47:55 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles17.xml-p11539268p13039268, range: 284685450-300825835, partition values: [empty row]
+24/02/06 15:48:00 INFO PythonRunner: Times: total = 6946, boot = -1216, init = 1294, finish = 6868
+24/02/06 15:48:01 INFO PythonRunner: Times: total = 7875, boot = -763, init = 873, finish = 7765
+24/02/06 15:48:01 INFO PythonRunner: Times: total = 7615, boot = -1200, init = 1253, finish = 7562
+24/02/06 15:48:01 INFO PythonRunner: Times: total = 6525, boot = -1873, init = 1918, finish = 6480
+24/02/06 15:48:01 INFO Executor: Finished task 159.0 in stage 53.0 (TID 212). 11046 bytes result sent to driver
+24/02/06 15:48:01 INFO CoarseGrainedExecutorBackend: Got assigned task 239
+24/02/06 15:48:01 INFO Executor: Running task 186.0 in stage 53.0 (TID 239)
+24/02/06 15:48:01 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles18.xml-p15193075p16120541, range: 84865952-95474196, partition values: [empty row]
+24/02/06 15:48:01 INFO CodeGenerator: Code generated in 22.853822 ms
+24/02/06 15:48:02 INFO PythonRunner: Times: total = 8467, boot = -962, init = 1053, finish = 8376
+24/02/06 15:48:02 INFO Executor: Finished task 158.0 in stage 53.0 (TID 211). 11046 bytes result sent to driver
+24/02/06 15:48:02 INFO CoarseGrainedExecutorBackend: Got assigned task 240
+24/02/06 15:48:02 INFO Executor: Running task 187.0 in stage 53.0 (TID 240)
+24/02/06 15:48:02 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles18.xml-p15193075p16120541, range: 95474196-106082440, partition values: [empty row]
+24/02/06 15:48:03 INFO Executor: Finished task 162.0 in stage 53.0 (TID 215). 11046 bytes result sent to driver
+24/02/06 15:48:03 INFO CoarseGrainedExecutorBackend: Got assigned task 243
+24/02/06 15:48:03 INFO Executor: Running task 190.0 in stage 53.0 (TID 243)
+24/02/06 15:48:03 INFO Executor: Finished task 161.0 in stage 53.0 (TID 214). 11046 bytes result sent to driver
+24/02/06 15:48:03 INFO CoarseGrainedExecutorBackend: Got assigned task 244
+24/02/06 15:48:03 INFO Executor: Running task 191.0 in stage 53.0 (TID 244)
+24/02/06 15:48:03 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles18.xml-p15193075p16120541, range: 137907172-148515416, partition values: [empty row]
+24/02/06 15:48:03 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles18.xml-p15193075p16120541, range: 127298928-137907172, partition values: [empty row]
+24/02/06 15:48:03 INFO Executor: Finished task 160.0 in stage 53.0 (TID 213). 11046 bytes result sent to driver
+24/02/06 15:48:03 INFO CoarseGrainedExecutorBackend: Got assigned task 246
+24/02/06 15:48:03 INFO Executor: Running task 193.0 in stage 53.0 (TID 246)
+24/02/06 15:48:03 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles19.xml-p16120548p17620548, range: 0-15324500, partition values: [empty row]
+24/02/06 15:48:03 INFO TorrentBroadcast: Started reading broadcast variable 28 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:48:03 INFO MemoryStore: Block broadcast_28_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.6 GiB)
+24/02/06 15:48:03 INFO TorrentBroadcast: Reading broadcast variable 28 took 36 ms
+24/02/06 15:48:03 INFO MemoryStore: Block broadcast_28 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:48:03 INFO CodeGenerator: Code generated in 62.707652 ms
+24/02/06 15:48:05 INFO PythonRunner: Times: total = 3621, boot = -1237, init = 1311, finish = 3547
+24/02/06 15:48:06 INFO Executor: Finished task 186.0 in stage 53.0 (TID 239). 11003 bytes result sent to driver
+24/02/06 15:48:06 INFO CoarseGrainedExecutorBackend: Got assigned task 257
+24/02/06 15:48:06 INFO Executor: Running task 204.0 in stage 53.0 (TID 257)
+24/02/06 15:48:06 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles19.xml-p16120548p17620548, range: 168569500-183894000, partition values: [empty row]
+24/02/06 15:48:06 INFO PythonRunner: Times: total = 4040, boot = -1123, init = 1176, finish = 3987
+24/02/06 15:48:06 INFO PythonRunner: Times: total = 3737, boot = -1360, init = 1438, finish = 3659
+24/02/06 15:48:07 INFO Executor: Finished task 187.0 in stage 53.0 (TID 240). 11003 bytes result sent to driver
+24/02/06 15:48:07 INFO CoarseGrainedExecutorBackend: Got assigned task 258
+24/02/06 15:48:07 INFO Executor: Running task 205.0 in stage 53.0 (TID 258)
+24/02/06 15:48:07 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles19.xml-p16120548p17620548, range: 183894000-199218500, partition values: [empty row]
+24/02/06 15:48:07 INFO PythonRunner: Times: total = 4112, boot = -1370, init = 1412, finish = 4070
+24/02/06 15:48:07 INFO Executor: Finished task 190.0 in stage 53.0 (TID 243). 11003 bytes result sent to driver
+24/02/06 15:48:07 INFO CoarseGrainedExecutorBackend: Got assigned task 259
+24/02/06 15:48:07 INFO Executor: Running task 206.0 in stage 53.0 (TID 259)
+24/02/06 15:48:07 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles19.xml-p16120548p17620548, range: 199218500-214543000, partition values: [empty row]
+24/02/06 15:48:08 INFO Executor: Finished task 191.0 in stage 53.0 (TID 244). 11003 bytes result sent to driver
+24/02/06 15:48:08 INFO CoarseGrainedExecutorBackend: Got assigned task 260
+24/02/06 15:48:08 INFO Executor: Running task 207.0 in stage 53.0 (TID 260)
+24/02/06 15:48:08 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles19.xml-p16120548p17620548, range: 214543000-225673210, partition values: [empty row]
+24/02/06 15:48:10 INFO PythonRunner: Times: total = 6564, boot = -1492, init = 1579, finish = 6477
+24/02/06 15:48:11 INFO Executor: Finished task 193.0 in stage 53.0 (TID 246). 11046 bytes result sent to driver
+24/02/06 15:48:11 INFO CoarseGrainedExecutorBackend: Got assigned task 271
+24/02/06 15:48:11 INFO Executor: Running task 218.0 in stage 53.0 (TID 271)
+24/02/06 15:48:12 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles19.xml-p17620548p18754723, range: 133373850-146711235, partition values: [empty row]
+24/02/06 15:48:12 INFO TorrentBroadcast: Started reading broadcast variable 30 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:48:12 INFO MemoryStore: Block broadcast_30_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:48:12 INFO TorrentBroadcast: Reading broadcast variable 30 took 37 ms
+24/02/06 15:48:12 INFO MemoryStore: Block broadcast_30 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:48:12 INFO CodeGenerator: Code generated in 40.005851 ms
+24/02/06 15:48:12 INFO PythonRunner: Times: total = 6582, boot = -584, init = 629, finish = 6537
+24/02/06 15:48:13 INFO PythonRunner: Times: total = 4936, boot = -914, init = 970, finish = 4880
+24/02/06 15:48:13 INFO Executor: Finished task 204.0 in stage 53.0 (TID 257). 11046 bytes result sent to driver
+24/02/06 15:48:13 INFO CoarseGrainedExecutorBackend: Got assigned task 275
+24/02/06 15:48:13 INFO Executor: Running task 222.0 in stage 53.0 (TID 275)
+24/02/06 15:48:13 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles19.xml-p17620548p18754723, range: 186723390-195866473, partition values: [empty row]
+24/02/06 15:48:13 INFO Executor: Finished task 207.0 in stage 53.0 (TID 260). 11046 bytes result sent to driver
+24/02/06 15:48:13 INFO CoarseGrainedExecutorBackend: Got assigned task 276
+24/02/06 15:48:13 INFO Executor: Running task 223.0 in stage 53.0 (TID 276)
+24/02/06 15:48:13 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles2.xml-p30304p88444, range: 0-8060474, partition values: [empty row]
+24/02/06 15:48:14 INFO PythonRunner: Times: total = 6827, boot = -798, init = 846, finish = 6779
+24/02/06 15:48:14 INFO CodeGenerator: Code generated in 41.204813 ms
+24/02/06 15:48:14 INFO PythonRunner: Times: total = 6862, boot = -715, init = 759, finish = 6818
+24/02/06 15:48:15 INFO Executor: Finished task 205.0 in stage 53.0 (TID 258). 11046 bytes result sent to driver
+24/02/06 15:48:15 INFO CoarseGrainedExecutorBackend: Got assigned task 282
+24/02/06 15:48:15 INFO Executor: Running task 229.0 in stage 53.0 (TID 282)
+24/02/06 15:48:15 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles2.xml-p30304p88444, range: 48362844-56423318, partition values: [empty row]
+24/02/06 15:48:15 INFO Executor: Finished task 206.0 in stage 53.0 (TID 259). 11046 bytes result sent to driver
+24/02/06 15:48:15 INFO CoarseGrainedExecutorBackend: Got assigned task 284
+24/02/06 15:48:15 INFO Executor: Running task 231.0 in stage 53.0 (TID 284)
+24/02/06 15:48:15 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles2.xml-p30304p88444, range: 64483792-72544266, partition values: [empty row]
+24/02/06 15:48:16 INFO PythonRunner: Times: total = 4621, boot = -1694, init = 1783, finish = 4532
+24/02/06 15:48:16 INFO PythonRunner: Times: total = 2937, boot = -809, init = 871, finish = 2875
+24/02/06 15:48:16 INFO PythonRunner: Times: total = 3224, boot = -1019, init = 1078, finish = 3165
+24/02/06 15:48:17 INFO Executor: Finished task 223.0 in stage 53.0 (TID 276). 11003 bytes result sent to driver
+24/02/06 15:48:17 INFO CoarseGrainedExecutorBackend: Got assigned task 291
+24/02/06 15:48:17 INFO Executor: Running task 238.0 in stage 53.0 (TID 291)
+24/02/06 15:48:17 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles20.xml-p18754736p20254736, range: 0-16881156, partition values: [empty row]
+24/02/06 15:48:17 INFO CodeGenerator: Code generated in 40.022165 ms
+24/02/06 15:48:17 INFO Executor: Finished task 218.0 in stage 53.0 (TID 271). 11003 bytes result sent to driver
+24/02/06 15:48:17 INFO CoarseGrainedExecutorBackend: Got assigned task 293
+24/02/06 15:48:17 INFO Executor: Running task 240.0 in stage 53.0 (TID 293)
+24/02/06 15:48:17 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles20.xml-p18754736p20254736, range: 33762312-50643468, partition values: [empty row]
+24/02/06 15:48:17 INFO Executor: Finished task 222.0 in stage 53.0 (TID 275). 11003 bytes result sent to driver
+24/02/06 15:48:17 INFO CoarseGrainedExecutorBackend: Got assigned task 294
+24/02/06 15:48:17 INFO Executor: Running task 241.0 in stage 53.0 (TID 294)
+24/02/06 15:48:17 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles20.xml-p18754736p20254736, range: 50643468-67524624, partition values: [empty row]
+24/02/06 15:48:18 INFO PythonRunner: Times: total = 3077, boot = -1040, init = 1120, finish = 2997
+24/02/06 15:48:19 INFO PythonRunner: Times: total = 3739, boot = -1405, init = 1460, finish = 3684
+24/02/06 15:48:19 INFO Executor: Finished task 231.0 in stage 53.0 (TID 284). 11003 bytes result sent to driver
+24/02/06 15:48:19 INFO CoarseGrainedExecutorBackend: Got assigned task 301
+24/02/06 15:48:19 INFO Executor: Running task 248.0 in stage 53.0 (TID 301)
+24/02/06 15:48:19 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles20.xml-p18754736p20254736, range: 168811560-185692716, partition values: [empty row]
+24/02/06 15:48:19 INFO Executor: Finished task 229.0 in stage 53.0 (TID 282). 11003 bytes result sent to driver
+24/02/06 15:48:19 INFO CoarseGrainedExecutorBackend: Got assigned task 303
+24/02/06 15:48:19 INFO Executor: Running task 250.0 in stage 53.0 (TID 303)
+24/02/06 15:48:19 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles20.xml-p18754736p20254736, range: 202573872-219455028, partition values: [empty row]
+24/02/06 15:48:24 INFO PythonRunner: Times: total = 6823, boot = -744, init = 781, finish = 6786
+24/02/06 15:48:24 INFO PythonRunner: Times: total = 6924, boot = -609, init = 658, finish = 6875
+24/02/06 15:48:25 INFO Executor: Finished task 238.0 in stage 53.0 (TID 291). 11046 bytes result sent to driver
+24/02/06 15:48:25 INFO CoarseGrainedExecutorBackend: Got assigned task 316
+24/02/06 15:48:25 INFO Executor: Running task 263.0 in stage 53.0 (TID 316)
+24/02/06 15:48:25 INFO PythonRunner: Times: total = 7507, boot = -677, init = 705, finish = 7479
+24/02/06 15:48:25 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles20.xml-p20254736p21222156, range: 108551390-119406529, partition values: [empty row]
+24/02/06 15:48:25 INFO TorrentBroadcast: Started reading broadcast variable 36 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:48:25 INFO MemoryStore: Block broadcast_36_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:48:25 INFO CodeGenerator: Code generated in 13.353452 ms
+24/02/06 15:48:25 INFO TorrentBroadcast: Reading broadcast variable 36 took 30 ms
+24/02/06 15:48:25 INFO MemoryStore: Block broadcast_36 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:48:25 INFO PythonRunner: Times: total = 6008, boot = -676, init = 710, finish = 5974
+24/02/06 15:48:25 INFO Executor: Finished task 240.0 in stage 53.0 (TID 293). 11046 bytes result sent to driver
+24/02/06 15:48:25 INFO CoarseGrainedExecutorBackend: Got assigned task 317
+24/02/06 15:48:25 INFO Executor: Running task 264.0 in stage 53.0 (TID 317)
+24/02/06 15:48:25 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles20.xml-p20254736p21222156, range: 119406529-130261668, partition values: [empty row]
+24/02/06 15:48:26 INFO PythonRunner: Times: total = 6469, boot = -708, init = 752, finish = 6425
+24/02/06 15:48:26 INFO Executor: Finished task 248.0 in stage 53.0 (TID 301). 11046 bytes result sent to driver
+24/02/06 15:48:26 INFO CoarseGrainedExecutorBackend: Got assigned task 319
+24/02/06 15:48:26 INFO Executor: Running task 266.0 in stage 53.0 (TID 319)
+24/02/06 15:48:26 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles20.xml-p20254736p21222156, range: 141116807-151971946, partition values: [empty row]
+24/02/06 15:48:26 INFO Executor: Finished task 241.0 in stage 53.0 (TID 294). 11046 bytes result sent to driver
+24/02/06 15:48:26 INFO CoarseGrainedExecutorBackend: Got assigned task 322
+24/02/06 15:48:26 INFO Executor: Running task 269.0 in stage 53.0 (TID 322)
+24/02/06 15:48:26 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles21.xml-p21222161p22722161, range: 18045032-36090064, partition values: [empty row]
+24/02/06 15:48:26 INFO TorrentBroadcast: Started reading broadcast variable 38 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:48:26 INFO MemoryStore: Block broadcast_38_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:48:26 INFO TorrentBroadcast: Reading broadcast variable 38 took 29 ms
+24/02/06 15:48:26 INFO MemoryStore: Block broadcast_38 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:48:26 INFO CodeGenerator: Code generated in 38.265653 ms
+24/02/06 15:48:27 INFO Executor: Finished task 250.0 in stage 53.0 (TID 303). 11046 bytes result sent to driver
+24/02/06 15:48:27 INFO CoarseGrainedExecutorBackend: Got assigned task 328
+24/02/06 15:48:27 INFO Executor: Running task 275.0 in stage 53.0 (TID 328)
+24/02/06 15:48:27 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles21.xml-p21222161p22722161, range: 126315224-144360256, partition values: [empty row]
+24/02/06 15:48:28 INFO PythonRunner: Times: total = 3304, boot = -938, init = 1028, finish = 3214
+24/02/06 15:48:29 INFO Executor: Finished task 263.0 in stage 53.0 (TID 316). 11003 bytes result sent to driver
+24/02/06 15:48:29 INFO CoarseGrainedExecutorBackend: Got assigned task 332
+24/02/06 15:48:29 INFO Executor: Running task 279.0 in stage 53.0 (TID 332)
+24/02/06 15:48:29 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles21.xml-p21222161p22722161, range: 198495352-216540384, partition values: [empty row]
+24/02/06 15:48:29 INFO PythonRunner: Times: total = 3942, boot = -1034, init = 1077, finish = 3899
+24/02/06 15:48:30 INFO Executor: Finished task 264.0 in stage 53.0 (TID 317). 11003 bytes result sent to driver
+24/02/06 15:48:30 INFO CoarseGrainedExecutorBackend: Got assigned task 334
+24/02/06 15:48:30 INFO Executor: Running task 281.0 in stage 53.0 (TID 334)
+24/02/06 15:48:30 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles21.xml-p21222161p22722161, range: 234585416-252630448, partition values: [empty row]
+24/02/06 15:48:30 INFO PythonRunner: Times: total = 4018, boot = -1203, init = 1247, finish = 3974
+24/02/06 15:48:31 INFO Executor: Finished task 266.0 in stage 53.0 (TID 319). 11003 bytes result sent to driver
+24/02/06 15:48:31 INFO CoarseGrainedExecutorBackend: Got assigned task 335
+24/02/06 15:48:31 INFO Executor: Running task 282.0 in stage 53.0 (TID 335)
+24/02/06 15:48:31 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles21.xml-p21222161p22722161, range: 252630448-266481179, partition values: [empty row]
+24/02/06 15:48:32 INFO PythonRunner: Times: total = 6134, boot = -1389, init = 1451, finish = 6072
+24/02/06 15:48:34 INFO Executor: Finished task 269.0 in stage 53.0 (TID 322). 11003 bytes result sent to driver
+24/02/06 15:48:34 INFO CoarseGrainedExecutorBackend: Got assigned task 344
+24/02/06 15:48:34 INFO Executor: Running task 291.0 in stage 53.0 (TID 344)
+24/02/06 15:48:34 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles21.xml-p22722161p23927980, range: 126429744-142233462, partition values: [empty row]
+24/02/06 15:48:34 INFO TorrentBroadcast: Started reading broadcast variable 40 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:48:34 INFO MemoryStore: Block broadcast_40_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:48:34 INFO TorrentBroadcast: Reading broadcast variable 40 took 35 ms
+24/02/06 15:48:34 INFO MemoryStore: Block broadcast_40 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:48:34 INFO CodeGenerator: Code generated in 98.601138 ms
+24/02/06 15:48:34 INFO PythonRunner: Times: total = 6741, boot = -1511, init = 1571, finish = 6681
+24/02/06 15:48:36 INFO PythonRunner: Times: total = 6771, boot = -787, init = 819, finish = 6739
+24/02/06 15:48:36 INFO Executor: Finished task 275.0 in stage 53.0 (TID 328). 11003 bytes result sent to driver
+24/02/06 15:48:36 INFO CoarseGrainedExecutorBackend: Got assigned task 347
+24/02/06 15:48:36 INFO Executor: Running task 294.0 in stage 53.0 (TID 347)
+24/02/06 15:48:36 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles21.xml-p22722161p23927980, range: 173840898-189644616, partition values: [empty row]
+24/02/06 15:48:36 INFO PythonRunner: Times: total = 5313, boot = -858, init = 899, finish = 5272
+24/02/06 15:48:36 INFO PythonRunner: Times: total = 6330, boot = -854, init = 885, finish = 6299
+24/02/06 15:48:37 INFO Executor: Finished task 279.0 in stage 53.0 (TID 332). 11003 bytes result sent to driver
+24/02/06 15:48:37 INFO CoarseGrainedExecutorBackend: Got assigned task 349
+24/02/06 15:48:37 INFO Executor: Running task 296.0 in stage 53.0 (TID 349)
+24/02/06 15:48:37 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles21.xml-p22722161p23927980, range: 205448334-221252052, partition values: [empty row]
+24/02/06 15:48:37 INFO Executor: Finished task 282.0 in stage 53.0 (TID 335). 11046 bytes result sent to driver
+24/02/06 15:48:38 INFO CoarseGrainedExecutorBackend: Got assigned task 353
+24/02/06 15:48:38 INFO Executor: Running task 300.0 in stage 53.0 (TID 353)
+24/02/06 15:48:38 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles22.xml-p23927984p25427984, range: 38128050-57192075, partition values: [empty row]
+24/02/06 15:48:38 INFO CodeGenerator: Code generated in 23.890476 ms
+24/02/06 15:48:38 INFO Executor: Finished task 281.0 in stage 53.0 (TID 334). 11046 bytes result sent to driver
+24/02/06 15:48:38 INFO CoarseGrainedExecutorBackend: Got assigned task 356
+24/02/06 15:48:38 INFO Executor: Running task 303.0 in stage 53.0 (TID 356)
+24/02/06 15:48:38 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles22.xml-p23927984p25427984, range: 95320125-114384150, partition values: [empty row]
+24/02/06 15:48:40 INFO PythonRunner: Times: total = 5925, boot = -1387, init = 1512, finish = 5800
+24/02/06 15:48:41 INFO Executor: Finished task 291.0 in stage 53.0 (TID 344). 11046 bytes result sent to driver
+24/02/06 15:48:41 INFO CoarseGrainedExecutorBackend: Got assigned task 362
+24/02/06 15:48:41 INFO Executor: Running task 309.0 in stage 53.0 (TID 362)
+24/02/06 15:48:41 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles22.xml-p23927984p25427984, range: 209704275-228768300, partition values: [empty row]
+24/02/06 15:48:42 INFO PythonRunner: Times: total = 6356, boot = -1588, init = 1616, finish = 6328
+24/02/06 15:48:43 INFO Executor: Finished task 294.0 in stage 53.0 (TID 347). 11046 bytes result sent to driver
+24/02/06 15:48:43 INFO CoarseGrainedExecutorBackend: Got assigned task 364
+24/02/06 15:48:43 INFO Executor: Running task 311.0 in stage 53.0 (TID 364)
+24/02/06 15:48:43 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles22.xml-p23927984p25427984, range: 247832325-266896350, partition values: [empty row]
+24/02/06 15:48:43 INFO PythonRunner: Times: total = 6703, boot = -1066, init = 1115, finish = 6654
+24/02/06 15:48:44 INFO PythonRunner: Times: total = 6262, boot = -1802, init = 1828, finish = 6236
+24/02/06 15:48:44 INFO Executor: Finished task 296.0 in stage 53.0 (TID 349). 11046 bytes result sent to driver
+24/02/06 15:48:44 INFO CoarseGrainedExecutorBackend: Got assigned task 371
+24/02/06 15:48:44 INFO Executor: Running task 318.0 in stage 53.0 (TID 371)
+24/02/06 15:48:44 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles22.xml-p25427984p26823658, range: 82372035-98846442, partition values: [empty row]
+24/02/06 15:48:44 INFO CodeGenerator: Code generated in 26.006339 ms
+24/02/06 15:48:45 INFO PythonRunner: Times: total = 7252, boot = -1373, init = 1407, finish = 7218
+24/02/06 15:48:46 INFO Executor: Finished task 303.0 in stage 53.0 (TID 356). 11003 bytes result sent to driver
+24/02/06 15:48:46 INFO CoarseGrainedExecutorBackend: Got assigned task 374
+24/02/06 15:48:46 INFO Executor: Running task 321.0 in stage 53.0 (TID 374)
+24/02/06 15:48:46 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles22.xml-p25427984p26823658, range: 131795256-148269663, partition values: [empty row]
+24/02/06 15:48:46 INFO Executor: Finished task 300.0 in stage 53.0 (TID 353). 11003 bytes result sent to driver
+24/02/06 15:48:46 INFO CoarseGrainedExecutorBackend: Got assigned task 375
+24/02/06 15:48:46 INFO Executor: Running task 322.0 in stage 53.0 (TID 375)
+24/02/06 15:48:46 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles22.xml-p25427984p26823658, range: 148269663-164744070, partition values: [empty row]
+24/02/06 15:48:48 INFO PythonRunner: Times: total = 6762, boot = -1021, init = 1054, finish = 6729
+24/02/06 15:48:49 INFO Executor: Finished task 309.0 in stage 53.0 (TID 362). 11003 bytes result sent to driver
+24/02/06 15:48:49 INFO CoarseGrainedExecutorBackend: Got assigned task 382
+24/02/06 15:48:49 INFO Executor: Running task 329.0 in stage 53.0 (TID 382)
+24/02/06 15:48:49 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p26823661p28323661, range: 17822279-35644558, partition values: [empty row]
+24/02/06 15:48:49 INFO TorrentBroadcast: Started reading broadcast variable 46 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:48:49 INFO CodeGenerator: Code generated in 15.738527 ms
+24/02/06 15:48:49 INFO MemoryStore: Block broadcast_46_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:48:49 INFO TorrentBroadcast: Reading broadcast variable 46 took 54 ms
+24/02/06 15:48:49 INFO MemoryStore: Block broadcast_46 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:48:50 INFO PythonRunner: Times: total = 6657, boot = -936, init = 976, finish = 6617
+24/02/06 15:48:50 INFO PythonRunner: Times: total = 5675, boot = -928, init = 971, finish = 5632
+24/02/06 15:48:51 INFO Executor: Finished task 318.0 in stage 53.0 (TID 371). 11046 bytes result sent to driver
+24/02/06 15:48:51 INFO CoarseGrainedExecutorBackend: Got assigned task 387
+24/02/06 15:48:51 INFO Executor: Running task 334.0 in stage 53.0 (TID 387)
+24/02/06 15:48:51 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p26823661p28323661, range: 106933674-124755953, partition values: [empty row]
+24/02/06 15:48:51 INFO Executor: Finished task 311.0 in stage 53.0 (TID 364). 11089 bytes result sent to driver
+24/02/06 15:48:51 INFO CoarseGrainedExecutorBackend: Got assigned task 388
+24/02/06 15:48:51 INFO Executor: Running task 335.0 in stage 53.0 (TID 388)
+24/02/06 15:48:51 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p26823661p28323661, range: 124755953-142578232, partition values: [empty row]
+24/02/06 15:48:52 INFO PythonRunner: Times: total = 6330, boot = -1413, init = 1446, finish = 6297
+24/02/06 15:48:53 INFO PythonRunner: Times: total = 6756, boot = -1270, init = 1346, finish = 6680
+24/02/06 15:48:53 INFO Executor: Finished task 321.0 in stage 53.0 (TID 374). 11046 bytes result sent to driver
+24/02/06 15:48:53 INFO CoarseGrainedExecutorBackend: Got assigned task 393
+24/02/06 15:48:53 INFO Executor: Running task 340.0 in stage 53.0 (TID 393)
+24/02/06 15:48:53 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p26823661p28323661, range: 213867348-231689627, partition values: [empty row]
+24/02/06 15:48:54 INFO Executor: Finished task 322.0 in stage 53.0 (TID 375). 11046 bytes result sent to driver
+24/02/06 15:48:54 INFO CoarseGrainedExecutorBackend: Got assigned task 394
+24/02/06 15:48:54 INFO Executor: Running task 341.0 in stage 53.0 (TID 394)
+24/02/06 15:48:54 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p26823661p28323661, range: 231689627-249511906, partition values: [empty row]
+24/02/06 15:48:56 INFO PythonRunner: Times: total = 6769, boot = -1473, init = 1614, finish = 6628
+24/02/06 15:48:57 INFO PythonRunner: Times: total = 6273, boot = -1149, init = 1193, finish = 6229
+24/02/06 15:48:57 INFO Executor: Finished task 329.0 in stage 53.0 (TID 382). 11046 bytes result sent to driver
+24/02/06 15:48:57 INFO CoarseGrainedExecutorBackend: Got assigned task 403
+24/02/06 15:48:57 INFO Executor: Running task 350.0 in stage 53.0 (TID 403)
+24/02/06 15:48:57 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p28323661p29823661, range: 99059611-113210984, partition values: [empty row]
+24/02/06 15:48:57 INFO TorrentBroadcast: Started reading broadcast variable 48 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:48:57 INFO CodeGenerator: Code generated in 28.69685 ms
+24/02/06 15:48:57 INFO MemoryStore: Block broadcast_48_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:48:57 INFO TorrentBroadcast: Reading broadcast variable 48 took 54 ms
+24/02/06 15:48:57 INFO MemoryStore: Block broadcast_48 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:48:59 INFO Executor: Finished task 334.0 in stage 53.0 (TID 387). 11003 bytes result sent to driver
+24/02/06 15:48:59 INFO CoarseGrainedExecutorBackend: Got assigned task 407
+24/02/06 15:48:59 INFO Executor: Running task 354.0 in stage 53.0 (TID 407)
+24/02/06 15:48:59 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p28323661p29823661, range: 155665103-169816476, partition values: [empty row]
+24/02/06 15:49:01 INFO PythonRunner: Times: total = 9839, boot = -918, init = 948, finish = 9809
+24/02/06 15:49:02 INFO PythonRunner: Times: total = 8581, boot = -990, init = 1045, finish = 8526
+24/02/06 15:49:02 INFO Executor: Finished task 335.0 in stage 53.0 (TID 388). 11046 bytes result sent to driver
+24/02/06 15:49:02 INFO CoarseGrainedExecutorBackend: Got assigned task 416
+24/02/06 15:49:02 INFO Executor: Running task 363.0 in stage 53.0 (TID 416)
+24/02/06 15:49:02 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p29823661p30503448, range: 40675365-48810438, partition values: [empty row]
+24/02/06 15:49:02 INFO TorrentBroadcast: Started reading broadcast variable 50 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:49:02 INFO MemoryStore: Block broadcast_50_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:49:02 INFO CodeGenerator: Code generated in 23.998644 ms
+24/02/06 15:49:02 INFO TorrentBroadcast: Reading broadcast variable 50 took 56 ms
+24/02/06 15:49:02 INFO MemoryStore: Block broadcast_50 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:49:02 INFO PythonRunner: Times: total = 8122, boot = -1176, init = 1197, finish = 8101
+24/02/06 15:49:03 INFO Executor: Finished task 340.0 in stage 53.0 (TID 393). 11003 bytes result sent to driver
+24/02/06 15:49:03 INFO CoarseGrainedExecutorBackend: Got assigned task 422
+24/02/06 15:49:03 INFO Executor: Running task 369.0 in stage 53.0 (TID 422)
+24/02/06 15:49:03 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p29823661p30503448, range: 89485803-97620876, partition values: [empty row]
+24/02/06 15:49:04 INFO Executor: Finished task 341.0 in stage 53.0 (TID 394). 11003 bytes result sent to driver
+24/02/06 15:49:04 INFO CoarseGrainedExecutorBackend: Got assigned task 425
+24/02/06 15:49:04 INFO Executor: Running task 372.0 in stage 53.0 (TID 425)
+24/02/06 15:49:04 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles23.xml-p29823661p30503448, range: 113891022-117831798, partition values: [empty row]
+24/02/06 15:49:04 INFO PythonRunner: Times: total = 6683, boot = -1551, init = 1669, finish = 6565
+24/02/06 15:49:04 INFO PythonRunner: Times: total = 5537, boot = -1658, init = 1750, finish = 5445
+24/02/06 15:49:05 INFO Executor: Finished task 350.0 in stage 53.0 (TID 403). 11003 bytes result sent to driver
+24/02/06 15:49:05 INFO CoarseGrainedExecutorBackend: Got assigned task 430
+24/02/06 15:49:05 INFO Executor: Running task 377.0 in stage 53.0 (TID 430)
+24/02/06 15:49:05 INFO PythonRunner: Times: total = 2857, boot = -1105, init = 1193, finish = 2769
+24/02/06 15:49:05 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles24.xml-p30503454p32003454, range: 16777216-16859136, partition values: [empty row]
+24/02/06 15:49:05 INFO CodeGenerator: Code generated in 40.441563 ms
+24/02/06 15:49:05 INFO PythonRunner: Times: total = 41, boot = -712, init = 739, finish = 14
+24/02/06 15:49:05 INFO Executor: Finished task 377.0 in stage 53.0 (TID 430). 11003 bytes result sent to driver
+24/02/06 15:49:05 INFO CoarseGrainedExecutorBackend: Got assigned task 432
+24/02/06 15:49:05 INFO Executor: Running task 379.0 in stage 53.0 (TID 432)
+24/02/06 15:49:05 INFO PythonRunner: Times: total = 1275, boot = -1501, init = 1531, finish = 1245
+24/02/06 15:49:05 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles24.xml-p32003454p33503454, range: 17462445-34924890, partition values: [empty row]
+24/02/06 15:49:05 INFO CodeGenerator: Code generated in 31.769318 ms
+24/02/06 15:49:05 INFO PythonRunner: Times: total = 2036, boot = -1309, init = 1328, finish = 2017
+24/02/06 15:49:05 INFO Executor: Finished task 354.0 in stage 53.0 (TID 407). 11003 bytes result sent to driver
+24/02/06 15:49:05 INFO Executor: Finished task 372.0 in stage 53.0 (TID 425). 11003 bytes result sent to driver
+24/02/06 15:49:05 INFO CoarseGrainedExecutorBackend: Got assigned task 438
+24/02/06 15:49:05 INFO CoarseGrainedExecutorBackend: Got assigned task 439
+24/02/06 15:49:05 INFO Executor: Running task 385.0 in stage 53.0 (TID 438)
+24/02/06 15:49:05 INFO Executor: Running task 386.0 in stage 53.0 (TID 439)
+24/02/06 15:49:05 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles24.xml-p32003454p33503454, range: 122237115-139699560, partition values: [empty row]
+24/02/06 15:49:05 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles24.xml-p32003454p33503454, range: 139699560-157162005, partition values: [empty row]
+24/02/06 15:49:05 INFO Executor: Finished task 369.0 in stage 53.0 (TID 422). 11003 bytes result sent to driver
+24/02/06 15:49:05 INFO CoarseGrainedExecutorBackend: Got assigned task 440
+24/02/06 15:49:05 INFO Executor: Running task 387.0 in stage 53.0 (TID 440)
+24/02/06 15:49:05 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles24.xml-p32003454p33503454, range: 157162005-174624450, partition values: [empty row]
+24/02/06 15:49:06 INFO Executor: Finished task 363.0 in stage 53.0 (TID 416). 11003 bytes result sent to driver
+24/02/06 15:49:06 INFO CoarseGrainedExecutorBackend: Got assigned task 442
+24/02/06 15:49:06 INFO Executor: Running task 389.0 in stage 53.0 (TID 442)
+24/02/06 15:49:06 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles24.xml-p32003454p33503454, range: 192086895-209549340, partition values: [empty row]
+24/02/06 15:49:12 INFO PythonRunner: Times: total = 6261, boot = -352, init = 384, finish = 6229
+24/02/06 15:49:12 INFO PythonRunner: Times: total = 6337, boot = -424, init = 446, finish = 6315
+24/02/06 15:49:12 INFO PythonRunner: Times: total = 6373, boot = -314, init = 376, finish = 6311
+24/02/06 15:49:12 INFO PythonRunner: Times: total = 6237, boot = -530, init = 569, finish = 6198
+24/02/06 15:49:12 INFO PythonRunner: Times: total = 7048, boot = -522, init = 544, finish = 7026
+24/02/06 15:49:12 INFO Executor: Finished task 387.0 in stage 53.0 (TID 440). 11046 bytes result sent to driver
+24/02/06 15:49:13 INFO CoarseGrainedExecutorBackend: Got assigned task 465
+24/02/06 15:49:13 INFO Executor: Running task 412.0 in stage 53.0 (TID 465)
+24/02/06 15:49:13 INFO Executor: Finished task 385.0 in stage 53.0 (TID 438). 11046 bytes result sent to driver
+24/02/06 15:49:13 INFO CoarseGrainedExecutorBackend: Got assigned task 466
+24/02/06 15:49:13 INFO Executor: Running task 413.0 in stage 53.0 (TID 466)
+24/02/06 15:49:13 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p33952817p35452817, range: 60693944-75867430, partition values: [empty row]
+24/02/06 15:49:13 INFO TorrentBroadcast: Started reading broadcast variable 58 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:49:13 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p33952817p35452817, range: 75867430-91040916, partition values: [empty row]
+24/02/06 15:49:13 INFO CodeGenerator: Code generated in 13.189363 ms
+24/02/06 15:49:13 INFO Executor: Finished task 386.0 in stage 53.0 (TID 439). 11046 bytes result sent to driver
+24/02/06 15:49:13 INFO MemoryStore: Block broadcast_58_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.6 GiB)
+24/02/06 15:49:13 INFO CoarseGrainedExecutorBackend: Got assigned task 467
+24/02/06 15:49:13 INFO Executor: Running task 414.0 in stage 53.0 (TID 467)
+24/02/06 15:49:13 INFO TorrentBroadcast: Reading broadcast variable 58 took 34 ms
+24/02/06 15:49:13 INFO MemoryStore: Block broadcast_58 stored as values in memory (estimated size 527.6 KiB, free 15.6 GiB)
+24/02/06 15:49:13 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p33952817p35452817, range: 91040916-106214402, partition values: [empty row]
+24/02/06 15:49:13 INFO Executor: Finished task 389.0 in stage 53.0 (TID 442). 11046 bytes result sent to driver
+24/02/06 15:49:13 INFO CoarseGrainedExecutorBackend: Got assigned task 470
+24/02/06 15:49:13 INFO Executor: Running task 417.0 in stage 53.0 (TID 470)
+24/02/06 15:49:13 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p33952817p35452817, range: 136561374-151734860, partition values: [empty row]
+24/02/06 15:49:13 INFO Executor: Finished task 379.0 in stage 53.0 (TID 432). 11046 bytes result sent to driver
+24/02/06 15:49:13 INFO CoarseGrainedExecutorBackend: Got assigned task 471
+24/02/06 15:49:13 INFO Executor: Running task 418.0 in stage 53.0 (TID 471)
+24/02/06 15:49:13 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p33952817p35452817, range: 151734860-166908346, partition values: [empty row]
+24/02/06 15:49:18 INFO PythonRunner: Times: total = 5116, boot = -920, init = 984, finish = 5052
+24/02/06 15:49:18 INFO PythonRunner: Times: total = 5542, boot = -967, init = 1039, finish = 5470
+24/02/06 15:49:18 INFO PythonRunner: Times: total = 5119, boot = -984, init = 1042, finish = 5061
+24/02/06 15:49:19 INFO PythonRunner: Times: total = 5948, boot = -968, init = 1045, finish = 5871
+24/02/06 15:49:19 INFO PythonRunner: Times: total = 5963, boot = -1008, init = 1053, finish = 5918
+24/02/06 15:49:19 INFO Executor: Finished task 412.0 in stage 53.0 (TID 465). 11046 bytes result sent to driver
+24/02/06 15:49:19 INFO CoarseGrainedExecutorBackend: Got assigned task 486
+24/02/06 15:49:19 INFO Executor: Running task 433.0 in stage 53.0 (TID 486)
+24/02/06 15:49:19 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p35452817p36952817, range: 173188340-190507174, partition values: [empty row]
+24/02/06 15:49:19 INFO TorrentBroadcast: Started reading broadcast variable 60 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:49:19 INFO CodeGenerator: Code generated in 19.204243 ms
+24/02/06 15:49:19 INFO Executor: Finished task 413.0 in stage 53.0 (TID 466). 11046 bytes result sent to driver
+24/02/06 15:49:19 INFO CoarseGrainedExecutorBackend: Got assigned task 487
+24/02/06 15:49:19 INFO Executor: Running task 434.0 in stage 53.0 (TID 487)
+24/02/06 15:49:19 INFO MemoryStore: Block broadcast_60_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.6 GiB)
+24/02/06 15:49:19 INFO TorrentBroadcast: Reading broadcast variable 60 took 62 ms
+24/02/06 15:49:19 INFO MemoryStore: Block broadcast_60 stored as values in memory (estimated size 527.6 KiB, free 15.6 GiB)
+24/02/06 15:49:19 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p35452817p36952817, range: 190507174-207826008, partition values: [empty row]
+24/02/06 15:49:19 INFO Executor: Finished task 418.0 in stage 53.0 (TID 471). 11046 bytes result sent to driver
+24/02/06 15:49:19 INFO CoarseGrainedExecutorBackend: Got assigned task 488
+24/02/06 15:49:19 INFO Executor: Running task 435.0 in stage 53.0 (TID 488)
+24/02/06 15:49:19 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p35452817p36952817, range: 207826008-225144842, partition values: [empty row]
+24/02/06 15:49:20 INFO Executor: Finished task 414.0 in stage 53.0 (TID 467). 11046 bytes result sent to driver
+24/02/06 15:49:20 INFO CoarseGrainedExecutorBackend: Got assigned task 489
+24/02/06 15:49:20 INFO Executor: Running task 436.0 in stage 53.0 (TID 489)
+24/02/06 15:49:20 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p35452817p36952817, range: 225144842-242463676, partition values: [empty row]
+24/02/06 15:49:20 INFO Executor: Finished task 417.0 in stage 53.0 (TID 470). 11046 bytes result sent to driver
+24/02/06 15:49:20 INFO CoarseGrainedExecutorBackend: Got assigned task 490
+24/02/06 15:49:20 INFO Executor: Running task 437.0 in stage 53.0 (TID 490)
+24/02/06 15:49:20 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p35452817p36952817, range: 242463676-255588215, partition values: [empty row]
+24/02/06 15:49:25 INFO PythonRunner: Times: total = 5936, boot = -1193, init = 1294, finish = 5835
+24/02/06 15:49:25 INFO PythonRunner: Times: total = 4524, boot = -1496, init = 1559, finish = 4461
+24/02/06 15:49:25 INFO PythonRunner: Times: total = 5955, boot = -948, init = 980, finish = 5923
+24/02/06 15:49:25 INFO PythonRunner: Times: total = 5581, boot = -1263, init = 1304, finish = 5540
+24/02/06 15:49:26 INFO Executor: Finished task 437.0 in stage 53.0 (TID 490). 11003 bytes result sent to driver
+24/02/06 15:49:26 INFO CoarseGrainedExecutorBackend: Got assigned task 504
+24/02/06 15:49:26 INFO Executor: Running task 451.0 in stage 53.0 (TID 504)
+24/02/06 15:49:26 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p36952817p38067198, range: 152959586-164725708, partition values: [empty row]
+24/02/06 15:49:26 INFO TorrentBroadcast: Started reading broadcast variable 62 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:49:26 INFO MemoryStore: Block broadcast_62_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:49:26 INFO TorrentBroadcast: Reading broadcast variable 62 took 33 ms
+24/02/06 15:49:26 INFO CodeGenerator: Code generated in 31.704486 ms
+24/02/06 15:49:26 INFO MemoryStore: Block broadcast_62 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:49:26 INFO PythonRunner: Times: total = 6661, boot = -849, init = 880, finish = 6630
+24/02/06 15:49:26 INFO Executor: Finished task 433.0 in stage 53.0 (TID 486). 11003 bytes result sent to driver
+24/02/06 15:49:26 INFO CoarseGrainedExecutorBackend: Got assigned task 505
+24/02/06 15:49:26 INFO Executor: Running task 452.0 in stage 53.0 (TID 505)
+24/02/06 15:49:26 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles25.xml-p36952817p38067198, range: 164725708-172297526, partition values: [empty row]
+24/02/06 15:49:26 INFO Executor: Finished task 435.0 in stage 53.0 (TID 488). 11003 bytes result sent to driver
+24/02/06 15:49:26 INFO CoarseGrainedExecutorBackend: Got assigned task 507
+24/02/06 15:49:26 INFO Executor: Running task 454.0 in stage 53.0 (TID 507)
+24/02/06 15:49:26 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p38067204p39567204, range: 17020798-34041596, partition values: [empty row]
+24/02/06 15:49:26 INFO TorrentBroadcast: Started reading broadcast variable 64 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:49:26 INFO MemoryStore: Block broadcast_64_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:49:26 INFO TorrentBroadcast: Reading broadcast variable 64 took 11 ms
+24/02/06 15:49:26 INFO MemoryStore: Block broadcast_64 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:49:26 INFO CodeGenerator: Code generated in 22.042498 ms
+24/02/06 15:49:27 INFO Executor: Finished task 436.0 in stage 53.0 (TID 489). 11003 bytes result sent to driver
+24/02/06 15:49:27 INFO CoarseGrainedExecutorBackend: Got assigned task 512
+24/02/06 15:49:27 INFO Executor: Running task 459.0 in stage 53.0 (TID 512)
+24/02/06 15:49:27 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p38067204p39567204, range: 102124788-119145586, partition values: [empty row]
+24/02/06 15:49:27 INFO Executor: Finished task 434.0 in stage 53.0 (TID 487). 11003 bytes result sent to driver
+24/02/06 15:49:27 INFO CoarseGrainedExecutorBackend: Got assigned task 513
+24/02/06 15:49:27 INFO Executor: Running task 460.0 in stage 53.0 (TID 513)
+24/02/06 15:49:27 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p38067204p39567204, range: 119145586-136166384, partition values: [empty row]
+24/02/06 15:49:29 INFO PythonRunner: Times: total = 3045, boot = -899, init = 931, finish = 3013
+24/02/06 15:49:29 INFO Executor: Finished task 452.0 in stage 53.0 (TID 505). 11003 bytes result sent to driver
+24/02/06 15:49:29 INFO CoarseGrainedExecutorBackend: Got assigned task 519
+24/02/06 15:49:29 INFO Executor: Running task 466.0 in stage 53.0 (TID 519)
+24/02/06 15:49:29 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p38067204p39567204, range: 221270374-238291172, partition values: [empty row]
+24/02/06 15:49:30 INFO PythonRunner: Times: total = 4712, boot = -755, init = 845, finish = 4622
+24/02/06 15:49:31 INFO Executor: Finished task 451.0 in stage 53.0 (TID 504). 11046 bytes result sent to driver
+24/02/06 15:49:31 INFO CoarseGrainedExecutorBackend: Got assigned task 521
+24/02/06 15:49:31 INFO Executor: Running task 468.0 in stage 53.0 (TID 521)
+24/02/06 15:49:31 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p39567204p41067204, range: 0-16746476, partition values: [empty row]
+24/02/06 15:49:31 INFO TorrentBroadcast: Started reading broadcast variable 66 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:49:31 INFO MemoryStore: Block broadcast_66_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:49:31 INFO TorrentBroadcast: Reading broadcast variable 66 took 30 ms
+24/02/06 15:49:31 INFO MemoryStore: Block broadcast_66 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:49:31 INFO CodeGenerator: Code generated in 21.557955 ms
+24/02/06 15:49:32 INFO PythonRunner: Times: total = 5653, boot = -1277, init = 1310, finish = 5620
+24/02/06 15:49:33 INFO PythonRunner: Times: total = 6628, boot = -1060, init = 1113, finish = 6575
+24/02/06 15:49:33 INFO PythonRunner: Times: total = 5831, boot = -1367, init = 1395, finish = 5803
+24/02/06 15:49:33 INFO Executor: Finished task 459.0 in stage 53.0 (TID 512). 11046 bytes result sent to driver
+24/02/06 15:49:33 INFO CoarseGrainedExecutorBackend: Got assigned task 528
+24/02/06 15:49:33 INFO Executor: Running task 475.0 in stage 53.0 (TID 528)
+24/02/06 15:49:33 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p39567204p41067204, range: 117225332-133971808, partition values: [empty row]
+24/02/06 15:49:34 INFO Executor: Finished task 460.0 in stage 53.0 (TID 513). 11046 bytes result sent to driver
+24/02/06 15:49:34 INFO CoarseGrainedExecutorBackend: Got assigned task 532
+24/02/06 15:49:34 INFO Executor: Running task 479.0 in stage 53.0 (TID 532)
+24/02/06 15:49:34 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p39567204p41067204, range: 184211236-200957712, partition values: [empty row]
+24/02/06 15:49:34 INFO Executor: Finished task 454.0 in stage 53.0 (TID 507). 11046 bytes result sent to driver
+24/02/06 15:49:34 INFO CoarseGrainedExecutorBackend: Got assigned task 533
+24/02/06 15:49:34 INFO Executor: Running task 480.0 in stage 53.0 (TID 533)
+24/02/06 15:49:34 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p39567204p41067204, range: 200957712-217704188, partition values: [empty row]
+24/02/06 15:49:35 INFO PythonRunner: Times: total = 6262, boot = -430, init = 470, finish = 6222
+24/02/06 15:49:36 INFO Executor: Finished task 466.0 in stage 53.0 (TID 519). 11046 bytes result sent to driver
+24/02/06 15:49:36 INFO CoarseGrainedExecutorBackend: Got assigned task 535
+24/02/06 15:49:36 INFO Executor: Running task 482.0 in stage 53.0 (TID 535)
+24/02/06 15:49:36 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p39567204p41067204, range: 234450664-247002849, partition values: [empty row]
+24/02/06 15:49:37 INFO PythonRunner: Times: total = 5895, boot = -830, init = 905, finish = 5820
+24/02/06 15:49:38 INFO Executor: Finished task 468.0 in stage 53.0 (TID 521). 11003 bytes result sent to driver
+24/02/06 15:49:38 INFO CoarseGrainedExecutorBackend: Got assigned task 542
+24/02/06 15:49:38 INFO Executor: Running task 489.0 in stage 53.0 (TID 542)
+24/02/06 15:49:38 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p41067204p42567204, range: 103264122-120474809, partition values: [empty row]
+24/02/06 15:49:38 INFO TorrentBroadcast: Started reading broadcast variable 68 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:49:38 INFO MemoryStore: Block broadcast_68_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:49:38 INFO TorrentBroadcast: Reading broadcast variable 68 took 30 ms
+24/02/06 15:49:38 INFO MemoryStore: Block broadcast_68 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:49:38 INFO CodeGenerator: Code generated in 9.620816 ms
+24/02/06 15:49:39 INFO PythonRunner: Times: total = 5832, boot = -893, init = 928, finish = 5797
+24/02/06 15:49:40 INFO PythonRunner: Times: total = 5561, boot = -1185, init = 1233, finish = 5513
+24/02/06 15:49:40 INFO PythonRunner: Times: total = 5938, boot = -1173, init = 1201, finish = 5910
+24/02/06 15:49:40 INFO Executor: Finished task 475.0 in stage 53.0 (TID 528). 11003 bytes result sent to driver
+24/02/06 15:49:40 INFO CoarseGrainedExecutorBackend: Got assigned task 547
+24/02/06 15:49:40 INFO Executor: Running task 494.0 in stage 53.0 (TID 547)
+24/02/06 15:49:40 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p41067204p42567204, range: 189317557-206528244, partition values: [empty row]
+24/02/06 15:49:41 INFO Executor: Finished task 479.0 in stage 53.0 (TID 532). 11003 bytes result sent to driver
+24/02/06 15:49:41 INFO CoarseGrainedExecutorBackend: Got assigned task 548
+24/02/06 15:49:41 INFO Executor: Running task 495.0 in stage 53.0 (TID 548)
+24/02/06 15:49:41 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p41067204p42567204, range: 206528244-223738931, partition values: [empty row]
+24/02/06 15:49:41 INFO Executor: Finished task 480.0 in stage 53.0 (TID 533). 11003 bytes result sent to driver
+24/02/06 15:49:41 INFO CoarseGrainedExecutorBackend: Got assigned task 549
+24/02/06 15:49:41 INFO Executor: Running task 496.0 in stage 53.0 (TID 549)
+24/02/06 15:49:41 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p41067204p42567204, range: 223738931-240949618, partition values: [empty row]
+24/02/06 15:49:41 INFO PythonRunner: Times: total = 4839, boot = -887, init = 924, finish = 4802
+24/02/06 15:49:42 INFO Executor: Finished task 482.0 in stage 53.0 (TID 535). 11003 bytes result sent to driver
+24/02/06 15:49:42 INFO CoarseGrainedExecutorBackend: Got assigned task 552
+24/02/06 15:49:42 INFO Executor: Running task 499.0 in stage 53.0 (TID 552)
+24/02/06 15:49:42 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles26.xml-p42567204p42663461, range: 4194304-8388608, partition values: [empty row]
+24/02/06 15:49:42 INFO TorrentBroadcast: Started reading broadcast variable 70 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:49:42 INFO MemoryStore: Block broadcast_70_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:49:42 INFO TorrentBroadcast: Reading broadcast variable 70 took 51 ms
+24/02/06 15:49:42 INFO MemoryStore: Block broadcast_70 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:49:42 INFO CodeGenerator: Code generated in 42.579071 ms
+24/02/06 15:49:44 INFO PythonRunner: Times: total = 5585, boot = -1102, init = 1162, finish = 5525
+24/02/06 15:49:44 INFO PythonRunner: Times: total = 1730, boot = -986, init = 1062, finish = 1654
+24/02/06 15:49:44 INFO Executor: Finished task 499.0 in stage 53.0 (TID 552). 11046 bytes result sent to driver
+24/02/06 15:49:44 INFO CoarseGrainedExecutorBackend: Got assigned task 562
+24/02/06 15:49:44 INFO Executor: Running task 509.0 in stage 53.0 (TID 562)
+24/02/06 15:49:44 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p42663464p44163464, range: 121266796-138590624, partition values: [empty row]
+24/02/06 15:49:44 INFO TorrentBroadcast: Started reading broadcast variable 72 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:49:44 INFO MemoryStore: Block broadcast_72_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:49:44 INFO TorrentBroadcast: Reading broadcast variable 72 took 22 ms
+24/02/06 15:49:44 INFO MemoryStore: Block broadcast_72 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:49:44 INFO CodeGenerator: Code generated in 22.704873 ms
+24/02/06 15:49:45 INFO Executor: Finished task 489.0 in stage 53.0 (TID 542). 11046 bytes result sent to driver
+24/02/06 15:49:45 INFO CoarseGrainedExecutorBackend: Got assigned task 565
+24/02/06 15:49:45 INFO Executor: Running task 512.0 in stage 53.0 (TID 565)
+24/02/06 15:49:45 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p42663464p44163464, range: 173238280-190562108, partition values: [empty row]
+24/02/06 15:49:46 INFO PythonRunner: Times: total = 5818, boot = -960, init = 993, finish = 5785
+24/02/06 15:49:47 INFO PythonRunner: Times: total = 6374, boot = -1075, init = 1124, finish = 6325
+24/02/06 15:49:47 INFO Executor: Finished task 494.0 in stage 53.0 (TID 547). 11046 bytes result sent to driver
+24/02/06 15:49:47 INFO CoarseGrainedExecutorBackend: Got assigned task 567
+24/02/06 15:49:47 INFO Executor: Running task 514.0 in stage 53.0 (TID 567)
+24/02/06 15:49:47 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p42663464p44163464, range: 207885936-225209764, partition values: [empty row]
+24/02/06 15:49:48 INFO PythonRunner: Times: total = 6686, boot = -1053, init = 1092, finish = 6647
+24/02/06 15:49:48 INFO Executor: Finished task 495.0 in stage 53.0 (TID 548). 11046 bytes result sent to driver
+24/02/06 15:49:48 INFO CoarseGrainedExecutorBackend: Got assigned task 568
+24/02/06 15:49:48 INFO Executor: Running task 515.0 in stage 53.0 (TID 568)
+24/02/06 15:49:48 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p42663464p44163464, range: 225209764-242533592, partition values: [empty row]
+24/02/06 15:49:49 INFO Executor: Finished task 496.0 in stage 53.0 (TID 549). 11046 bytes result sent to driver
+24/02/06 15:49:49 INFO CoarseGrainedExecutorBackend: Got assigned task 574
+24/02/06 15:49:49 INFO Executor: Running task 521.0 in stage 53.0 (TID 574)
+24/02/06 15:49:49 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p44163464p45663464, range: 61064800-76331000, partition values: [empty row]
+24/02/06 15:49:49 INFO CodeGenerator: Code generated in 27.86489 ms
+24/02/06 15:49:50 INFO PythonRunner: Times: total = 6061, boot = -537, init = 595, finish = 6003
+24/02/06 15:49:51 INFO Executor: Finished task 509.0 in stage 53.0 (TID 562). 11003 bytes result sent to driver
+24/02/06 15:49:51 INFO CoarseGrainedExecutorBackend: Got assigned task 580
+24/02/06 15:49:51 INFO Executor: Running task 527.0 in stage 53.0 (TID 580)
+24/02/06 15:49:51 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p44163464p45663464, range: 152662000-167928200, partition values: [empty row]
+24/02/06 15:49:52 INFO PythonRunner: Times: total = 6831, boot = -1209, init = 1245, finish = 6795
+24/02/06 15:49:53 INFO PythonRunner: Times: total = 5819, boot = -1363, init = 1399, finish = 5783
+24/02/06 15:49:53 INFO Executor: Finished task 512.0 in stage 53.0 (TID 565). 11003 bytes result sent to driver
+24/02/06 15:49:53 INFO PythonRunner: Times: total = 5341, boot = -936, init = 962, finish = 5315
+24/02/06 15:49:53 INFO CoarseGrainedExecutorBackend: Got assigned task 585
+24/02/06 15:49:53 INFO Executor: Running task 532.0 in stage 53.0 (TID 585)
+24/02/06 15:49:53 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p45663464p47163464, range: 0-13097344, partition values: [empty row]
+24/02/06 15:49:53 INFO CodeGenerator: Code generated in 33.894623 ms
+24/02/06 15:49:54 INFO Executor: Finished task 514.0 in stage 53.0 (TID 567). 11003 bytes result sent to driver
+24/02/06 15:49:54 INFO CoarseGrainedExecutorBackend: Got assigned task 590
+24/02/06 15:49:54 INFO Executor: Running task 537.0 in stage 53.0 (TID 590)
+24/02/06 15:49:54 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p45663464p47163464, range: 65486720-78584064, partition values: [empty row]
+24/02/06 15:49:55 INFO Executor: Finished task 515.0 in stage 53.0 (TID 568). 11003 bytes result sent to driver
+24/02/06 15:49:55 INFO CoarseGrainedExecutorBackend: Got assigned task 591
+24/02/06 15:49:55 INFO Executor: Running task 538.0 in stage 53.0 (TID 591)
+24/02/06 15:49:55 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p45663464p47163464, range: 78584064-91681408, partition values: [empty row]
+24/02/06 15:49:55 INFO PythonRunner: Times: total = 5814, boot = -1369, init = 1407, finish = 5776
+24/02/06 15:49:56 INFO Executor: Finished task 521.0 in stage 53.0 (TID 574). 11003 bytes result sent to driver
+24/02/06 15:49:56 INFO CoarseGrainedExecutorBackend: Got assigned task 595
+24/02/06 15:49:56 INFO Executor: Running task 542.0 in stage 53.0 (TID 595)
+24/02/06 15:49:56 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p45663464p47163464, range: 130973440-144070784, partition values: [empty row]
+24/02/06 15:49:56 INFO PythonRunner: Times: total = 4992, boot = -1001, init = 1044, finish = 4949
+24/02/06 15:49:58 INFO Executor: Finished task 527.0 in stage 53.0 (TID 580). 11046 bytes result sent to driver
+24/02/06 15:49:58 INFO CoarseGrainedExecutorBackend: Got assigned task 601
+24/02/06 15:49:58 INFO Executor: Running task 548.0 in stage 53.0 (TID 601)
+24/02/06 15:49:58 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p47163464p48663464, range: 15550092-31100184, partition values: [empty row]
+24/02/06 15:49:58 INFO TorrentBroadcast: Started reading broadcast variable 78 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:49:58 INFO MemoryStore: Block broadcast_78_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:49:58 INFO TorrentBroadcast: Reading broadcast variable 78 took 30 ms
+24/02/06 15:49:58 INFO CodeGenerator: Code generated in 13.476672 ms
+24/02/06 15:49:58 INFO MemoryStore: Block broadcast_78 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:49:58 INFO PythonRunner: Times: total = 4765, boot = -1259, init = 1288, finish = 4736
+24/02/06 15:49:59 INFO PythonRunner: Times: total = 3861, boot = -1418, init = 1440, finish = 3839
+24/02/06 15:49:59 INFO Executor: Finished task 532.0 in stage 53.0 (TID 585). 11046 bytes result sent to driver
+24/02/06 15:49:59 INFO CoarseGrainedExecutorBackend: Got assigned task 604
+24/02/06 15:49:59 INFO Executor: Running task 551.0 in stage 53.0 (TID 604)
+24/02/06 15:49:59 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p47163464p48663464, range: 62200368-77750460, partition values: [empty row]
+24/02/06 15:49:59 INFO PythonRunner: Times: total = 4783, boot = -1008, init = 1036, finish = 4755
+24/02/06 15:49:59 INFO Executor: Finished task 538.0 in stage 53.0 (TID 591). 11046 bytes result sent to driver
+24/02/06 15:49:59 INFO CoarseGrainedExecutorBackend: Got assigned task 605
+24/02/06 15:49:59 INFO Executor: Running task 552.0 in stage 53.0 (TID 605)
+24/02/06 15:49:59 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p47163464p48663464, range: 77750460-93300552, partition values: [empty row]
+24/02/06 15:50:00 INFO Executor: Finished task 537.0 in stage 53.0 (TID 590). 11046 bytes result sent to driver
+24/02/06 15:50:00 INFO CoarseGrainedExecutorBackend: Got assigned task 609
+24/02/06 15:50:00 INFO Executor: Running task 556.0 in stage 53.0 (TID 609)
+24/02/06 15:50:00 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p47163464p48663464, range: 139950828-155500920, partition values: [empty row]
+24/02/06 15:50:01 INFO PythonRunner: Times: total = 4829, boot = -1281, init = 1317, finish = 4793
+24/02/06 15:50:02 INFO Executor: Finished task 542.0 in stage 53.0 (TID 595). 11046 bytes result sent to driver
+24/02/06 15:50:02 INFO CoarseGrainedExecutorBackend: Got assigned task 614
+24/02/06 15:50:02 INFO Executor: Running task 561.0 in stage 53.0 (TID 614)
+24/02/06 15:50:02 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p47163464p48663464, range: 217701288-229057083, partition values: [empty row]
+24/02/06 15:50:03 INFO PythonRunner: Times: total = 5236, boot = -1200, init = 1273, finish = 5163
+24/02/06 15:50:04 INFO PythonRunner: Times: total = 4816, boot = -774, init = 793, finish = 4797
+24/02/06 15:50:04 INFO Executor: Finished task 548.0 in stage 53.0 (TID 601). 11003 bytes result sent to driver
+24/02/06 15:50:04 INFO CoarseGrainedExecutorBackend: Got assigned task 619
+24/02/06 15:50:04 INFO Executor: Running task 566.0 in stage 53.0 (TID 619)
+24/02/06 15:50:04 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p48663464p50163464, range: 58157152-72696440, partition values: [empty row]
+24/02/06 15:50:04 INFO CodeGenerator: Code generated in 33.133922 ms
+24/02/06 15:50:04 INFO PythonRunner: Times: total = 5156, boot = -665, init = 704, finish = 5117
+24/02/06 15:50:05 INFO Executor: Finished task 551.0 in stage 53.0 (TID 604). 11003 bytes result sent to driver
+24/02/06 15:50:05 INFO CoarseGrainedExecutorBackend: Got assigned task 624
+24/02/06 15:50:05 INFO Executor: Running task 571.0 in stage 53.0 (TID 624)
+24/02/06 15:50:05 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p48663464p50163464, range: 130853592-145392880, partition values: [empty row]
+24/02/06 15:50:05 INFO Executor: Finished task 552.0 in stage 53.0 (TID 605). 11003 bytes result sent to driver
+24/02/06 15:50:05 INFO CoarseGrainedExecutorBackend: Got assigned task 625
+24/02/06 15:50:05 INFO Executor: Running task 572.0 in stage 53.0 (TID 625)
+24/02/06 15:50:05 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p48663464p50163464, range: 145392880-159932168, partition values: [empty row]
+24/02/06 15:50:06 INFO PythonRunner: Times: total = 3830, boot = -747, init = 765, finish = 3812
+24/02/06 15:50:06 INFO PythonRunner: Times: total = 5758, boot = -1098, init = 1127, finish = 5729
+24/02/06 15:50:06 INFO Executor: Finished task 556.0 in stage 53.0 (TID 609). 11003 bytes result sent to driver
+24/02/06 15:50:06 INFO CoarseGrainedExecutorBackend: Got assigned task 628
+24/02/06 15:50:06 INFO Executor: Running task 575.0 in stage 53.0 (TID 628)
+24/02/06 15:50:07 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p48663464p50163464, range: 189010744-203550032, partition values: [empty row]
+24/02/06 15:50:07 INFO Executor: Finished task 561.0 in stage 53.0 (TID 614). 11003 bytes result sent to driver
+24/02/06 15:50:07 INFO CoarseGrainedExecutorBackend: Got assigned task 629
+24/02/06 15:50:07 INFO Executor: Running task 576.0 in stage 53.0 (TID 629)
+24/02/06 15:50:07 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p48663464p50163464, range: 203550032-213895018, partition values: [empty row]
+24/02/06 15:50:09 INFO PythonRunner: Times: total = 4884, boot = -1052, init = 1079, finish = 4857
+24/02/06 15:50:10 INFO Executor: Finished task 566.0 in stage 53.0 (TID 619). 11003 bytes result sent to driver
+24/02/06 15:50:10 INFO CoarseGrainedExecutorBackend: Got assigned task 638
+24/02/06 15:50:10 INFO Executor: Running task 585.0 in stage 53.0 (TID 638)
+24/02/06 15:50:10 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p50163464p51663464, range: 127984512-143982576, partition values: [empty row]
+24/02/06 15:50:10 INFO CodeGenerator: Code generated in 45.505639 ms
+24/02/06 15:50:10 INFO PythonRunner: Times: total = 5084, boot = -1164, init = 1225, finish = 5023
+24/02/06 15:50:10 INFO PythonRunner: Times: total = 5078, boot = -853, init = 891, finish = 5040
+24/02/06 15:50:10 INFO PythonRunner: Times: total = 3782, boot = -767, init = 803, finish = 3746
+24/02/06 15:50:11 INFO Executor: Finished task 571.0 in stage 53.0 (TID 624). 11046 bytes result sent to driver
+24/02/06 15:50:11 INFO CoarseGrainedExecutorBackend: Got assigned task 641
+24/02/06 15:50:11 INFO Executor: Running task 588.0 in stage 53.0 (TID 641)
+24/02/06 15:50:11 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p50163464p51663464, range: 175978704-191976768, partition values: [empty row]
+24/02/06 15:50:11 INFO Executor: Finished task 572.0 in stage 53.0 (TID 625). 11046 bytes result sent to driver
+24/02/06 15:50:11 INFO CoarseGrainedExecutorBackend: Got assigned task 642
+24/02/06 15:50:11 INFO Executor: Running task 589.0 in stage 53.0 (TID 642)
+24/02/06 15:50:11 INFO PythonRunner: Times: total = 4903, boot = -854, init = 881, finish = 4876
+24/02/06 15:50:11 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p50163464p51663464, range: 191976768-207974832, partition values: [empty row]
+24/02/06 15:50:11 INFO Executor: Finished task 576.0 in stage 53.0 (TID 629). 11046 bytes result sent to driver
+24/02/06 15:50:11 INFO CoarseGrainedExecutorBackend: Got assigned task 643
+24/02/06 15:50:11 INFO Executor: Running task 590.0 in stage 53.0 (TID 643)
+24/02/06 15:50:11 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p50163464p51663464, range: 207974832-223972896, partition values: [empty row]
+24/02/06 15:50:13 INFO Executor: Finished task 575.0 in stage 53.0 (TID 628). 11046 bytes result sent to driver
+24/02/06 15:50:13 INFO CoarseGrainedExecutorBackend: Got assigned task 647
+24/02/06 15:50:13 INFO Executor: Running task 594.0 in stage 53.0 (TID 647)
+24/02/06 15:50:13 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p51663464p53163464, range: 30208658-45312987, partition values: [empty row]
+24/02/06 15:50:13 INFO TorrentBroadcast: Started reading broadcast variable 84 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:50:13 INFO MemoryStore: Block broadcast_84_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:50:13 INFO TorrentBroadcast: Reading broadcast variable 84 took 22 ms
+24/02/06 15:50:13 INFO CodeGenerator: Code generated in 16.440939 ms
+24/02/06 15:50:13 INFO MemoryStore: Block broadcast_84 stored as values in memory (estimated size 527.6 KiB, free 15.5 GiB)
+24/02/06 15:50:15 INFO PythonRunner: Times: total = 5474, boot = -874, init = 927, finish = 5421
+24/02/06 15:50:16 INFO Executor: Finished task 585.0 in stage 53.0 (TID 638). 11046 bytes result sent to driver
+24/02/06 15:50:16 INFO CoarseGrainedExecutorBackend: Got assigned task 656
+24/02/06 15:50:16 INFO Executor: Running task 603.0 in stage 53.0 (TID 656)
+24/02/06 15:50:16 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p51663464p53163464, range: 166147619-181251948, partition values: [empty row]
+24/02/06 15:50:17 INFO PythonRunner: Times: total = 5167, boot = -969, init = 990, finish = 5146
+24/02/06 15:50:17 INFO PythonRunner: Times: total = 5594, boot = -1174, init = 1231, finish = 5537
+24/02/06 15:50:17 INFO PythonRunner: Times: total = 5465, boot = -1011, init = 1045, finish = 5431
+24/02/06 15:50:17 INFO Executor: Finished task 590.0 in stage 53.0 (TID 643). 11003 bytes result sent to driver
+24/02/06 15:50:17 INFO CoarseGrainedExecutorBackend: Got assigned task 659
+24/02/06 15:50:17 INFO Executor: Running task 606.0 in stage 53.0 (TID 659)
+24/02/06 15:50:17 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p51663464p53163464, range: 211460606-222370636, partition values: [empty row]
+24/02/06 15:50:18 INFO Executor: Finished task 589.0 in stage 53.0 (TID 642). 11003 bytes result sent to driver
+24/02/06 15:50:18 INFO CoarseGrainedExecutorBackend: Got assigned task 660
+24/02/06 15:50:18 INFO Executor: Running task 607.0 in stage 53.0 (TID 660)
+24/02/06 15:50:18 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p53163464p54663464, range: 0-15859681, partition values: [empty row]
+24/02/06 15:50:18 INFO TorrentBroadcast: Started reading broadcast variable 86 with 1 pieces (estimated total size 4.0 MiB)
+24/02/06 15:50:18 INFO MemoryStore: Block broadcast_86_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 15.5 GiB)
+24/02/06 15:50:18 INFO TorrentBroadcast: Reading broadcast variable 86 took 26 ms
+24/02/06 15:50:18 INFO CodeGenerator: Code generated in 10.028927 ms
+24/02/06 15:50:18 INFO MemoryStore: Block broadcast_86 stored as values in memory (estimated size 527.6 KiB, free 15.6 GiB)
+24/02/06 15:50:18 INFO Executor: Finished task 588.0 in stage 53.0 (TID 641). 11003 bytes result sent to driver
+24/02/06 15:50:18 INFO CoarseGrainedExecutorBackend: Got assigned task 661
+24/02/06 15:50:18 INFO Executor: Running task 608.0 in stage 53.0 (TID 661)
+24/02/06 15:50:18 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p53163464p54663464, range: 15859681-31719362, partition values: [empty row]
+24/02/06 15:50:18 INFO PythonRunner: Times: total = 5803, boot = -1221, init = 1299, finish = 5725
+24/02/06 15:50:19 INFO Executor: Finished task 594.0 in stage 53.0 (TID 647). 11003 bytes result sent to driver
+24/02/06 15:50:19 INFO CoarseGrainedExecutorBackend: Got assigned task 668
+24/02/06 15:50:19 INFO Executor: Running task 615.0 in stage 53.0 (TID 668)
+24/02/06 15:50:19 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p53163464p54663464, range: 126877448-142737129, partition values: [empty row]
+24/02/06 15:50:21 INFO PythonRunner: Times: total = 3814, boot = -774, init = 800, finish = 3788
+24/02/06 15:50:22 INFO PythonRunner: Times: total = 5455, boot = -749, init = 779, finish = 5425
+24/02/06 15:50:22 INFO Executor: Finished task 606.0 in stage 53.0 (TID 659). 11003 bytes result sent to driver
+24/02/06 15:50:22 INFO CoarseGrainedExecutorBackend: Got assigned task 672
+24/02/06 15:50:22 INFO Executor: Running task 619.0 in stage 53.0 (TID 672)
+24/02/06 15:50:22 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p53163464p54663464, range: 190316172-206175853, partition values: [empty row]
+24/02/06 15:50:22 INFO Executor: Finished task 603.0 in stage 53.0 (TID 656). 11003 bytes result sent to driver
+24/02/06 15:50:22 INFO CoarseGrainedExecutorBackend: Got assigned task 674
+24/02/06 15:50:22 INFO Executor: Running task 621.0 in stage 53.0 (TID 674)
+24/02/06 15:50:22 INFO FileScanRDD: Reading File path: hdfs://10.10.1.1:9000/data/enwiki/link-enwiki-20180601-pages-articles27.xml-p53163464p54663464, range: 222035534-233700917, partition values: [empty row]
+24/02/06 15:50:23 INFO PythonRunner: Times: total = 5600, boot = -964, init = 1010, finish = 5554
+24/02/06 15:50:24 INFO Executor: Executor is trying to kill task 608.0 in stage 53.0 (TID 661), reason: Stage cancelled
+24/02/06 15:50:24 INFO Executor: Executor is trying to kill task 619.0 in stage 53.0 (TID 672), reason: Stage cancelled
+24/02/06 15:50:24 INFO Executor: Executor is trying to kill task 607.0 in stage 53.0 (TID 660), reason: Stage cancelled
+24/02/06 15:50:24 INFO Executor: Executor is trying to kill task 621.0 in stage 53.0 (TID 674), reason: Stage cancelled
+24/02/06 15:50:24 INFO Executor: Executor is trying to kill task 615.0 in stage 53.0 (TID 668), reason: Stage cancelled
+24/02/06 15:50:24 INFO Executor: Executor killed task 615.0 in stage 53.0 (TID 668), reason: Stage cancelled
+24/02/06 15:50:24 INFO Executor: Executor killed task 621.0 in stage 53.0 (TID 674), reason: Stage cancelled
+24/02/06 15:50:24 INFO Executor: Executor killed task 619.0 in stage 53.0 (TID 672), reason: Stage cancelled
+24/02/06 15:50:24 INFO Executor: Executor killed task 607.0 in stage 53.0 (TID 660), reason: Stage cancelled
+24/02/06 15:50:24 INFO CoarseGrainedExecutorBackend: Driver commanded a shutdown
+24/02/06 15:50:24 INFO Executor: Executor killed task 608.0 in stage 53.0 (TID 66

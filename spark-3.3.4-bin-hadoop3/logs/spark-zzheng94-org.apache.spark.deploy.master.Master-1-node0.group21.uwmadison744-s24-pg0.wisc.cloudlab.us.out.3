@@ -1,0 +1,23 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /users/zzheng94/spark-3.3.4-bin-hadoop3/conf/:/users/zzheng94/spark-3.3.4-bin-hadoop3/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host 10.10.1.1 --port 7077 --webui-port 8080
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+24/02/05 11:50:54 INFO Master: Started daemon with process name: 18935@node0.group21.uwmadison744-s24-pg0.wisc.cloudlab.us
+24/02/05 11:50:54 INFO SignalUtils: Registering signal handler for TERM
+24/02/05 11:50:54 INFO SignalUtils: Registering signal handler for HUP
+24/02/05 11:50:54 INFO SignalUtils: Registering signal handler for INT
+24/02/05 11:50:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/02/05 11:50:55 INFO SecurityManager: Changing view acls to: zzheng94
+24/02/05 11:50:55 INFO SecurityManager: Changing modify acls to: zzheng94
+24/02/05 11:50:55 INFO SecurityManager: Changing view acls groups to: 
+24/02/05 11:50:55 INFO SecurityManager: Changing modify acls groups to: 
+24/02/05 11:50:55 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(zzheng94); groups with view permissions: Set(); users  with modify permissions: Set(zzheng94); groups with modify permissions: Set()
+24/02/05 11:50:55 INFO Utils: Successfully started service 'sparkMaster' on port 7077.
+24/02/05 11:50:55 INFO Master: Starting Spark master at spark://10.10.1.1:7077
+24/02/05 11:50:55 INFO Master: Running Spark version 3.3.4
+24/02/05 11:50:56 INFO Utils: Successfully started service 'MasterUI' on port 8080.
+24/02/05 11:50:56 INFO MasterWebUI: Bound MasterWebUI to 10.10.1.1, and started at http://node0-link-1:8080
+24/02/05 11:50:56 INFO Master: I have been elected leader! New state: ALIVE
+24/02/05 11:51:00 INFO Master: Registering worker 10.10.1.1:42393 with 5 cores, 30.4 GiB RAM
+24/02/05 11:51:00 INFO Master: Registering worker 10.10.1.2:32777 with 5 cores, 30.4 GiB RAM
+24/02/05 11:51:00 INFO Master: Registering worker 10.10.1.3:43019 with 5 cores, 30.4 GiB RAM
+24/02/05 15:02:01 ERROR Master: RECEIVED SIGNAL TERM

@@ -1,0 +1,5 @@
+24/02/06 14:16:53 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 17192@node0.group21.uwmadison744-s24-pg0.wisc.cloudlab.us
+24/02/06 14:16:53 INFO SignalUtils: Registering signal handler for TERM
+24/02/06 14:16:53 INFO SignalUtils: Registering signal handler for HUP
+24/02/06 14:16:53 INFO SignalUtils: Registering signal handler for INT
+24/02/06 14:16:53 ERROR CoarseGrainedExecutorBackend: RECEIVED SIGNAL T

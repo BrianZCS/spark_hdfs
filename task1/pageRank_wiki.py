@@ -46,7 +46,7 @@ def main():
 
     final_ranks = pages.join(ranks, pages.page == ranks.node, "left").fillna(0.15).select('page', 'rank').dropDuplicates(["page"])
     # save the final ranks
-    final_ranks.write.option("header", "true").csv("hdfs://10.10.1.1:9000/data/output_wiki_new", mode = "overwrite")
+    final_ranks.write.option("header", "true").csv("hdfs://10.10.1.1:9000/data/output_wiki", mode = "overwrite")
 
     spark.stop()
 

@@ -29,40 +29,17 @@ def main():
     .config("spark.some.config.option", "some-value")
     .getOrCreate())
 
-    sc = spark.sparkContext
-    # Read input file
-    #input_file = "hdfs://10.10.1.1:9000/data/web-BerkStan.txt"
-
-    URI           = sc._gateway.jvm.java.net.URI
-    Path          = sc._gateway.jvm.org.apache.hadoop.fs.Path
-    FileSystem    = sc._gateway.jvm.org.apache.hadoop.fs.FileSystem
-    Configuration = sc._gateway.jvm.org.apache.hadoop.conf.Configuration
-
-
-    fs = FileSystem.get(URI("hdfs://10.10.1.1:9000"), Configuration())
-    files_name = []
-    status = fs.listStatus(Path('/data/enwiki'))
-    for fileStatus in status:
-        files_name.append(fileStatus.getPath().toString())
-
-    lines_0 = spark.read.text(files_name[0]).rdd.map(lambda r: r[0])
+    files_name = "hdfs://10.10.1.1:9000/data/enwiki"
+    lines_0 = spark.read.text(files_name).rdd.map(lambda r: r[0])
     pages = lines_0.map(parse_line).toDF(["page", "neighbor"])
-
-    for f in files_name:
-        if f != files_name[0]:
-            lines = spark.read.text(f).rdd.map(lambda r: r[0])
-            one_file = lines.map(parse_line).toDF(["page", "neighbor"])
-            pages = pages.union(one_file)
 
     # Initialize ranks for each page
     ranks = pages.select("page").withColumn("rank", F.lit(1.0))
     ranks = ranks.withColumnRenamed("page", "node")
     ranks = ranks.dropDuplicates(["node"])
 
-    ## if we need to partition the data
-    # pages = pages.repartition("page")
-    # ranks  = ranks.repartition("node")
     ## if we want to keep it in memory
+    pages = pages.persist(StorageLevel.MEMORY_ONLY)
     ranks = ranks.persist(StorageLevel.MEMORY_ONLY)
 
     # Perform iterations
